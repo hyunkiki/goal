@@ -331,6 +331,10 @@ legend {
   background: #fff;
   border-radius: 10px;
 }
+.wrap .content3 .lst-menu a {
+  display: flex;
+  height: 100%;
+}
 .wrap .content3 .lst-menu img {
   display: block;
   align-items: center;
