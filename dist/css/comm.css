@@ -286,20 +286,19 @@ legend {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: -1000;
   height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .wrap .content1 {
-  z-index: -15;
-  z-index: 1000;
-  height: 635px;
+  height: 100vh;
   border: 1px solid #000;
 }
 .wrap .content1 .main-title1 {
   display: block;
-  font-size: 6.25em;
-  margin: 165px;
+  font-size: 9.25em;
+  margin: 160px 120px;
 }
 .wrap .content1 p {
   line-height: 55px;
@@ -315,14 +314,14 @@ legend {
   background: #d9d9d9;
 }
 .wrap .content3 .main-title2 {
-  padding: 35px;
+  padding: 40px 35px;
   font-size: 2.5em;
 }
 .wrap .content3 .lst-menu {
-  padding: auto;
+  padding: 0;
   display: flex;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .wrap .content3 .lst-menu .lst-league {
   width: 10%;
@@ -330,16 +329,23 @@ legend {
   height: 100px;
   background: #fff;
   border-radius: 10px;
+  box-shadow: 10px 10px 10px lightgray;
 }
 .wrap .content3 .lst-menu a {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   height: 100%;
 }
 .wrap .content3 .lst-menu img {
-  display: block;
+  display: flex;
   align-items: center;
-  padding: 5px;
   max-width: 50px;
+  height: 50px;
+}
+.wrap .content3 .lst-menu .btn-txt {
+  font-size: 14px;
+  font-weight: 500;
 }
 .wrap .content4 {
   position: relative;
