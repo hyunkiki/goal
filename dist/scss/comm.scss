@@ -50,97 +50,156 @@
 
   .content2 {
     position: relative;
-    background: url("../../images/slide-img1/1.png") 0 0 /cover no-repeat;
+    background: url("../../images/slide-img1/1.png") 0 0 / cover no-repeat;
     width: 100%;
     height: 110vh;
 
     .main-title2 {
-      padding: 150px 0;
+      padding-top: 150px;
       font-size: 3.75em;
       font-weight: lighter;
     }
-  }
-
-
-  .content3 {
-    width: 100%;
-    height: 310px;
-    background: #d9d9d9;
-
-    .main-title3 {
-      padding: 40px 0;
-      font-size: 2.5em;
+    .num1 {
+      font-size: 20px;
+      margin-top: 80px;
     }
-
-    .lst-menu {
-      display: flex;
-      justify-content: space-between;
-
-      .lst-league {
-        width: 13%;
-        min-width: 120px;
-        height: 100px;
-        background: $w;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px lightgray;
-      }
-
+    .mini-tit1 {
+      padding-top: 25px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .mini-exp1 {
+      padding-top: 25px;
+    }
+    .btn-more {
+      position: relative;
+      margin-top: 25px;
       a {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 100%;
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 160px;
+          content: "\f105";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+        }
+        &:hover {
+          color: orange;
+        }
       }
-
-      img {
-        display: flex;
-        align-items: center;
-        max-width: 50px;
-        height: 50px;
-        margin-right: 10px;
+    }
+    .inner {
+      ul {
+        position: absolute;
+        top: 330px;
+        right: 185px;
       }
-
-      .btn-txt {
-        font-size: 14px;
-        font-weight: 500;
-        margin-left: 5px;
+      li {
+        position: relative;
+        padding-bottom: 5px;
+        .on::before {
+          position: absolute;
+          top: -25px;
+          right: 200px;
+          content: "\f061";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+          font-size: 50px;
+        }
+      }
+      .slide-util {
+        max-width: 15px;
+        height: 3px;
+        background: $w;
+        .box-progress {
+          margin-top: 8em;
+          max-width: 5px;
+          height: 3px;
+          background-color: $b;
+        }
       }
     }
   }
+}
 
-  .content4 {
-    position: relative;
-    width: 100%;
-    height: 110vh;
-    border: 1px solid #000;
+.content3 {
+  width: 100%;
+  height: 310px;
+  background: #d9d9d9;
 
-    .main-title4 {
-      padding: 150px 0;
-      font-size: 3.75em;
-      font-weight: lighter;
+  .main-title3 {
+    padding: 40px 0;
+    font-size: 2.5em;
+  }
+
+  .lst-menu {
+    display: flex;
+    justify-content: space-between;
+
+    .lst-league {
+      width: 13%;
+      min-width: 120px;
+      height: 100px;
+      background: $w;
+      border-radius: 10px;
+      box-shadow: 10px 10px 10px lightgray;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 10px;
+      padding-right: 10px;
+      height: 100%;
     }
 
     img {
-      position: absolute;
-      top: 240px;
-      right: 450px;
-      max-width: 580px;
-      height: 565px;
+      display: flex;
+      align-items: center;
+      max-width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .btn-txt {
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: 5px;
     }
   }
+}
 
-  .content5 {
-    width: 100%;
-    height: 100vh;
-    background: #d9d9d9;
+.content4 {
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  border: 1px solid #000;
 
-    .main-title5 {
-      padding: 150px 0;
-      font-size: 3.75em;
-      font-weight: lighter;
-    }
+  .main-title4 {
+    padding: 150px 0;
+    font-size: 3.75em;
+    font-weight: lighter;
+  }
+
+  img {
+    position: absolute;
+    top: 240px;
+    right: 450px;
+    max-width: 580px;
+    height: 565px;
+  }
+}
+
+.content5 {
+  width: 100%;
+  height: 100vh;
+  background: #d9d9d9;
+
+  .main-title5 {
+    padding: 150px 0;
+    font-size: 3.75em;
+    font-weight: lighter;
   }
 }
 

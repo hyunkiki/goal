@@ -318,24 +318,81 @@ legend {
   height: 110vh;
 }
 .wrap .content2 .main-title2 {
-  padding: 150px 0;
+  padding-top: 150px;
   font-size: 3.75em;
   font-weight: lighter;
 }
-.wrap .content3 {
+.wrap .content2 .num1 {
+  font-size: 20px;
+  margin-top: 80px;
+}
+.wrap .content2 .mini-tit1 {
+  padding-top: 25px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.wrap .content2 .mini-exp1 {
+  padding-top: 25px;
+}
+.wrap .content2 .btn-more {
+  position: relative;
+  margin-top: 25px;
+}
+.wrap .content2 .btn-more a::after {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content2 .btn-more a:hover {
+  color: orange;
+}
+.wrap .content2 .inner ul {
+  position: absolute;
+  top: 330px;
+  right: 185px;
+}
+.wrap .content2 .inner li {
+  position: relative;
+  padding-bottom: 5px;
+}
+.wrap .content2 .inner li .on::before {
+  position: absolute;
+  top: -25px;
+  right: 200px;
+  content: "\f061";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  font-size: 50px;
+}
+.wrap .content2 .inner .slide-util {
+  max-width: 15px;
+  height: 3px;
+  background: #fff;
+}
+.wrap .content2 .inner .slide-util .box-progress {
+  margin-top: 8em;
+  max-width: 5px;
+  height: 3px;
+  background-color: #000;
+}
+
+.content3 {
   width: 100%;
   height: 310px;
   background: #d9d9d9;
 }
-.wrap .content3 .main-title3 {
+.content3 .main-title3 {
   padding: 40px 0;
   font-size: 2.5em;
 }
-.wrap .content3 .lst-menu {
+.content3 .lst-menu {
   display: flex;
   justify-content: space-between;
 }
-.wrap .content3 .lst-menu .lst-league {
+.content3 .lst-menu .lst-league {
   width: 13%;
   min-width: 120px;
   height: 100px;
@@ -343,7 +400,7 @@ legend {
   border-radius: 10px;
   box-shadow: 10px 10px 10px lightgray;
 }
-.wrap .content3 .lst-menu a {
+.content3 .lst-menu a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -351,42 +408,44 @@ legend {
   padding-right: 10px;
   height: 100%;
 }
-.wrap .content3 .lst-menu img {
+.content3 .lst-menu img {
   display: flex;
   align-items: center;
   max-width: 50px;
   height: 50px;
   margin-right: 10px;
 }
-.wrap .content3 .lst-menu .btn-txt {
+.content3 .lst-menu .btn-txt {
   font-size: 14px;
   font-weight: 500;
   margin-left: 5px;
 }
-.wrap .content4 {
+
+.content4 {
   position: relative;
   width: 100%;
   height: 110vh;
   border: 1px solid #000;
 }
-.wrap .content4 .main-title4 {
+.content4 .main-title4 {
   padding: 150px 0;
   font-size: 3.75em;
   font-weight: lighter;
 }
-.wrap .content4 img {
+.content4 img {
   position: absolute;
   top: 240px;
   right: 450px;
   max-width: 580px;
   height: 565px;
 }
-.wrap .content5 {
+
+.content5 {
   width: 100%;
   height: 100vh;
   background: #d9d9d9;
 }
-.wrap .content5 .main-title5 {
+.content5 .main-title5 {
   padding: 150px 0;
   font-size: 3.75em;
   font-weight: lighter;
