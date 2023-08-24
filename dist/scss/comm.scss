@@ -96,11 +96,13 @@
     .mini-exp1 {
       padding-top: 16px;
       font-size: 1.125em;
+      color: #5e5e5e;
     }
 
     .btn-more {
       position: relative;
       margin-top: 32px;
+      font-weight: 500;
 
       a {
         font-size: 1em;
@@ -108,7 +110,7 @@
         &::after {
           position: absolute;
           top: 0;
-          left: 160px;
+          left: 172px;
           content: "\f105";
           font-family: "Line Awesome Free";
           font-weight: 900;
@@ -123,8 +125,9 @@
     .inner {
       ul {
         position: absolute;
-        top: 450px;
-        right: 103px;
+        top: 460px;
+        right: 158px;
+        text-align: right;
       }
 
       li {
@@ -134,12 +137,12 @@
 
         .on::before {
           position: absolute;
-          top: -25px;
-          right: 200px;
+          top: -9px;
+          right: 109px;
           content: "\f061";
           font-family: "Line Awesome Free";
           font-weight: 900;
-          font-size: 50px;
+          font-size: 30px;
         }
       }
 
@@ -149,7 +152,7 @@
         background: $w;
 
         .box-progress {
-          margin-top: 130px;
+          margin-top: 128px;
           max-width: 100px;
           height: 3px;
           background-color: $b;
@@ -160,20 +163,20 @@
 
           &::before {
             position: absolute;
-            top: -30px;
-            right: -52px;
+            top: -31px;
+            right: -68px;
             content: "\f0a8";
-            font-family: 'Line Awesome Free';
+            font-family: "Line Awesome Free";
             font-weight: 900;
             font-size: 2.5em;
           }
 
           &::after {
             position: absolute;
-            top: -30px;
-            right: -103px;
+            top: -31px;
+            right: -130px;
             content: "\f0a9";
-            font-family: 'Line Awesome Free';
+            font-family: "Line Awesome Free";
             font-weight: 900;
             font-size: 2.5em;
           }
@@ -181,7 +184,6 @@
       }
     }
   }
-
 
   .content3 {
     width: 100%;
@@ -240,34 +242,36 @@
       padding-top: 220px;
       font-size: 5.625em;
       font-weight: lighter;
-
     }
 
     .mini-exp4 {
       font-size: 1.125em;
-      padding-top: 20px;
+      padding-top: 16px;
+      color: #5e5e5e;
     }
 
     .num2 {
-      padding-top: 130px;
+      padding-top: 80px;
       font-size: 1.875em;
     }
 
     .mini-tit4 {
-      padding-top: 20px;
+      padding-top: 16px;
       font-size: 2.625em;
       font-weight: bold;
     }
 
     .add-exp4 {
-      padding-top: 20px;
+      padding-top: 16px;
       font-size: 1.125em;
+      color: #5e5e5e;
     }
 
     ul {
       position: absolute;
-      top: 575px;
-      right: 790px;
+      top: 515px;
+      right: 155px;
+      text-align: right;
     }
 
     li {
@@ -277,26 +281,27 @@
 
       .on::before {
         position: absolute;
-        top: -25px;
-        right: 160px;
+        top: -9px;
+        right: 77px;
         content: "\f061";
         font-family: "Line Awesome Free";
         font-weight: 900;
-        font-size: 50px;
+        font-size: 30px;
       }
     }
 
     .btn-more {
       position: relative;
-      margin-top: 30px;
+      margin-top: 32px;
+      font-weight: 500;
 
       a {
-        font-size: 1.8em;
+        font-size: 1em;
 
         &::after {
           position: absolute;
           top: 0;
-          left: 290px;
+          left: 154px;
           content: "\f105";
           font-family: "Line Awesome Free";
           font-weight: 900;
@@ -313,9 +318,8 @@
       height: 3px;
       background: lightgray;
 
-
       .box-progress {
-        margin-top: 130px;
+        margin-top: 128px;
         max-width: 100px;
         height: 3px;
         background-color: $b;
@@ -326,20 +330,20 @@
 
         &::before {
           position: absolute;
-          top: -30px;
-          right: -52px;
+          top: -31px;
+          right: -67px;
           content: "\f0a8";
-          font-family: 'Line Awesome Free';
+          font-family: "Line Awesome Free";
           font-weight: 900;
           font-size: 2.5em;
         }
 
         &::after {
           position: absolute;
-          top: -30px;
-          right: -103px;
+          top: -31px;
+          right: -128px;
           content: "\f0a9";
-          font-family: 'Line Awesome Free';
+          font-family: "Line Awesome Free";
           font-weight: 900;
           font-size: 2.5em;
         }
@@ -348,12 +352,11 @@
 
     img {
       position: absolute;
-      top: 520px;
-      right: 1020px;
+      top: 374px;
+      right: 330px;
       max-width: 580px;
       height: 565px;
     }
-
   }
 
   .content5 {
@@ -381,7 +384,7 @@
 
       &::after {
         content: "\f105";
-        font-family: 'Line Awesome Free';
+        font-family: "Line Awesome Free";
         font-weight: 900;
       }
     }
