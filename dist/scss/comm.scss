@@ -21,95 +21,95 @@
     font-size: 30px;
     background: #fff;
     border-right: 1px solid #333;
-
-    .slide-tit {
-      font-size: 30px;
-      font-weight: 500;
-      padding-bottom: 16px;
-    }
-    .date {
-      font-size: 18px;
-      padding-bottom: 16px;
-    }
-    .img-tit1 {
-      font-size: 18px;
-      padding-bottom: 16px;
-    }
-    .img1 {
-      max-width: 380px;
-      height: 300px;
-      padding-right: 20px;
-    }
-    .slide-exp2 {
-      font-size: 18px;
-      padding-right: 20px;
-    }
-    .img-tit3 {
-      font-size: 18px;
-      padding-bottom: 16px;
-    }
-    .img3 {
-      position: absolute;
-      z-index: -1000;
-      top: 110px;
-      left: 0;
-      opacity: 0.3;
-      max-width: 380px;
-      height: 380px;
-    }
-    .slide-exp3 {
-      font-size: 18px;
-      line-height: 30px;
-      padding-top: 55px;
-      padding-right: 30px;
-    }
-    .img4 {
-      position: absolute;
-      z-index: -1000;
-      top: 110px;
-      left: 0;
-      opacity: 0.3;
-      max-width: 380px;
-      height: 380px;
-    }
-    .img-tit4 {
-      font-size: 18px;
-      padding-bottom: 16px;
-    }
-    .slide-exp4 {
-      font-size: 18px;
-      line-height: 30px;
-      padding-top: 55px;
-      padding-right: 30px;
-    }
-    .slide-exp5 {
-      font-size: 18px;
-      padding-bottom: 16px;
-    }
-    .img5 {
-      width: 90%;
-      height: 400px;
-      padding-top: 16px;
-    }
-    .slide-exp6 {
-      font-size: 18px;
-      padding-bottom: 16px;
-    }
-    .img6 {
-      width: 90%;
-      height: 400px;
-      padding-top: 16px;
-    }
-    .slide-exp7 {
-      font-size: 18px;
-      padding-bottom: 16px;
-    }
-    .img7 {
-      width: 90%;
-      height: 400px;
-    }
-    &:hover {
-      color: orange;
+    a {
+      .slide-tit {
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 16px;
+      }
+      .date {
+        font-size: 18px;
+        padding-bottom: 16px;
+      }
+      .img-tit1 {
+        font-size: 18px;
+        padding-bottom: 16px;
+      }
+      .slide-exp2 {
+        font-size: 18px;
+        padding-right: 20px;
+      }
+      .img-tit3 {
+        font-size: 18px;
+        padding-bottom: 16px;
+      }
+      .img3 {
+        position: absolute;
+        z-index: -1000;
+        top: 110px;
+        left: 0;
+        opacity: 0.3;
+        max-width: 380px;
+        height: 380px;
+      }
+      .slide-exp3 {
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 55px;
+        padding-right: 30px;
+      }
+      .img4 {
+        position: absolute;
+        z-index: -1000;
+        top: 110px;
+        left: 0;
+        opacity: 0.3;
+        max-width: 380px;
+        height: 380px;
+      }
+      .img-tit4 {
+        font-size: 18px;
+        padding-bottom: 16px;
+      }
+      .slide-exp4 {
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 55px;
+        padding-right: 30px;
+      }
+      .slide-exp5 {
+        font-size: 18px;
+      }
+      .slide-exp6 {
+        font-size: 18px;
+      }
+      .slide-exp7 {
+        font-size: 18px;
+      }
+      .img-box {
+        overflow: hidden;
+        width: 90%;
+        height: 400px;
+        .img-player {
+          width: 100%;
+          height: 100%;
+          transition: all 0.4s linear;
+        }
+        .img-firstworldcup {
+          width: 100%;
+          height: 100%;
+          transition: all 0.4s linear;
+        }
+      }
+      &:hover {
+        color: orange;
+        .img-player {
+          transform: scale(1.4);
+        }
+        .img-firstworldcup {
+          transform: scale(1.4);
+        }
+      }
     }
   }
 }
@@ -224,6 +224,9 @@
           font-weight: 900;
           font-size: 30px;
         }
+        &:hover {
+          color: orange;
+        }
       }
 
       .slide-util {
@@ -286,6 +289,10 @@
         background: $w;
         border-radius: 10px;
         box-shadow: 10px 10px 10px lightgray;
+        transition: all 0.3s ease-out;
+        &:hover {
+          transform: translateY(-20px);
+        }
       }
 
       a {
@@ -367,6 +374,9 @@
         font-family: "Line Awesome Free";
         font-weight: 900;
         font-size: 30px;
+      }
+      &:hover {
+        color: orange;
       }
     }
 
@@ -467,6 +477,9 @@
         content: "\f105";
         font-family: "Line Awesome Free";
         font-weight: 900;
+      }
+      &:hover {
+        color: orange;
       }
     }
   }

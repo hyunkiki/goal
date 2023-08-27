@@ -292,33 +292,28 @@ legend {
   background: #fff;
   border-right: 1px solid #333;
 }
-.swiper .swiper-slide .slide-tit {
+.swiper .swiper-slide a .slide-tit {
   font-size: 30px;
   font-weight: 500;
   padding-bottom: 16px;
 }
-.swiper .swiper-slide .date {
+.swiper .swiper-slide a .date {
   font-size: 18px;
   padding-bottom: 16px;
 }
-.swiper .swiper-slide .img-tit1 {
+.swiper .swiper-slide a .img-tit1 {
   font-size: 18px;
   padding-bottom: 16px;
 }
-.swiper .swiper-slide .img1 {
-  max-width: 380px;
-  height: 300px;
-  padding-right: 20px;
-}
-.swiper .swiper-slide .slide-exp2 {
+.swiper .swiper-slide a .slide-exp2 {
   font-size: 18px;
   padding-right: 20px;
 }
-.swiper .swiper-slide .img-tit3 {
+.swiper .swiper-slide a .img-tit3 {
   font-size: 18px;
   padding-bottom: 16px;
 }
-.swiper .swiper-slide .img3 {
+.swiper .swiper-slide a .img3 {
   position: absolute;
   z-index: -1000;
   top: 110px;
@@ -327,13 +322,13 @@ legend {
   max-width: 380px;
   height: 380px;
 }
-.swiper .swiper-slide .slide-exp3 {
+.swiper .swiper-slide a .slide-exp3 {
   font-size: 18px;
   line-height: 30px;
   padding-top: 55px;
   padding-right: 30px;
 }
-.swiper .swiper-slide .img4 {
+.swiper .swiper-slide a .img4 {
   position: absolute;
   z-index: -1000;
   top: 110px;
@@ -342,44 +337,48 @@ legend {
   max-width: 380px;
   height: 380px;
 }
-.swiper .swiper-slide .img-tit4 {
+.swiper .swiper-slide a .img-tit4 {
   font-size: 18px;
   padding-bottom: 16px;
 }
-.swiper .swiper-slide .slide-exp4 {
+.swiper .swiper-slide a .slide-exp4 {
   font-size: 18px;
   line-height: 30px;
   padding-top: 55px;
   padding-right: 30px;
 }
-.swiper .swiper-slide .slide-exp5 {
+.swiper .swiper-slide a .slide-exp5 {
   font-size: 18px;
-  padding-bottom: 16px;
 }
-.swiper .swiper-slide .img5 {
-  width: 90%;
-  height: 400px;
-  padding-top: 16px;
-}
-.swiper .swiper-slide .slide-exp6 {
+.swiper .swiper-slide a .slide-exp6 {
   font-size: 18px;
-  padding-bottom: 16px;
 }
-.swiper .swiper-slide .img6 {
-  width: 90%;
-  height: 400px;
-  padding-top: 16px;
-}
-.swiper .swiper-slide .slide-exp7 {
+.swiper .swiper-slide a .slide-exp7 {
   font-size: 18px;
-  padding-bottom: 16px;
 }
-.swiper .swiper-slide .img7 {
+.swiper .swiper-slide a .img-box {
+  overflow: hidden;
   width: 90%;
   height: 400px;
 }
-.swiper .swiper-slide:hover {
+.swiper .swiper-slide a .img-box .img-player {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s linear;
+}
+.swiper .swiper-slide a .img-box .img-firstworldcup {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s linear;
+}
+.swiper .swiper-slide a:hover {
   color: orange;
+}
+.swiper .swiper-slide a:hover .img-player {
+  transform: scale(1.4);
+}
+.swiper .swiper-slide a:hover .img-firstworldcup {
+  transform: scale(1.4);
 }
 
 .wrap {
@@ -476,6 +475,9 @@ legend {
   font-weight: 900;
   font-size: 30px;
 }
+.wrap .content2 .inner li:hover {
+  color: orange;
+}
 .wrap .content2 .inner .slide-util {
   max-width: 365px;
   height: 3px;
@@ -528,6 +530,10 @@ legend {
   background: #fff;
   border-radius: 10px;
   box-shadow: 10px 10px 10px lightgray;
+  transition: all 0.3s ease-out;
+}
+.wrap .content3 .lst-menu .lst-league:hover {
+  transform: translateY(-20px);
 }
 .wrap .content3 .lst-menu a {
   display: flex;
@@ -597,6 +603,9 @@ legend {
   font-family: "Line Awesome Free";
   font-weight: 900;
   font-size: 30px;
+}
+.wrap .content4 li:hover {
+  color: orange;
 }
 .wrap .content4 .btn-more {
   position: relative;
@@ -682,4 +691,7 @@ legend {
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
+}
+.wrap .content5 .full-more:hover {
+  color: orange;
 }/*# sourceMappingURL=comm.css.map */
