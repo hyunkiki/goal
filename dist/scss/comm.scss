@@ -21,28 +21,34 @@
     font-size: 30px;
     background: #fff;
     border-right: 1px solid #333;
+
     a {
       .slide-tit {
         font-size: 30px;
         font-weight: 500;
         padding-bottom: 16px;
       }
+
       .date {
         font-size: 18px;
         padding-bottom: 16px;
       }
+
       .img-tit1 {
         font-size: 18px;
         padding-bottom: 16px;
       }
+
       .slide-exp2 {
         font-size: 18px;
         padding-right: 20px;
       }
+
       .img-tit3 {
         font-size: 18px;
         padding-bottom: 16px;
       }
+
       .img3 {
         position: absolute;
         z-index: -1000;
@@ -52,12 +58,14 @@
         max-width: 380px;
         height: 380px;
       }
+
       .slide-exp3 {
         font-size: 18px;
         line-height: 30px;
         padding-top: 55px;
         padding-right: 30px;
       }
+
       .img4 {
         position: absolute;
         z-index: -1000;
@@ -67,45 +75,56 @@
         max-width: 380px;
         height: 380px;
       }
+
       .img-tit4 {
         font-size: 18px;
         padding-bottom: 16px;
       }
+
       .slide-exp4 {
         font-size: 18px;
         line-height: 30px;
         padding-top: 55px;
         padding-right: 30px;
       }
+
       .slide-exp5 {
         font-size: 18px;
       }
+
       .slide-exp6 {
         font-size: 18px;
       }
+
       .slide-exp7 {
         font-size: 18px;
       }
+
       .img-box {
         overflow: hidden;
         width: 90%;
         height: 400px;
+
         .img-player {
           width: 100%;
           height: 100%;
           transition: all 0.4s linear;
         }
+
         .img-firstworldcup {
           width: 100%;
           height: 100%;
           transition: all 0.4s linear;
         }
       }
+
       &:hover {
         color: orange;
+
         .img-player {
           transform: scale(1.4);
         }
+
         .img-firstworldcup {
           transform: scale(1.4);
         }
@@ -113,6 +132,7 @@
     }
   }
 }
+
 // header
 
 // main
@@ -156,53 +176,54 @@
     width: 100%;
     height: 110vh;
 
-    .main-title2 {
-      padding-top: 220px;
-      font-size: 5.625em;
-      font-weight: lighter;
-    }
+    .inner {
+      .main-title2 {
+        padding-top: 220px;
+        font-size: 5.625em;
+        font-weight: lighter;
+      }
 
-    .num1 {
-      font-size: 1.875em;
-      margin-top: 96px;
-    }
+      .num1 {
+        font-size: 1.875em;
+        margin-top: 96px;
+      }
 
-    .mini-tit1 {
-      padding-top: 16px;
-      font-size: 2.625em;
-      font-weight: bold;
-    }
+      .mini-tit1 {
+        padding-top: 16px;
+        font-size: 2.625em;
+        font-weight: bold;
+      }
 
-    .mini-exp1 {
-      padding-top: 16px;
-      font-size: 1.125em;
-      color: #5e5e5e;
-    }
+      .mini-exp1 {
+        padding-top: 16px;
+        font-size: 1.125em;
+        color: #5e5e5e;
+      }
 
-    .btn-more {
-      position: relative;
-      margin-top: 32px;
-      font-weight: 500;
+      .btn-more {
+        position: relative;
+        margin-top: 32px;
+        font-weight: 500;
 
-      a {
-        font-size: 1em;
+        a {
+          font-size: 1em;
 
-        &::after {
-          position: absolute;
-          top: 0;
-          left: 172px;
-          content: "\f105";
-          font-family: "Line Awesome Free";
-          font-weight: 900;
-        }
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 162px;
+            content: "\f105";
+            font-family: "Line Awesome Free";
+            font-weight: 900;
+          }
 
-        &:hover {
-          color: orange;
+          &:hover {
+            color: orange;
+          }
         }
       }
-    }
 
-    .inner {
+
       ul {
         position: absolute;
         top: 460px;
@@ -224,45 +245,9 @@
           font-weight: 900;
           font-size: 30px;
         }
+
         &:hover {
           color: orange;
-        }
-      }
-
-      .slide-util {
-        max-width: 365px;
-        height: 3px;
-        background: $w;
-
-        .box-progress {
-          margin-top: 128px;
-          max-width: 100px;
-          height: 3px;
-          background-color: $b;
-        }
-
-        .box-btn {
-          position: relative;
-
-          &::before {
-            position: absolute;
-            top: -31px;
-            right: -68px;
-            content: "\f0a8";
-            font-family: "Line Awesome Free";
-            font-weight: 900;
-            font-size: 2.5em;
-          }
-
-          &::after {
-            position: absolute;
-            top: -31px;
-            right: -130px;
-            content: "\f0a9";
-            font-family: "Line Awesome Free";
-            font-weight: 900;
-            font-size: 2.5em;
-          }
         }
       }
     }
@@ -290,6 +275,7 @@
         border-radius: 10px;
         box-shadow: 10px 10px 10px lightgray;
         transition: all 0.3s ease-out;
+
         &:hover {
           transform: translateY(-20px);
         }
@@ -375,6 +361,7 @@
         font-weight: 900;
         font-size: 30px;
       }
+
       &:hover {
         color: orange;
       }
@@ -391,7 +378,7 @@
         &::after {
           position: absolute;
           top: 0;
-          left: 154px;
+          left: 128px;
           content: "\f105";
           font-family: "Line Awesome Free";
           font-weight: 900;
@@ -403,47 +390,10 @@
       }
     }
 
-    .slide-util {
-      max-width: 365px;
-      height: 3px;
-      background: lightgray;
-
-      .box-progress {
-        margin-top: 128px;
-        max-width: 100px;
-        height: 3px;
-        background-color: $b;
-      }
-
-      .box-btn {
-        position: relative;
-
-        &::before {
-          position: absolute;
-          top: -31px;
-          right: -67px;
-          content: "\f0a8";
-          font-family: "Line Awesome Free";
-          font-weight: 900;
-          font-size: 2.5em;
-        }
-
-        &::after {
-          position: absolute;
-          top: -31px;
-          right: -128px;
-          content: "\f0a9";
-          font-family: "Line Awesome Free";
-          font-weight: 900;
-          font-size: 2.5em;
-        }
-      }
-    }
-
     img {
       position: absolute;
       top: 374px;
-      right: 520px;
+      right: 470px;
       max-width: 580px;
       height: 565px;
     }
@@ -478,6 +428,7 @@
         font-family: "Line Awesome Free";
         font-weight: 900;
       }
+
       &:hover {
         color: orange;
       }
