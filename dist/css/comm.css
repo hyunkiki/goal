@@ -417,6 +417,55 @@ legend {
   width: 100%;
   height: 110vh;
 }
+.wrap .content2 .inner .swiper-slide {
+  height: 110vh;
+  /* Center slide text vertically */
+}
+.wrap .content2 .inner .swiper-pagination {
+  position: absolute;
+  top: 350px;
+  right: 100px;
+  width: auto !important;
+  left: auto !important;
+  margin: 0;
+}
+.wrap .content2 .inner .swiper-pagination {
+  position: absolute;
+  top: 62% !important;
+  right: 307px;
+  transform: translateY(-50%);
+}
+.wrap .content2 .inner .swiper-pagination-bullet {
+  padding: 5px 0;
+  border-radius: 0;
+  width: auto;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  color: #000;
+  opacity: 0.54;
+  background: none;
+}
+.wrap .content2 .inner .swiper-pagination-bullet:hover {
+  color: orange;
+}
+.wrap .content2 .inner .swiper-pagination-bullet-active {
+  position: relative;
+  font-weight: 700;
+  opacity: 1;
+}
+.wrap .content2 .inner .swiper-pagination-bullet-active::before {
+  position: absolute;
+  top: 2px;
+  right: 240px;
+  content: "\f061";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  font-size: 50px;
+}
 .wrap .content2 .inner .main-title2 {
   padding-top: 220px;
   font-size: 5.625em;
