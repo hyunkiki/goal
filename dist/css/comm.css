@@ -413,9 +413,15 @@ legend {
 }
 .wrap .content2 {
   position: relative;
-  background: url("../../images/slide-img1/1.png") 0 0/cover no-repeat;
   width: 100%;
   height: 110vh;
+  background: url("../../images/slide-img1/1.png") 0 0/cover no-repeat;
+}
+.wrap .content2 .inner .swiper-container {
+  overflow: hidden;
+}
+.wrap .content2 .inner .box-card-wrap {
+  max-width: 740px;
 }
 .wrap .content2 .inner .swiper-slide {
   height: 110vh;
@@ -485,23 +491,118 @@ legend {
   font-size: 1.125em;
   color: #5e5e5e;
 }
-.wrap .content2 .inner .btn-more {
+.wrap .content2 .inner .btn-more1 {
   position: relative;
   margin-top: 32px;
   font-weight: 500;
 }
-.wrap .content2 .inner .btn-more a {
+.wrap .content2 .inner .btn-more1 a {
   font-size: 1em;
 }
-.wrap .content2 .inner .btn-more a::after {
+.wrap .content2 .inner .btn-more1 a::after {
   position: absolute;
   top: 0;
-  left: 162px;
+  left: 172px;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .inner .btn-more a:hover {
+.wrap .content2 .inner .btn-more1 a:hover {
+  color: orange;
+}
+.wrap .content2 .inner .btn-more2 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content2 .inner .btn-more2 a {
+  font-size: 1em;
+}
+.wrap .content2 .inner .btn-more2 a::after {
+  position: absolute;
+  top: 0;
+  left: 186px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content2 .inner .btn-more2 a:hover {
+  color: orange;
+}
+.wrap .content2 .inner .btn-more3 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content2 .inner .btn-more3 a {
+  font-size: 1em;
+}
+.wrap .content2 .inner .btn-more3 a::after {
+  position: absolute;
+  top: 0;
+  left: 234px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content2 .inner .btn-more3 a:hover {
+  color: orange;
+}
+.wrap .content2 .inner .btn-more4 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content2 .inner .btn-more4 a {
+  font-size: 1em;
+}
+.wrap .content2 .inner .btn-more4 a::after {
+  position: absolute;
+  top: 0;
+  left: 234px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content2 .inner .btn-more4 a:hover {
+  color: orange;
+}
+.wrap .content2 .inner .btn-more5 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content2 .inner .btn-more5 a {
+  font-size: 1em;
+}
+.wrap .content2 .inner .btn-more5 a::after {
+  position: absolute;
+  top: 0;
+  left: 172px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content2 .inner .btn-more5 a:hover {
+  color: orange;
+}
+.wrap .content2 .inner .btn-more6 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content2 .inner .btn-more6 a {
+  font-size: 1em;
+}
+.wrap .content2 .inner .btn-more6 a::after {
+  position: absolute;
+  top: 0;
+  left: 235px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content2 .inner .btn-more6 a:hover {
   color: orange;
 }
 .wrap .content2 .inner ul {

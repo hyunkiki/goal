@@ -172,11 +172,20 @@
 
   .content2 {
     position: relative;
-    background: url("../../images/slide-img1/1.png") 0 0 / cover no-repeat;
     width: 100%;
     height: 110vh;
+    // background: url("../../images/slide-img1/2.png") 0 0 / cover no-repeat;
+    background: url("../../images/slide-img1/1.png") 0 0 / cover no-repeat;
 
     .inner {
+      .swiper-container {
+        overflow: hidden;
+      }
+
+      .box-card-wrap {
+        max-width: 740px;
+      }
+
       .swiper-slide {
         // width: 100%;
         height: 110vh;
@@ -269,7 +278,7 @@
         color: #5e5e5e;
       }
 
-      .btn-more {
+      .btn-more1 {
         position: relative;
         margin-top: 32px;
         font-weight: 500;
@@ -280,7 +289,122 @@
           &::after {
             position: absolute;
             top: 0;
-            left: 162px;
+            left: 172px;
+            content: "\f105";
+            font-family: "Line Awesome Free";
+            font-weight: 900;
+          }
+
+          &:hover {
+            color: orange;
+          }
+        }
+      }
+
+      .btn-more2 {
+        position: relative;
+        margin-top: 32px;
+        font-weight: 500;
+
+        a {
+          font-size: 1em;
+
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 186px;
+            content: "\f105";
+            font-family: "Line Awesome Free";
+            font-weight: 900;
+          }
+
+          &:hover {
+            color: orange;
+          }
+        }
+      }
+
+      .btn-more3 {
+        position: relative;
+        margin-top: 32px;
+        font-weight: 500;
+
+        a {
+          font-size: 1em;
+
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 234px;
+            content: "\f105";
+            font-family: "Line Awesome Free";
+            font-weight: 900;
+          }
+
+          &:hover {
+            color: orange;
+          }
+        }
+      }
+
+      .btn-more4 {
+        position: relative;
+        margin-top: 32px;
+        font-weight: 500;
+
+        a {
+          font-size: 1em;
+
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 234px;
+            content: "\f105";
+            font-family: "Line Awesome Free";
+            font-weight: 900;
+          }
+
+          &:hover {
+            color: orange;
+          }
+        }
+      }
+
+      .btn-more5 {
+        position: relative;
+        margin-top: 32px;
+        font-weight: 500;
+
+        a {
+          font-size: 1em;
+
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 172px;
+            content: "\f105";
+            font-family: "Line Awesome Free";
+            font-weight: 900;
+          }
+
+          &:hover {
+            color: orange;
+          }
+        }
+      }
+
+      .btn-more6 {
+        position: relative;
+        margin-top: 32px;
+        font-weight: 500;
+
+        a {
+          font-size: 1em;
+
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 235px;
             content: "\f105";
             font-family: "Line Awesome Free";
             font-weight: 900;
