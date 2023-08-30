@@ -415,19 +415,23 @@ legend {
   position: relative;
   width: 100%;
   height: 110vh;
-  background: url("../../images/slide-img1/1.png") 0 0/cover no-repeat;
 }
-.wrap .content2 .inner .swiper-container {
+.wrap .content2 .swiper-container {
   overflow: hidden;
 }
-.wrap .content2 .inner .box-card-wrap {
+.wrap .content2 .box-card-wrap {
   max-width: 740px;
 }
-.wrap .content2 .inner .swiper-slide {
+.wrap .content2 .swiper-slide {
+  display: flex;
+  align-items: center;
   height: 110vh;
   /* Center slide text vertically */
 }
-.wrap .content2 .inner .swiper-pagination {
+.wrap .content2 .slide1 {
+  background: red url("../../images/slide-img1/1.png") 0 0/cover no-repeat;
+}
+.wrap .content2 .swiper-pagination {
   position: absolute;
   top: 350px;
   right: 100px;
@@ -435,13 +439,13 @@ legend {
   left: auto !important;
   margin: 0;
 }
-.wrap .content2 .inner .swiper-pagination {
+.wrap .content2 .swiper-pagination {
   position: absolute;
-  top: 62% !important;
+  top: 64% !important;
   right: 307px;
   transform: translateY(-50%);
 }
-.wrap .content2 .inner .swiper-pagination-bullet {
+.wrap .content2 .swiper-pagination-bullet {
   padding: 5px 0;
   border-radius: 0;
   width: auto;
@@ -455,15 +459,15 @@ legend {
   opacity: 0.54;
   background: none;
 }
-.wrap .content2 .inner .swiper-pagination-bullet:hover {
+.wrap .content2 .swiper-pagination-bullet:hover {
   color: orange;
 }
-.wrap .content2 .inner .swiper-pagination-bullet-active {
+.wrap .content2 .swiper-pagination-bullet-active {
   position: relative;
   font-weight: 700;
   opacity: 1;
 }
-.wrap .content2 .inner .swiper-pagination-bullet-active::before {
+.wrap .content2 .swiper-pagination-bullet-active::before {
   position: absolute;
   top: 2px;
   right: 240px;
@@ -472,34 +476,39 @@ legend {
   font-weight: 900;
   font-size: 50px;
 }
-.wrap .content2 .inner .main-title2 {
+.wrap .content2 .main-title2 {
   padding-top: 220px;
   font-size: 5.625em;
   font-weight: lighter;
 }
-.wrap .content2 .inner .num1 {
+.wrap .content2 .mini-exp2 {
+  font-size: 1.125em;
+  padding-top: 16px;
+  color: #5e5e5e;
+}
+.wrap .content2 .num1 {
   font-size: 1.875em;
   margin-top: 96px;
 }
-.wrap .content2 .inner .mini-tit1 {
+.wrap .content2 .mini-tit1 {
   padding-top: 16px;
   font-size: 2.625em;
   font-weight: bold;
 }
-.wrap .content2 .inner .mini-exp1 {
+.wrap .content2 .mini-exp1 {
   padding-top: 16px;
   font-size: 1.125em;
   color: #5e5e5e;
 }
-.wrap .content2 .inner .btn-more1 {
+.wrap .content2 .btn-more1 {
   position: relative;
   margin-top: 32px;
   font-weight: 500;
 }
-.wrap .content2 .inner .btn-more1 a {
+.wrap .content2 .btn-more1 a {
   font-size: 1em;
 }
-.wrap .content2 .inner .btn-more1 a::after {
+.wrap .content2 .btn-more1 a::after {
   position: absolute;
   top: 0;
   left: 172px;
@@ -507,18 +516,18 @@ legend {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .inner .btn-more1 a:hover {
+.wrap .content2 .btn-more1 a:hover {
   color: orange;
 }
-.wrap .content2 .inner .btn-more2 {
+.wrap .content2 .btn-more2 {
   position: relative;
   margin-top: 32px;
   font-weight: 500;
 }
-.wrap .content2 .inner .btn-more2 a {
+.wrap .content2 .btn-more2 a {
   font-size: 1em;
 }
-.wrap .content2 .inner .btn-more2 a::after {
+.wrap .content2 .btn-more2 a::after {
   position: absolute;
   top: 0;
   left: 186px;
@@ -526,18 +535,18 @@ legend {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .inner .btn-more2 a:hover {
+.wrap .content2 .btn-more2 a:hover {
   color: orange;
 }
-.wrap .content2 .inner .btn-more3 {
+.wrap .content2 .btn-more3 {
   position: relative;
   margin-top: 32px;
   font-weight: 500;
 }
-.wrap .content2 .inner .btn-more3 a {
+.wrap .content2 .btn-more3 a {
   font-size: 1em;
 }
-.wrap .content2 .inner .btn-more3 a::after {
+.wrap .content2 .btn-more3 a::after {
   position: absolute;
   top: 0;
   left: 234px;
@@ -545,18 +554,18 @@ legend {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .inner .btn-more3 a:hover {
+.wrap .content2 .btn-more3 a:hover {
   color: orange;
 }
-.wrap .content2 .inner .btn-more4 {
+.wrap .content2 .btn-more4 {
   position: relative;
   margin-top: 32px;
   font-weight: 500;
 }
-.wrap .content2 .inner .btn-more4 a {
+.wrap .content2 .btn-more4 a {
   font-size: 1em;
 }
-.wrap .content2 .inner .btn-more4 a::after {
+.wrap .content2 .btn-more4 a::after {
   position: absolute;
   top: 0;
   left: 234px;
@@ -564,18 +573,18 @@ legend {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .inner .btn-more4 a:hover {
+.wrap .content2 .btn-more4 a:hover {
   color: orange;
 }
-.wrap .content2 .inner .btn-more5 {
+.wrap .content2 .btn-more5 {
   position: relative;
   margin-top: 32px;
   font-weight: 500;
 }
-.wrap .content2 .inner .btn-more5 a {
+.wrap .content2 .btn-more5 a {
   font-size: 1em;
 }
-.wrap .content2 .inner .btn-more5 a::after {
+.wrap .content2 .btn-more5 a::after {
   position: absolute;
   top: 0;
   left: 172px;
@@ -583,18 +592,18 @@ legend {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .inner .btn-more5 a:hover {
+.wrap .content2 .btn-more5 a:hover {
   color: orange;
 }
-.wrap .content2 .inner .btn-more6 {
+.wrap .content2 .btn-more6 {
   position: relative;
   margin-top: 32px;
   font-weight: 500;
 }
-.wrap .content2 .inner .btn-more6 a {
+.wrap .content2 .btn-more6 a {
   font-size: 1em;
 }
-.wrap .content2 .inner .btn-more6 a::after {
+.wrap .content2 .btn-more6 a::after {
   position: absolute;
   top: 0;
   left: 235px;
@@ -602,21 +611,21 @@ legend {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .inner .btn-more6 a:hover {
+.wrap .content2 .btn-more6 a:hover {
   color: orange;
 }
-.wrap .content2 .inner ul {
+.wrap .content2 ul {
   position: absolute;
   top: 460px;
   right: 309px;
   text-align: right;
 }
-.wrap .content2 .inner li {
+.wrap .content2 li {
   position: relative;
   padding-bottom: 15px;
   font-size: 1.125em;
 }
-.wrap .content2 .inner li .on::before {
+.wrap .content2 li .on::before {
   position: absolute;
   top: -9px;
   right: 109px;
@@ -625,7 +634,7 @@ legend {
   font-weight: 900;
   font-size: 30px;
 }
-.wrap .content2 .inner li:hover {
+.wrap .content2 li:hover {
   color: orange;
 }
 .wrap .content3 {
