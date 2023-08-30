@@ -174,16 +174,14 @@
     position: relative;
     width: 100%;
     height: 110vh;
-    // background: url("../../images/slide-img1/2.png") 0 0 / cover no-repeat;
-    // background: url("../../images/slide-img1/1.png") 0 0 / cover no-repeat;
 
     .swiper-container {
       overflow: hidden;
     }
 
-    .box-card-wrap {
-      max-width: 740px;
-    }
+    // .box-card-wrap {
+    //   max-width: 740px;
+    // }
 
     .swiper-slide {
       display: flex;
@@ -206,10 +204,29 @@
     }
 
     .slide1 {
-      background: red url("../../images/slide-img1/1.png") 0 0 / cover no-repeat;
-
+      background: url("../../images/slide-img1/1.png") 0 0 / cover no-repeat;
+      background-size: cover;
     }
-
+    .slide2 {
+      background: url("../../images/slide-img1/2.png") 0 0 / cover no-repeat;
+      background-size: cover;
+    }
+    .slide3 {
+      background: url("../../images/slide-img1/3.png") 0 0 / cover no-repeat;
+      background-size: cover;
+    }
+    .slide4 {
+      background: url("../../images/slide-img1/4.png") 0 0 / cover no-repeat;
+      background-size: cover;
+    }
+    .slide5 {
+      background: url("../../images/slide-img1/5.png") 0 0 / cover no-repeat;
+      background-size: cover;
+    }
+    .slide6 {
+      background: url("../../images/slide-img1/6.png") 0 0 / cover no-repeat;
+      background-size: cover;
+    }
     .swiper-pagination {
       position: absolute;
       top: 350px;
@@ -223,7 +240,7 @@
       position: absolute;
       top: 64% !important;
       right: 307px;
-      transform: translateY(-50%);
+      transform: translateY(-70%);
     }
 
     .swiper-pagination-bullet {
@@ -260,17 +277,18 @@
         font-size: 50px;
       }
     }
+    .box-title-wrap {
+      .main-title2 {
+        padding-top: 220px;
+        font-size: 5.625em;
+        font-weight: lighter;
+      }
 
-    .main-title2 {
-      padding-top: 220px;
-      font-size: 5.625em;
-      font-weight: lighter;
-    }
-
-    .mini-exp2 {
-      font-size: 1.125em;
-      padding-top: 16px;
-      color: #5e5e5e;
+      .mini-exp2 {
+        font-size: 1.125em;
+        padding-top: 16px;
+        color: #5e5e5e;
+      }
     }
 
     .num1 {
@@ -416,7 +434,7 @@
         &::after {
           position: absolute;
           top: 0;
-          left: 235px;
+          left: 172px;
           content: "\f105";
           font-family: "Line Awesome Free";
           font-weight: 900;
@@ -455,7 +473,6 @@
       }
     }
   }
-
 
   .content3 {
     width: 100%;
