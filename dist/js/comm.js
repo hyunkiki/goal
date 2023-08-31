@@ -25,3 +25,23 @@ var mySwiper = new Swiper(".swiper-container", {
     },
   },
 });
+var menu = [
+  "프라하",
+  "부다페스트",
+  "시드니",
+  "몬테레이",
+  "카사블랑카",
+  "로스앤젤레스",
+  "나폴리",
+];
+var mySwiper = new Swiper(".swiper-container2", {
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + menu[index] + "</span>";
+    },
+  },
+});
