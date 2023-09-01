@@ -419,6 +419,10 @@ legend {
 .wrap .content2 .swiper-container {
   overflow: hidden;
 }
+.wrap .content2 .box-card-wrap {
+  transform: translateY(33%);
+  max-width: 515px;
+}
 .wrap .content2 .swiper-slide {
   display: flex;
   align-items: center;
@@ -428,6 +432,7 @@ legend {
 .wrap .content2 .slide1 {
   background: url("../../images/slide-img1/1.png") 0 0/cover no-repeat;
   background-size: cover;
+  transition: opacity 1s ease-in-out;
 }
 .wrap .content2 .slide2 {
   background: url("../../images/slide-img1/2.png") 0 0/cover no-repeat;
@@ -459,7 +464,7 @@ legend {
 }
 .wrap .content2 .swiper-pagination {
   position: absolute;
-  top: 64% !important;
+  top: 68% !important;
   right: 307px;
   transform: translateY(-70%);
 }
@@ -496,8 +501,11 @@ legend {
 }
 .wrap .content2 .box-title-wrap {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  transform: translateY(-133%);
+  left: 311px;
+  z-index: 10;
+  margin-bottom: 80px;
 }
 .wrap .content2 .box-title-wrap .main-title2 {
   padding-top: 220px;
@@ -511,7 +519,6 @@ legend {
 }
 .wrap .content2 .num1 {
   font-size: 1.875em;
-  margin-top: 96px;
 }
 .wrap .content2 .mini-tit1 {
   padding-top: 16px;
@@ -521,7 +528,8 @@ legend {
 .wrap .content2 .mini-exp1 {
   padding-top: 16px;
   font-size: 1.125em;
-  color: #5e5e5e;
+  color: #333;
+  font-weight: 500;
 }
 .wrap .content2 .btn-more1 {
   position: relative;
@@ -663,7 +671,7 @@ legend {
 .wrap .content3 {
   width: 100%;
   height: 310px;
-  background: #d9d9d9;
+  background: rgba(167, 167, 167, 0.1490196078);
 }
 .wrap .content3 .main-title3 {
   padding: 40px 0;
@@ -710,6 +718,13 @@ legend {
   width: 100%;
   height: 110vh;
 }
+.wrap .content4 .swiper-container {
+  overflow: hidden;
+}
+.wrap .content4 .box-card-wrap {
+  transform: translateY(141%);
+  max-width: 515px;
+}
 .wrap .content4 .swiper-pagination {
   position: absolute;
   top: 350px;
@@ -720,7 +735,7 @@ legend {
 }
 .wrap .content4 .swiper-pagination {
   position: absolute;
-  top: 64% !important;
+  top: 73% !important;
   right: 307px;
   transform: translateY(-70%);
 }
@@ -749,24 +764,31 @@ legend {
 .wrap .content4 .swiper-pagination-bullet-active::before {
   position: absolute;
   top: 2px;
-  right: 240px;
+  right: 100px;
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
   font-size: 50px;
 }
-.wrap .content4 .main-title4 {
+.wrap .content4 .box-tit-wrap2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-133%);
+  left: 311px;
+  z-index: 10;
+  margin-bottom: 80px;
+}
+.wrap .content4 .box-tit-wrap2 .main-title4 {
   padding-top: 220px;
   font-size: 5.625em;
   font-weight: lighter;
 }
-.wrap .content4 .mini-exp4 {
+.wrap .content4 .box-tit-wrap2 .mini-exp4 {
   font-size: 1.125em;
   padding-top: 16px;
   color: #5e5e5e;
 }
 .wrap .content4 .num2 {
-  padding-top: 80px;
   font-size: 1.875em;
 }
 .wrap .content4 .mini-tit4 {
@@ -802,30 +824,144 @@ legend {
 .wrap .content4 li:hover {
   color: orange;
 }
-.wrap .content4 .btn-more {
+.wrap .content4 .btn-more5-1 {
   position: relative;
   margin-top: 32px;
   font-weight: 500;
 }
-.wrap .content4 .btn-more a {
+.wrap .content4 .btn-more5-1 a {
   font-size: 1em;
 }
-.wrap .content4 .btn-more a::after {
+.wrap .content4 .btn-more5-1 a::after {
   position: absolute;
   top: 0;
-  left: 128px;
+  left: 138px;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content4 .btn-more a:hover {
+.wrap .content4 .btn-more5-1 a:hover {
+  color: orange;
+}
+.wrap .content4 .btn-more5-2 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content4 .btn-more5-2 a {
+  font-size: 1em;
+}
+.wrap .content4 .btn-more5-2 a::after {
+  position: absolute;
+  top: 0;
+  left: 167px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content4 .btn-more5-2 a:hover {
+  color: orange;
+}
+.wrap .content4 .btn-more5-3 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content4 .btn-more5-3 a {
+  font-size: 1em;
+}
+.wrap .content4 .btn-more5-3 a::after {
+  position: absolute;
+  top: 0;
+  left: 138px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content4 .btn-more5-3 a:hover {
+  color: orange;
+}
+.wrap .content4 .btn-more5-4 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content4 .btn-more5-4 a {
+  font-size: 1em;
+}
+.wrap .content4 .btn-more5-4 a::after {
+  position: absolute;
+  top: 0;
+  left: 153px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content4 .btn-more5-4 a:hover {
+  color: orange;
+}
+.wrap .content4 .btn-more5-5 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content4 .btn-more5-5 a {
+  font-size: 1em;
+}
+.wrap .content4 .btn-more5-5 a::after {
+  position: absolute;
+  top: 0;
+  left: 167px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content4 .btn-more5-5 a:hover {
+  color: orange;
+}
+.wrap .content4 .btn-more5-6 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content4 .btn-more5-6 a {
+  font-size: 1em;
+}
+.wrap .content4 .btn-more5-6 a::after {
+  position: absolute;
+  top: 0;
+  left: 182px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content4 .btn-more5-6 a:hover {
+  color: orange;
+}
+.wrap .content4 .btn-more5-7 {
+  position: relative;
+  margin-top: 32px;
+  font-weight: 500;
+}
+.wrap .content4 .btn-more5-7 a {
+  font-size: 1em;
+}
+.wrap .content4 .btn-more5-7 a::after {
+  position: absolute;
+  top: 0;
+  left: 138px;
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.wrap .content4 .btn-more5-7 a:hover {
   color: orange;
 }
 .wrap .content4 img {
   position: absolute;
   top: 224px;
-  right: 280px;
-  max-width: 580px;
+  right: 490px;
+  max-width: 545px;
   height: 565px;
   filter: drop-shadow(5px 5px 5px lightgray);
 }
@@ -861,4 +997,10 @@ legend {
 }
 .wrap .content5 .full-more:hover {
   color: orange;
+}
+.wrap .content5 .swiper-button-next {
+  color: black;
+}
+.wrap .content5 .swiper-button-prev {
+  color: black;
 }/*# sourceMappingURL=comm.css.map */

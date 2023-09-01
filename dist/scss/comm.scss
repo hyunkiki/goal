@@ -179,9 +179,10 @@
       overflow: hidden;
     }
 
-    // .box-card-wrap {
-    //   max-width: 740px;
-    // }
+    .box-card-wrap {
+      transform: translateY(33%);
+      max-width: 515px;
+    }
 
     .swiper-slide {
       display: flex;
@@ -206,27 +207,39 @@
     .slide1 {
       background: url("../../images/slide-img1/1.png") 0 0 / cover no-repeat;
       background-size: cover;
+      transition: opacity 1s ease-in-out;
     }
+
     .slide2 {
       background: url("../../images/slide-img1/2.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
+
     .slide3 {
       background: url("../../images/slide-img1/3.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
+
     .slide4 {
       background: url("../../images/slide-img1/4.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
+
     .slide5 {
       background: url("../../images/slide-img1/5.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
+
     .slide6 {
       background: url("../../images/slide-img1/6.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
+
     .swiper-pagination {
       position: absolute;
       top: 350px;
@@ -238,7 +251,7 @@
 
     .swiper-pagination {
       position: absolute;
-      top: 64% !important;
+      top: 68% !important;
       right: 307px;
       transform: translateY(-70%);
     }
@@ -277,10 +290,15 @@
         font-size: 50px;
       }
     }
+
     .box-title-wrap {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 50%;
+      transform: translateY(-133%);
+      left: 311px;
+      z-index: 10;
+      margin-bottom: 80px;
+
       .main-title2 {
         padding-top: 220px;
         font-size: 5.625em;
@@ -296,7 +314,6 @@
 
     .num1 {
       font-size: 1.875em;
-      margin-top: 96px;
     }
 
     .mini-tit1 {
@@ -308,7 +325,8 @@
     .mini-exp1 {
       padding-top: 16px;
       font-size: 1.125em;
-      color: #5e5e5e;
+      color: #333;
+      font-weight: 500;
     }
 
     .btn-more1 {
@@ -480,7 +498,8 @@
   .content3 {
     width: 100%;
     height: 310px;
-    background: #d9d9d9;
+    background: #a7a7a726;
+
 
     .main-title3 {
       padding: 40px 0;
@@ -534,6 +553,16 @@
     position: relative;
     width: 100%;
     height: 110vh;
+
+    .swiper-container {
+      overflow: hidden;
+    }
+
+    .box-card-wrap {
+      transform: translateY(141%);
+      max-width: 515px;
+    }
+
     .swiper-pagination {
       position: absolute;
       top: 350px;
@@ -545,7 +574,7 @@
 
     .swiper-pagination {
       position: absolute;
-      top: 64% !important;
+      top: 73% !important;
       right: 307px;
       transform: translateY(-70%);
     }
@@ -577,27 +606,36 @@
       &::before {
         position: absolute;
         top: 2px;
-        right: 240px;
+        right: 100px;
         content: "\f061";
         font-family: "Line Awesome Free";
         font-weight: 900;
         font-size: 50px;
       }
     }
-    .main-title4 {
-      padding-top: 220px;
-      font-size: 5.625em;
-      font-weight: lighter;
-    }
 
-    .mini-exp4 {
-      font-size: 1.125em;
-      padding-top: 16px;
-      color: #5e5e5e;
+    .box-tit-wrap2 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-133%);
+      left: 311px;
+      z-index: 10;
+      margin-bottom: 80px;
+
+      .main-title4 {
+        padding-top: 220px;
+        font-size: 5.625em;
+        font-weight: lighter;
+      }
+
+      .mini-exp4 {
+        font-size: 1.125em;
+        padding-top: 16px;
+        color: #5e5e5e;
+      }
     }
 
     .num2 {
-      padding-top: 80px;
       font-size: 1.875em;
     }
 
@@ -640,7 +678,7 @@
       }
     }
 
-    .btn-more {
+    .btn-more5-1 {
       position: relative;
       margin-top: 32px;
       font-weight: 500;
@@ -651,7 +689,145 @@
         &::after {
           position: absolute;
           top: 0;
-          left: 128px;
+          left: 138px;
+          content: "\f105";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+
+    .btn-more5-2 {
+      position: relative;
+      margin-top: 32px;
+      font-weight: 500;
+
+      a {
+        font-size: 1em;
+
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 167px;
+          content: "\f105";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+
+    .btn-more5-3 {
+      position: relative;
+      margin-top: 32px;
+      font-weight: 500;
+
+      a {
+        font-size: 1em;
+
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 138px;
+          content: "\f105";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+
+    .btn-more5-4 {
+      position: relative;
+      margin-top: 32px;
+      font-weight: 500;
+
+      a {
+        font-size: 1em;
+
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 153px;
+          content: "\f105";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+
+    .btn-more5-5 {
+      position: relative;
+      margin-top: 32px;
+      font-weight: 500;
+
+      a {
+        font-size: 1em;
+
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 167px;
+          content: "\f105";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+
+    .btn-more5-6 {
+      position: relative;
+      margin-top: 32px;
+      font-weight: 500;
+
+      a {
+        font-size: 1em;
+
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 182px;
+          content: "\f105";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+
+    .btn-more5-7 {
+      position: relative;
+      margin-top: 32px;
+      font-weight: 500;
+
+      a {
+        font-size: 1em;
+
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 138px;
           content: "\f105";
           font-family: "Line Awesome Free";
           font-weight: 900;
@@ -666,8 +842,8 @@
     img {
       position: absolute;
       top: 224px;
-      right: 280px;
-      max-width: 580px;
+      right: 490px;
+      max-width: 545px;
       height: 565px;
       filter: drop-shadow(5px 5px 5px lightgray);
     }
@@ -710,6 +886,14 @@
       &:hover {
         color: orange;
       }
+    }
+
+    .swiper-button-next {
+      color: black;
+    }
+
+    .swiper-button-prev {
+      color: black;
     }
   }
 }

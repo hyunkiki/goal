@@ -1,9 +1,9 @@
 var swiper = new Swiper(".mySwiper5", {
   slidesPerView: 3,
   spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 var menu = [
@@ -45,3 +45,20 @@ var mySwiper = new Swiper(".swiper-container2", {
     },
   },
 });
+const slides = document.querySelectorAll(".slide");
+let currentSlideIndex = 0;
+
+function showSlide(index) {
+  slides.forEach((slide) => {
+    slide.style.opacity = 0;
+  });
+  slides[index].style.opacity = 1;
+}
+
+function nextSlide() {
+  currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+  showSlide(currentSlideIndex);
+}
+
+setInterval(nextSlide, 3000); // Change slide every 3 seconds
+showSlide(currentSlideIndex); // Show the initial slide
