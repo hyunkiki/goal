@@ -272,7 +272,7 @@ legend {
 .inner {
   margin: 0 auto;
   width: 100%;
-  max-width: 1280px;
+  max-width: 80rem;
 }
 
 .swiper {
@@ -281,89 +281,89 @@ legend {
 }
 .swiper .swiper-slide {
   position: relative;
-  height: 500px;
-  font-size: 30px;
+  height: 31.25rem;
+  font-size: 1.875rem;
   background: #fff;
-  border-right: 1px solid #333;
+  border-right: 0.0625rem solid #333;
 }
 .swiper .swiper-slide a .slide-tit {
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: 500;
-  padding-bottom: 16px;
-  transform: translateX(20px);
+  padding-bottom: 1rem;
+  transform: translateX(1.25rem);
 }
 .swiper .swiper-slide a p {
-  transform: translateX(20px);
-  font-size: 1rem;
+  transform: translateX(1.25rem);
+  font-size: 16px;
 }
 .swiper .swiper-slide a .date {
-  font-size: 1rem;
-  padding-bottom: 16px;
-  transform: translateX(20px);
+  font-size: 16px;
+  padding-bottom: 1rem;
+  transform: translateX(1.25rem);
 }
 .swiper .swiper-slide a .img-tit1 {
-  font-size: 1rem;
-  padding-bottom: 16px;
-  transform: translateX(20px);
+  font-size: 16px;
+  padding-bottom: 1rem;
+  transform: translateX(1.25rem);
 }
 .swiper .swiper-slide a .slide-exp2 {
-  font-size: 1rem;
-  padding-right: 60px;
+  font-size: 16px;
+  padding-right: 3.75rem;
 }
 .swiper .swiper-slide a .img-tit3 {
-  font-size: 1rem;
-  padding-bottom: 16px;
-  transform: translateX(20px);
+  font-size: 16px;
+  padding-bottom: 1rem;
+  transform: translateX(1.25rem);
 }
 .swiper .swiper-slide a .img3 {
   position: absolute;
   z-index: -1000;
-  top: 110px;
+  top: 6.875rem;
   left: 0;
   opacity: 0.3;
-  max-width: 380px;
-  height: 380px;
+  max-width: 23.75rem;
+  height: 23.75rem;
 }
 .swiper .swiper-slide a .slide-exp3 {
-  font-size: 18px;
-  line-height: 30px;
-  padding-top: 55px;
-  padding-right: 60px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  padding-top: 3.4375rem;
+  padding-right: 3.75rem;
 }
 .swiper .swiper-slide a .img4 {
   position: absolute;
   z-index: -1000;
-  top: 110px;
+  top: 6.875rem;
   left: 0;
   opacity: 0.3;
-  max-width: 380px;
-  height: 380px;
+  max-width: 23.75rem;
+  height: 23.75rem;
 }
 .swiper .swiper-slide a .img-tit4 {
-  font-size: 1rem;
-  padding-bottom: 16px;
-  transform: translateX(20px);
+  font-size: 16px;
+  padding-bottom: 1rem;
+  transform: translateX(1.25rem);
 }
 .swiper .swiper-slide a .slide-exp4 {
-  font-size: 18px;
-  line-height: 30px;
-  padding-top: 55px;
-  padding-right: 60px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  padding-top: 3.4375rem;
+  padding-right: 3.75rem;
 }
 .swiper .swiper-slide a .slide-exp5 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .swiper .swiper-slide a .slide-exp6 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .swiper .swiper-slide a .slide-exp7 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .swiper .swiper-slide a .img-box {
   overflow: hidden;
   width: 80%;
-  height: 300px;
-  transform: translate(25px, 40px);
+  height: 18.75rem;
+  transform: translate(1.5625rem, 2.5rem);
 }
 .swiper .swiper-slide a .img-player {
   width: 100%;
@@ -392,7 +392,7 @@ legend {
   position: relative;
 }
 .wrap .soccer {
-  margin: -7px;
+  margin: -0.4375rem;
 }
 .wrap .soccer video {
   position: absolute;
@@ -413,10 +413,10 @@ legend {
 .wrap .content1 .main-title1 {
   display: block;
   font-size: 13em;
-  margin: 400px 0;
+  margin: 25rem 0;
 }
 .wrap .content1 p {
-  line-height: 280px;
+  line-height: 17.5rem;
 }
 .wrap .content2 {
   position: relative;
@@ -428,7 +428,7 @@ legend {
 }
 .wrap .content2 .box-card-wrap {
   transform: translateY(33%);
-  max-width: 600px;
+  max-width: 37.5rem;
 }
 .wrap .content2 .swiper-slide {
   display: flex;
@@ -463,8 +463,8 @@ legend {
 }
 .wrap .content2 .swiper-pagination {
   position: absolute;
-  top: 350px;
-  right: 100px;
+  top: 21.875rem;
+  right: 6.25rem;
   width: auto !important;
   left: auto !important;
   margin: 0;
@@ -472,19 +472,19 @@ legend {
 .wrap .content2 .swiper-pagination {
   position: absolute;
   top: 68% !important;
-  right: 307px;
+  right: 19.1875rem;
   transform: translateY(-70%);
 }
 .wrap .content2 .swiper-pagination-bullet {
-  padding: 5px 0;
+  padding: 0.3125rem 0;
   border-radius: 0;
   width: auto;
-  height: 30px;
+  height: 1.875rem;
   display: flex;
   justify-content: flex-end;
   text-align: center;
-  line-height: 30px;
-  font-size: 18px;
+  line-height: 1.875rem;
+  font-size: 1.125rem;
   color: #000;
   opacity: 0.54;
   background: none;
@@ -499,48 +499,48 @@ legend {
 }
 .wrap .content2 .swiper-pagination-bullet-active::before {
   position: absolute;
-  top: 2px;
-  right: 200px;
+  top: 0.125rem;
+  right: 12.5rem;
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 .wrap .content2 .box-title-wrap {
   position: absolute;
   top: 50%;
   transform: translateY(-133%);
-  left: 311px;
+  left: 19.4375rem;
   z-index: 10;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 .wrap .content2 .box-title-wrap .main-title2 {
-  padding-top: 220px;
+  padding-top: 13.75rem;
   font-size: 5.625em;
   font-weight: lighter;
 }
 .wrap .content2 .box-title-wrap .mini-exp2 {
   font-size: 1.125em;
-  padding-top: 16px;
+  padding-top: 1rem;
   color: #333;
 }
 .wrap .content2 .num1 {
   font-size: 1.875em;
 }
 .wrap .content2 .mini-tit1 {
-  padding-top: 16px;
+  padding-top: 1rem;
   font-size: 2.625em;
   font-weight: bold;
 }
 .wrap .content2 .mini-exp1 {
-  padding-top: 16px;
+  padding-top: 1rem;
   font-size: 1.125em;
   color: #333;
   font-weight: 500;
 }
 .wrap .content2 .btn-more1 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content2 .btn-more1 a {
@@ -549,7 +549,7 @@ legend {
 .wrap .content2 .btn-more1 a::after {
   position: absolute;
   top: 0;
-  left: 172px;
+  left: 10.75rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -559,7 +559,7 @@ legend {
 }
 .wrap .content2 .btn-more2 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content2 .btn-more2 a {
@@ -568,7 +568,7 @@ legend {
 .wrap .content2 .btn-more2 a::after {
   position: absolute;
   top: 0;
-  left: 186px;
+  left: 11.625rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -578,7 +578,7 @@ legend {
 }
 .wrap .content2 .btn-more3 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content2 .btn-more3 a {
@@ -587,7 +587,7 @@ legend {
 .wrap .content2 .btn-more3 a::after {
   position: absolute;
   top: 0;
-  left: 234px;
+  left: 14.625rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -597,7 +597,7 @@ legend {
 }
 .wrap .content2 .btn-more4 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content2 .btn-more4 a {
@@ -606,7 +606,7 @@ legend {
 .wrap .content2 .btn-more4 a::after {
   position: absolute;
   top: 0;
-  left: 234px;
+  left: 14.625rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -616,7 +616,7 @@ legend {
 }
 .wrap .content2 .btn-more5 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content2 .btn-more5 a {
@@ -625,7 +625,7 @@ legend {
 .wrap .content2 .btn-more5 a::after {
   position: absolute;
   top: 0;
-  left: 172px;
+  left: 10.75rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -635,7 +635,7 @@ legend {
 }
 .wrap .content2 .btn-more6 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content2 .btn-more6 a {
@@ -644,7 +644,7 @@ legend {
 .wrap .content2 .btn-more6 a::after {
   position: absolute;
   top: 0;
-  left: 172px;
+  left: 10.75rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -654,34 +654,34 @@ legend {
 }
 .wrap .content2 ul {
   position: absolute;
-  top: 460px;
-  right: 309px;
+  top: 28.75rem;
+  right: 19.3125rem;
   text-align: right;
 }
 .wrap .content2 li {
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 0.9375rem;
   font-size: 1.125em;
 }
 .wrap .content2 li .on::before {
   position: absolute;
-  top: -9px;
-  right: 109px;
+  top: -0.5625rem;
+  right: 6.8125rem;
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .wrap .content2 li:hover {
   color: orange;
 }
 .wrap .content3 {
   width: 100%;
-  height: 310px;
+  height: 19.375rem;
   background: rgba(167, 167, 167, 0.1490196078);
 }
 .wrap .content3 .main-title3 {
-  padding: 40px 0;
+  padding: 2.5rem 0;
   font-size: 2.5em;
 }
 .wrap .content3 .lst-menu {
@@ -690,35 +690,35 @@ legend {
 }
 .wrap .content3 .lst-menu .lst-league {
   width: 13%;
-  min-width: 120px;
-  height: 100px;
+  min-width: 7.5rem;
+  height: 6.25rem;
   background: #fff;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px lightgray;
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.625rem lightgray;
   transition: all 0.3s ease-out;
 }
 .wrap .content3 .lst-menu .lst-league:hover {
-  transform: translateY(-20px);
+  transform: translateY(-1.25rem);
 }
 .wrap .content3 .lst-menu a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
   height: 100%;
 }
 .wrap .content3 .lst-menu img {
   display: flex;
   align-items: center;
-  max-width: 50px;
-  height: 50px;
-  margin-right: 10px;
+  max-width: 3.125rem;
+  height: 3.125rem;
+  margin-right: 0.625rem;
 }
 .wrap .content3 .lst-menu .btn-txt {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  margin-left: 5px;
+  margin-left: 0.3125rem;
 }
 .wrap .content4 {
   position: relative;
@@ -730,92 +730,92 @@ legend {
 }
 .wrap .content4 .box-card-wrap1 {
   transform: translateY(110%);
-  max-width: 600px;
-  margin-top: 80px;
+  max-width: 37.5rem;
+  margin-top: 5rem;
 }
 .wrap .content4 .box-card-wrap2 {
   transform: translateY(89%);
-  max-width: 600px;
-  margin-top: 80px;
+  max-width: 37.5rem;
+  margin-top: 5rem;
 }
 .wrap .content4 .box-card-wrap3 {
   transform: translateY(89%);
-  max-width: 600px;
-  margin-top: 80px;
+  max-width: 37.5rem;
+  margin-top: 5rem;
 }
 .wrap .content4 .box-card-wrap4 {
   transform: translateY(102%);
-  max-width: 600px;
-  margin-top: 80px;
+  max-width: 37.5rem;
+  margin-top: 5rem;
 }
 .wrap .content4 .box-card-wrap5 {
   transform: translateY(111%);
-  max-width: 600px;
-  margin-top: 80px;
+  max-width: 37.5rem;
+  margin-top: 5rem;
 }
 .wrap .content4 .box-card-wrap6 {
   transform: translateY(89%);
-  max-width: 600px;
-  margin-top: 80px;
+  max-width: 37.5rem;
+  margin-top: 5rem;
 }
 .wrap .content4 .box-card-wrap7 {
   transform: translateY(102%);
-  max-width: 600px;
-  margin-top: 80px;
+  max-width: 37.5rem;
+  margin-top: 5rem;
 }
 .wrap .content4 .slide-img1 {
   position: absolute;
-  top: -60px;
-  right: -480px;
-  max-width: 580px;
-  height: 600px;
+  top: -3.75rem;
+  right: -30rem;
+  max-width: 36.25rem;
+  height: 37.5rem;
 }
 .wrap .content4 .slide-img2 {
   position: absolute;
-  top: -60px;
-  right: -480px;
-  max-width: 580px;
-  height: 600px;
+  top: -3.75rem;
+  right: -30rem;
+  max-width: 36.25rem;
+  height: 37.5rem;
 }
 .wrap .content4 .slide-img3 {
   position: absolute;
-  top: -60px;
-  right: -480px;
-  max-width: 580px;
-  height: 600px;
+  top: -3.75rem;
+  right: -30rem;
+  max-width: 36.25rem;
+  height: 37.5rem;
 }
 .wrap .content4 .slide-img4 {
   position: absolute;
-  top: -60px;
-  right: -480px;
-  max-width: 580px;
-  height: 600px;
+  top: -3.75rem;
+  right: -30rem;
+  max-width: 36.25rem;
+  height: 37.5rem;
 }
 .wrap .content4 .slide-img5 {
   position: absolute;
-  top: -60px;
-  right: -480px;
-  max-width: 580px;
-  height: 600px;
+  top: -3.75rem;
+  right: -30rem;
+  max-width: 36.25rem;
+  height: 37.5rem;
 }
 .wrap .content4 .slide-img6 {
   position: absolute;
-  top: -60px;
-  right: -480px;
-  max-width: 580px;
-  height: 600px;
+  top: -3.75rem;
+  right: -30rem;
+  max-width: 36.25rem;
+  height: 37.5rem;
 }
 .wrap .content4 .slide-img7 {
   position: absolute;
-  top: -60px;
-  right: -480px;
-  max-width: 580px;
-  height: 600px;
+  top: -3.75rem;
+  right: -30rem;
+  max-width: 36.25rem;
+  height: 37.5rem;
 }
 .wrap .content4 .swiper-pagination {
   position: absolute;
-  top: 350px;
-  right: 100px;
+  top: 21.875rem;
+  right: 6.25rem;
   width: auto !important;
   left: auto !important;
   margin: 0;
@@ -823,19 +823,19 @@ legend {
 .wrap .content4 .swiper-pagination {
   position: absolute;
   top: 67% !important;
-  right: 307px;
+  right: 19.1875rem;
   transform: translateY(-70%);
 }
 .wrap .content4 .swiper-pagination-bullet {
-  padding: 5px 0;
+  padding: 0.3125rem 0;
   border-radius: 0;
   width: auto;
-  height: 30px;
+  height: 1.875rem;
   display: flex;
   justify-content: flex-end;
   text-align: center;
-  line-height: 30px;
-  font-size: 18px;
+  line-height: 1.875rem;
+  font-size: 1.125rem;
   color: #000;
   opacity: 0.54;
   background: none;
@@ -850,69 +850,69 @@ legend {
 }
 .wrap .content4 .swiper-pagination-bullet-active::before {
   position: absolute;
-  top: 2px;
-  right: 120px;
+  top: 0.125rem;
+  right: 7.5rem;
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 .wrap .content4 .box-tit-wrap2 {
   position: absolute;
   top: 50%;
   transform: translateY(-133%);
-  left: 311px;
+  left: 19.4375rem;
   z-index: 10;
 }
 .wrap .content4 .box-tit-wrap2 .main-title4 {
-  padding-top: 220px;
+  padding-top: 13.75rem;
   font-size: 5.625em;
   font-weight: lighter;
 }
 .wrap .content4 .box-tit-wrap2 .mini-exp4 {
   font-size: 1.125em;
-  padding-top: 16px;
+  padding-top: 1rem;
   color: #5e5e5e;
 }
 .wrap .content4 .num2 {
   font-size: 1.875em;
 }
 .wrap .content4 .mini-tit4 {
-  padding-top: 16px;
+  padding-top: 1rem;
   font-size: 2.625em;
   font-weight: bold;
 }
 .wrap .content4 .add-exp4 {
-  padding-top: 16px;
+  padding-top: 1rem;
   font-size: 1.125em;
   color: #5e5e5e;
 }
 .wrap .content4 ul {
   position: absolute;
-  top: 515px;
-  right: 309px;
+  top: 32.1875rem;
+  right: 19.3125rem;
   text-align: right;
 }
 .wrap .content4 li {
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 0.9375rem;
   font-size: 1.125em;
 }
 .wrap .content4 li .on::before {
   position: absolute;
-  top: -9px;
-  right: 77px;
+  top: -0.5625rem;
+  right: 4.8125rem;
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .wrap .content4 li:hover {
   color: orange;
 }
 .wrap .content4 .btn-more5-1 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content4 .btn-more5-1 a {
@@ -921,7 +921,7 @@ legend {
 .wrap .content4 .btn-more5-1 a::after {
   position: absolute;
   top: 0;
-  left: 138px;
+  left: 8.625rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -931,7 +931,7 @@ legend {
 }
 .wrap .content4 .btn-more5-2 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content4 .btn-more5-2 a {
@@ -940,7 +940,7 @@ legend {
 .wrap .content4 .btn-more5-2 a::after {
   position: absolute;
   top: 0;
-  left: 167px;
+  left: 10.4375rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -950,7 +950,7 @@ legend {
 }
 .wrap .content4 .btn-more5-3 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content4 .btn-more5-3 a {
@@ -959,7 +959,7 @@ legend {
 .wrap .content4 .btn-more5-3 a::after {
   position: absolute;
   top: 0;
-  left: 138px;
+  left: 8.625rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -969,7 +969,7 @@ legend {
 }
 .wrap .content4 .btn-more5-4 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content4 .btn-more5-4 a {
@@ -978,7 +978,7 @@ legend {
 .wrap .content4 .btn-more5-4 a::after {
   position: absolute;
   top: 0;
-  left: 153px;
+  left: 9.5625rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -988,7 +988,7 @@ legend {
 }
 .wrap .content4 .btn-more5-5 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content4 .btn-more5-5 a {
@@ -997,7 +997,7 @@ legend {
 .wrap .content4 .btn-more5-5 a::after {
   position: absolute;
   top: 0;
-  left: 167px;
+  left: 10.4375rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -1007,7 +1007,7 @@ legend {
 }
 .wrap .content4 .btn-more5-6 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content4 .btn-more5-6 a {
@@ -1016,7 +1016,7 @@ legend {
 .wrap .content4 .btn-more5-6 a::after {
   position: absolute;
   top: 0;
-  left: 182px;
+  left: 11.375rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -1026,7 +1026,7 @@ legend {
 }
 .wrap .content4 .btn-more5-7 {
   position: relative;
-  margin-top: 32px;
+  margin-top: 2rem;
   font-weight: 500;
 }
 .wrap .content4 .btn-more5-7 a {
@@ -1035,7 +1035,7 @@ legend {
 .wrap .content4 .btn-more5-7 a::after {
   position: absolute;
   top: 0;
-  left: 138px;
+  left: 8.625rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
@@ -1045,35 +1045,35 @@ legend {
 }
 .wrap .content4 img {
   position: absolute;
-  top: 224px;
-  right: 490px;
-  max-width: 545px;
-  height: 565px;
-  filter: drop-shadow(5px 5px 5px lightgray);
+  top: 14rem;
+  right: 30.625rem;
+  max-width: 34.0625rem;
+  height: 35.3125rem;
+  filter: drop-shadow(0.3125rem 0.3125rem 0.3125rem lightgray);
 }
 .wrap .content5 {
   position: relative;
   width: 100%;
-  height: 120vh;
+  height: 150vh;
   background: #ffffff;
 }
 .wrap .content5 .swiper-container2 {
   overflow: hidden;
 }
 .wrap .content5 .main-title5 {
-  padding-top: 220px;
+  padding-top: 13.75rem;
   font-size: 5.625em;
   font-weight: lighter;
 }
 .wrap .content5 .mini-exp5 {
   font-size: 1.125em;
-  padding-top: 18px;
-  padding-bottom: 128px;
+  padding-top: 1.125rem;
+  padding-bottom: 8rem;
 }
 .wrap .content5 .full-more {
   position: absolute;
-  top: 375px;
-  right: 305px;
+  top: 23.4375rem;
+  right: 19.0625rem;
   font-size: 1.125em;
 }
 .wrap .content5 .full-more::after {
@@ -1086,30 +1086,30 @@ legend {
 }
 .wrap .swiper-button-next {
   position: absolute;
-  top: 1060px;
-  left: 367px;
-  border: 1px solid #333;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  top: 66.25rem;
+  left: 22.9375rem;
+  border: 0.0625rem solid #333;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
   color: black !important;
 }
 .wrap .swiper-button-next::after {
-  font-size: 1.1rem !important;
+  font-size: 17.6px !important;
   font-weight: 600 !important;
 }
 .wrap .swiper-button-prev {
   position: absolute;
-  top: 1060px;
-  left: 310px;
-  border: 1px solid #333;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  top: 66.25rem;
+  left: 19.375rem;
+  border: 0.0625rem solid #333;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
   color: black !important;
 }
 .wrap .swiper-button-prev::after {
-  font-size: 1.1rem !important;
+  font-size: 17.6px !important;
   font-weight: 600 !important;
 }
 .wrap .content6 {
@@ -1118,7 +1118,38 @@ legend {
   background-color: rgba(255, 165, 0, 0.4);
 }
 .wrap .main-tit6 {
-  padding-top: 220px;
+  padding-top: 13.75rem;
   font-size: 5.625em;
   font-weight: lighter;
+}
+.wrap .mini-exp6 {
+  font-size: 1.125em;
+  padding-top: 1rem;
+  color: #5e5e5e;
+}
+.wrap .table_wrap {
+  display: flex;
+  padding-top: 128px;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .table_wrap .table-tit {
+  font-size: 4.375rem;
+  font-weight: 600;
+}
+.wrap .table_wrap .box-btn {
+  border: 5px solid #000;
+  display: flex;
+  width: 30%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .table_wrap .box-btn a {
+  font-size: 1.5rem;
+}
+.wrap .table_wrap .box-btn::after {
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
 }/*# sourceMappingURL=comm.css.map */
