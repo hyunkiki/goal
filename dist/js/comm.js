@@ -46,4 +46,4 @@ var mySwiper = new Swiper(".swiper-container2", {
   },
 });
 
-// AOS.init();
+AOS.init();

@@ -131,18 +131,12 @@ input[type=search]::-webkit-search-cancel-button {
 /* mobile */
 body {
   background: #fff;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   font-family: "Poppins", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
   color: #111;
 }
 
-/* desktop */
-@media screen and (min-width: 1280px) {
-  body {
-    font-size: 16px;
-  }
-}
 /* color값은 디자인가이드에 맞게사용 */
 a {
   color: #333;
@@ -293,25 +287,33 @@ legend {
   border-right: 1px solid #333;
 }
 .swiper .swiper-slide a .slide-tit {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 500;
   padding-bottom: 16px;
+  transform: translateX(20px);
+}
+.swiper .swiper-slide a p {
+  transform: translateX(20px);
+  font-size: 1rem;
 }
 .swiper .swiper-slide a .date {
-  font-size: 18px;
+  font-size: 1rem;
   padding-bottom: 16px;
+  transform: translateX(20px);
 }
 .swiper .swiper-slide a .img-tit1 {
-  font-size: 18px;
+  font-size: 1rem;
   padding-bottom: 16px;
+  transform: translateX(20px);
 }
 .swiper .swiper-slide a .slide-exp2 {
-  font-size: 18px;
-  padding-right: 20px;
+  font-size: 1rem;
+  padding-right: 60px;
 }
 .swiper .swiper-slide a .img-tit3 {
-  font-size: 18px;
+  font-size: 1rem;
   padding-bottom: 16px;
+  transform: translateX(20px);
 }
 .swiper .swiper-slide a .img3 {
   position: absolute;
@@ -326,7 +328,7 @@ legend {
   font-size: 18px;
   line-height: 30px;
   padding-top: 55px;
-  padding-right: 30px;
+  padding-right: 60px;
 }
 .swiper .swiper-slide a .img4 {
   position: absolute;
@@ -338,14 +340,15 @@ legend {
   height: 380px;
 }
 .swiper .swiper-slide a .img-tit4 {
-  font-size: 18px;
+  font-size: 1rem;
   padding-bottom: 16px;
+  transform: translateX(20px);
 }
 .swiper .swiper-slide a .slide-exp4 {
   font-size: 18px;
   line-height: 30px;
   padding-top: 55px;
-  padding-right: 30px;
+  padding-right: 60px;
 }
 .swiper .swiper-slide a .slide-exp5 {
   font-size: 18px;
@@ -358,27 +361,31 @@ legend {
 }
 .swiper .swiper-slide a .img-box {
   overflow: hidden;
-  width: 90%;
-  height: 400px;
+  width: 80%;
+  height: 300px;
+  transform: translate(25px, 40px);
 }
-.swiper .swiper-slide a .img-box .img-player {
+.swiper .swiper-slide a .img-player {
   width: 100%;
   height: 100%;
-  transition: all 0.4s linear;
+  transition: transform 0.3s ease-out;
 }
-.swiper .swiper-slide a .img-box .img-firstworldcup {
+.swiper .swiper-slide a .img-firstworldcup {
   width: 100%;
   height: 100%;
-  transition: all 0.4s linear;
+  transition: transform 0.3s ease-out;
 }
 .swiper .swiper-slide a:hover {
   color: orange;
 }
 .swiper .swiper-slide a:hover .img-player {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 .swiper .swiper-slide a:hover .img-firstworldcup {
-  transform: scale(1.4);
+  transform: scale(1.2);
+}
+.swiper .swiper-slide:hover {
+  color: orange;
 }
 
 .wrap {
@@ -1047,7 +1054,7 @@ legend {
 .wrap .content5 {
   position: relative;
   width: 100%;
-  height: 140vh;
+  height: 120vh;
   background: #ffffff;
 }
 .wrap .content5 .swiper-container2 {
@@ -1077,9 +1084,41 @@ legend {
 .wrap .content5 .full-more:hover {
   color: orange;
 }
-.wrap .content5 .swiper-button-next {
-  color: black;
+.wrap .swiper-button-next {
+  position: absolute;
+  top: 1060px;
+  left: 367px;
+  border: 1px solid #333;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  color: black !important;
 }
-.wrap .content5 .swiper-button-prev {
-  color: black;
+.wrap .swiper-button-next::after {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+}
+.wrap .swiper-button-prev {
+  position: absolute;
+  top: 1060px;
+  left: 310px;
+  border: 1px solid #333;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  color: black !important;
+}
+.wrap .swiper-button-prev::after {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+}
+.wrap .content6 {
+  width: 100%;
+  height: 110vh;
+  background-color: rgba(255, 165, 0, 0.4);
+}
+.wrap .main-tit6 {
+  padding-top: 220px;
+  font-size: 5.625em;
+  font-weight: lighter;
 }/*# sourceMappingURL=comm.css.map */
