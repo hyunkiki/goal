@@ -1149,6 +1149,7 @@ legend {
   font-size: 1.5rem;
 }
 .wrap .table_wrap .box-btn::after {
+  margin-left: 55px;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;

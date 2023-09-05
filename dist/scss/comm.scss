@@ -1039,20 +1039,24 @@
     font-size: 5.625em;
     font-weight: lighter;
   }
+
   .mini-exp6 {
     font-size: 1.125em;
     padding-top: 1rem;
     color: #5e5e5e;
   }
+
   .table_wrap {
     display: flex;
     padding-top: 128px;
     justify-content: space-between;
     align-items: center;
+
     .table-tit {
       font-size: 4.375rem;
       font-weight: 600;
     }
+
     .box-btn {
       border: 5px solid #000;
       display: flex;
@@ -1060,13 +1064,15 @@
       height: 100px;
       justify-content: center;
       align-items: center;
+
       a {
         font-size: 1.5rem;
       }
+
       &::after {
+        margin-left: 55px;
         content: "\f105";
         font-family: "Line Awesome Free";
-
         font-weight: 900;
       }
     }
