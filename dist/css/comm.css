@@ -269,6 +269,10 @@ legend {
   content: "";
 }
 
+body {
+  overflow-x: hidden; /* 가로 스크롤 숨김 */
+}
+
 .inner {
   margin: 0 auto;
   width: 100%;
@@ -1132,29 +1136,40 @@ legend {
   padding-top: 128px;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 64px;
 }
 .wrap .table_wrap .table-tit {
-  font-size: 4.375rem;
+  font-size: 3.75rem;
   font-weight: 600;
 }
-.wrap .table_wrap .box-btn {
-  border: 5px solid #000;
-  display: inline-flex;
-  width: 35%;
-  height: 100px;
-  justify-content: center;
-  align-items: center;
-}
-.wrap .table_wrap .box-btn a {
+.wrap .table_wrap a {
   display: flex;
   font-size: 1.5rem;
 }
-.wrap .table_wrap .box-btn a::after {
-  margin-left: 55px;
+.wrap .table_wrap a .box-btn {
+  border: 5px solid #000;
+  display: inline-flex;
+  width: auto;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 160px;
+}
+.wrap .table_wrap a .box-btn::after {
+  margin-left: 145px;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
+  margin-right: 15px;
 }
-.wrap .table_wrap .box-btn a:hover {
+.wrap .table_wrap a .box-btn:hover {
   color: orange;
+  border-color: orange;
+}
+.wrap .list-wrap {
+  width: 100%;
+  border-top: 1px solid #121212;
+}
+.wrap .list-wrap li a::before {
+  content: "";
 }/*# sourceMappingURL=comm.css.map */

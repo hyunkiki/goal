@@ -5,6 +5,10 @@
 // 공통요소 : 헤더, 풋터, 버튼, 아이콘, 박스
 
 // 공통
+body {
+  overflow-x: hidden; /* 가로 스크롤 숨김 */
+}
+
 .inner {
   margin: 0 auto;
   width: 100%;
@@ -1051,36 +1055,49 @@
     padding-top: 128px;
     justify-content: space-between;
     align-items: center;
-
+    padding-bottom: 64px;
 
     .table-tit {
-      font-size: 4.375rem;
+      font-size: 3.75rem;
       font-weight: 600;
     }
 
-    .box-btn {
-      border: 5px solid #000;
-      display: inline-flex;
-      width: 35%;
-      height: 100px;
-      justify-content: center;
-      align-items: center;
+    a {
+      display: flex;
+      font-size: 1.5rem;
 
-      &:hover {}
-
-      a {
-        display: flex;
-        font-size: 1.5rem;
+      .box-btn {
+        border: 5px solid #000;
+        display: inline-flex;
+        width: auto;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 160px;
 
         &::after {
-          margin-left: 55px;
+          margin-left: 145px;
           content: "\f105";
           font-family: "Line Awesome Free";
           font-weight: 900;
+          margin-right: 15px;
         }
 
         &:hover {
           color: orange;
+          border-color: orange;
+        }
+      }
+    }
+  }
+  .list-wrap {
+    width: 100%;
+    border-top: 1px solid #121212;
+    // border-bottom: 1px solid #121212;
+    li {
+      a {
+        &::before {
+          content: "";
         }
       }
     }
