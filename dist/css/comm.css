@@ -1139,18 +1139,22 @@ legend {
 }
 .wrap .table_wrap .box-btn {
   border: 5px solid #000;
-  display: flex;
-  width: 30%;
+  display: inline-flex;
+  width: 35%;
   height: 100px;
   justify-content: center;
   align-items: center;
 }
 .wrap .table_wrap .box-btn a {
+  display: flex;
   font-size: 1.5rem;
 }
-.wrap .table_wrap .box-btn::after {
+.wrap .table_wrap .box-btn a::after {
   margin-left: 55px;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
+}
+.wrap .table_wrap .box-btn a:hover {
+  color: orange;
 }/*# sourceMappingURL=comm.css.map */

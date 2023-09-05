@@ -1052,6 +1052,7 @@
     justify-content: space-between;
     align-items: center;
 
+
     .table-tit {
       font-size: 4.375rem;
       font-weight: 600;
@@ -1059,21 +1060,28 @@
 
     .box-btn {
       border: 5px solid #000;
-      display: flex;
-      width: 30%;
+      display: inline-flex;
+      width: 35%;
       height: 100px;
       justify-content: center;
       align-items: center;
 
-      a {
-        font-size: 1.5rem;
-      }
+      &:hover {}
 
-      &::after {
-        margin-left: 55px;
-        content: "\f105";
-        font-family: "Line Awesome Free";
-        font-weight: 900;
+      a {
+        display: flex;
+        font-size: 1.5rem;
+
+        &::after {
+          margin-left: 55px;
+          content: "\f105";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+        }
+
+        &:hover {
+          color: orange;
+        }
       }
     }
   }
