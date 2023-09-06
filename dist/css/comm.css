@@ -270,7 +270,8 @@ legend {
 }
 
 body {
-  overflow-x: hidden; /* 가로 스크롤 숨김 */
+  overflow-x: hidden;
+  /* 가로 스크롤 숨김 */
 }
 
 .inner {
@@ -404,22 +405,25 @@ body {
   left: 0;
   width: 100%;
   z-index: -1000;
-  height: 100vh;
+  height: 110vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.wrap .content1 {
+.wrap .scroll_box {
+  overflow: auto;
+}
+.wrap .scroll_box .content1 {
   height: 110vh;
   mix-blend-mode: lighten;
   color: #000;
   background-color: white;
 }
-.wrap .content1 .main-title1 {
+.wrap .scroll_box .content1 .main-title1 {
   display: block;
-  font-size: 13em;
-  margin: 25rem 0;
+  font-size: 8em;
+  transform: translateY(280px);
 }
-.wrap .content1 p {
+.wrap .scroll_box .content1 p {
   line-height: 17.5rem;
 }
 .wrap .content2 {
@@ -443,7 +447,6 @@ body {
 .wrap .content2 .slide1 {
   background: url("../../images/slide-img1/1.png") 0 0/cover no-repeat;
   background-size: cover;
-  transition: opacity 1s ease-in-out;
 }
 .wrap .content2 .slide2 {
   background: url("../../images/slide-img1/2.png") 0 0/cover no-repeat;
@@ -533,7 +536,7 @@ body {
 }
 .wrap .content2 .mini-tit1 {
   padding-top: 1rem;
-  font-size: 2.625em;
+  font-size: 2.375rem;
   font-weight: bold;
 }
 .wrap .content2 .mini-exp1 {
@@ -698,7 +701,7 @@ body {
   height: 6.25rem;
   background: #fff;
   border-radius: 0.625rem;
-  box-shadow: 0.625rem 0.625rem 0.625rem lightgray;
+  box-shadow: 0.625rem 0.625rem 0.625rem #e3e3e3;
   transition: all 0.3s ease-out;
 }
 .wrap .content3 .lst-menu .lst-league:hover {
@@ -883,7 +886,7 @@ body {
 }
 .wrap .content4 .mini-tit4 {
   padding-top: 1rem;
-  font-size: 2.625em;
+  font-size: 2.375rem;
   font-weight: bold;
 }
 .wrap .content4 .add-exp4 {
@@ -1167,9 +1170,44 @@ body {
   border-color: orange;
 }
 .wrap .list-wrap {
+  display: flex;
   width: 100%;
   border-top: 1px solid #121212;
+  border-bottom: 1px solid #121212;
 }
-.wrap .list-wrap li a::before {
-  content: "";
+.wrap .list-wrap li {
+  padding: 25px;
+}
+.wrap .list-wrap li:first-child {
+  border-bottom: 0.5px dashed #121212;
+}
+.wrap .list-wrap li a {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .list-wrap li a .txt {
+  align-self: center;
+}
+.wrap .list-wrap li a::after {
+  display: list-item;
+  content: "\f061";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  font-size: 25px;
+}
+.wrap .list-wrap li a:hover {
+  color: orange;
+}
+.wrap .list-wrap .m-border {
+  width: 25%;
+}
+.wrap .list-wrap ul {
+  width: 25%;
+}
+.wrap .list-wrap ul .no-lst {
+  height: 89px;
+  background: none;
+}
+.wrap .list-wrap ul .no-lst a {
+  visibility: hidden;
 }/*# sourceMappingURL=comm.css.map */

@@ -6,7 +6,8 @@
 
 // 공통
 body {
-  overflow-x: hidden; /* 가로 스크롤 숨김 */
+  overflow-x: hidden;
+  /* 가로 스크롤 숨김 */
 }
 
 .inner {
@@ -167,25 +168,29 @@ body {
       left: 0;
       width: 100%;
       z-index: -1000;
-      height: 100vh;
+      height: 110vh;
       object-fit: cover;
     }
   }
 
-  .content1 {
-    height: 110vh;
-    mix-blend-mode: lighten;
-    color: #000;
-    background-color: white;
+  .scroll_box {
+    overflow: auto;
 
-    .main-title1 {
-      display: block;
-      font-size: 13em;
-      margin: 25rem 0;
-    }
+    .content1 {
+      height: 110vh;
+      mix-blend-mode: lighten;
+      color: #000;
+      background-color: white;
 
-    p {
-      line-height: 17.5rem;
+      .main-title1 {
+        display: block;
+        font-size: 8em;
+        transform: translateY(280px);
+      }
+
+      p {
+        line-height: 17.5rem;
+      }
     }
   }
 
@@ -226,32 +231,37 @@ body {
     .slide1 {
       background: url("../../images/slide-img1/1.png") 0 0 / cover no-repeat;
       background-size: cover;
-      transition: opacity 1s ease-in-out;
+
     }
 
     .slide2 {
       background: url("../../images/slide-img1/2.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
 
     .slide3 {
       background: url("../../images/slide-img1/3.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
 
     .slide4 {
       background: url("../../images/slide-img1/4.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
 
     .slide5 {
       background: url("../../images/slide-img1/5.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
 
     .slide6 {
       background: url("../../images/slide-img1/6.png") 0 0 / cover no-repeat;
       background-size: cover;
+
     }
 
     .swiper-pagination {
@@ -332,7 +342,7 @@ body {
 
     .mini-tit1 {
       padding-top: 1rem;
-      font-size: 2.625em;
+      font-size: 2.375rem;
       font-weight: bold;
     }
 
@@ -529,7 +539,7 @@ body {
         height: 6.25rem;
         background: $w;
         border-radius: 0.625rem;
-        box-shadow: 0.625rem 0.625rem 0.625rem lightgray;
+        box-shadow: 0.625rem 0.625rem 0.625rem #e3e3e3;
         transition: all 0.3s ease-out;
 
         &:hover {
@@ -746,7 +756,7 @@ body {
 
     .mini-tit4 {
       padding-top: 1rem;
-      font-size: 2.625em;
+      font-size: 2.375rem;
       font-weight: bold;
     }
 
@@ -1090,14 +1100,56 @@ body {
       }
     }
   }
+
   .list-wrap {
+    display: flex;
     width: 100%;
     border-top: 1px solid #121212;
-    // border-bottom: 1px solid #121212;
+    border-bottom: 1px solid #121212;
+
     li {
+      padding: 25px;
+
+      &:first-child {
+        border-bottom: 0.5px dashed #121212;
+      }
+
       a {
-        &::before {
-          content: "";
+        display: flex;
+        justify-content: space-between;
+
+        .txt {
+          align-self: center;
+        }
+
+        &::after {
+          display: list-item;
+          content: "\f061";
+          font-family: 'Line Awesome Free';
+          font-weight: 900;
+          font-size: 25px;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+
+    }
+
+    .m-border {
+      width: 25%;
+    }
+
+    ul {
+      width: 25%;
+
+      .no-lst {
+        height: 89px;
+        background: none;
+
+        a {
+          visibility: hidden;
         }
       }
     }
