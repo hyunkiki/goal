@@ -409,22 +409,91 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.wrap .scroll_box {
-  overflow: auto;
+.wrap .scroll_container {
+  position: relative;
+  overflow: hidden;
+  height: 110vh;
+  width: 100%;
 }
-.wrap .scroll_box .content1 {
+.wrap .scroll_container .content1 {
+  position: absolute;
+  z-index: -100;
+  width: 100%;
+  transition-timing-function: ease-in-out;
   height: 110vh;
   mix-blend-mode: lighten;
   color: #000;
   background-color: white;
 }
-.wrap .scroll_box .content1 .main-title1 {
+.wrap .scroll_container .content1.-moving {
+  z-index: 100 !important;
+}
+.wrap .scroll_container .content1.ss-fade {
+  opacity: 0;
+}
+.wrap .scroll_container .content1.ss-fade.active {
+  opacity: 1;
+  z-index: 1;
+}
+.wrap .scroll_container .content1.ss-move-up {
+  top: 100%;
+}
+.wrap .scroll_container .content1.ss-move-up.ss-move-next {
+  top: 100%;
+}
+.wrap .scroll_container .content1.ss-move-up.ss-move-prev {
+  top: -100%;
+}
+.wrap .scroll_container .content1.ss-move-up.active {
+  top: 0;
+  z-index: 1000 !important;
+}
+.wrap .scroll_container .content1.ss-move-down {
+  top: -100%;
+}
+.wrap .scroll_container .content1.ss-move-down.ss-move-next {
+  top: -100%;
+}
+.wrap .scroll_container .content1.ss-move-down.ss-move-prev {
+  top: 100%;
+}
+.wrap .scroll_container .content1.ss-move-down.active {
+  top: 0;
+  z-index: 1000 !important;
+}
+.wrap .scroll_container .content1.ss-move-right {
+  right: 100%;
+}
+.wrap .scroll_container .content1.ss-move-right.ss-move-next {
+  right: 100%;
+}
+.wrap .scroll_container .content1.ss-move-right.ss-move-prev {
+  right: -100%;
+}
+.wrap .scroll_container .content1.ss-move-right.active {
+  right: 0 !important;
+  z-index: 1000 !important;
+}
+.wrap .scroll_container .content1.ss-move-left {
+  right: -100%;
+}
+.wrap .scroll_container .content1.ss-move-left.ss-move-next {
+  right: -100%;
+}
+.wrap .scroll_container .content1.ss-move-left.ss-move-prev {
+  right: 100%;
+}
+.wrap .scroll_container .content1.ss-move-left.active {
+  right: 0;
+  z-index: 1000 !important;
+}
+.wrap .scroll_container .content1 .main-title1 {
   display: block;
   font-size: 8em;
   transform: translateY(280px);
 }
-.wrap .scroll_box .content1 p {
-  line-height: 17.5rem;
+.wrap .scroll_container .content1 p {
+  line-height: 9.5rem;
 }
 .wrap .content2 {
   position: relative;

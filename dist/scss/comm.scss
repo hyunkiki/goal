@@ -172,16 +172,84 @@ body {
       object-fit: cover;
     }
   }
-
-  .scroll_box {
-    overflow: auto;
+  .scroll_container {
+    position: relative;
+    overflow: hidden;
+    height: 110vh;
+    width: 100%;
 
     .content1 {
+      position: absolute;
+      z-index: -100;
+      width: 100%;
+      transition-timing-function: ease-in-out;
       height: 110vh;
       mix-blend-mode: lighten;
       color: #000;
       background-color: white;
+      &.-moving {
+        z-index: 100 !important;
+      }
+      &.ss-fade {
+        opacity: 0;
+        &.active {
+          opacity: 1;
+          z-index: 1;
+        }
+      }
+      &.ss-move-up {
+        top: 100%;
+        &.ss-move-next {
+          top: 100%;
+        }
+        &.ss-move-prev {
+          top: -100%;
+        }
+        &.active {
+          top: 0;
+          z-index: 1000 !important;
+        }
+      }
+      &.ss-move-down {
+        top: -100%;
+        &.ss-move-next {
+          top: -100%;
+        }
+        &.ss-move-prev {
+          top: 100%;
+        }
+        &.active {
+          top: 0;
+          z-index: 1000 !important;
+        }
+      }
+      &.ss-move-right {
+        right: 100%;
+        &.ss-move-next {
+          right: 100%;
+        }
+        &.ss-move-prev {
+          right: -100%;
+        }
 
+        &.active {
+          right: 0 !important;
+          z-index: 1000 !important;
+        }
+      }
+      &.ss-move-left {
+        right: -100%;
+        &.ss-move-next {
+          right: -100%;
+        }
+        &.ss-move-prev {
+          right: 100%;
+        }
+        &.active {
+          right: 0;
+          z-index: 1000 !important;
+        }
+      }
       .main-title1 {
         display: block;
         font-size: 8em;
@@ -189,11 +257,10 @@ body {
       }
 
       p {
-        line-height: 17.5rem;
+        line-height: 9.5rem;
       }
     }
   }
-
   .content2 {
     position: relative;
     width: 100%;
@@ -231,37 +298,31 @@ body {
     .slide1 {
       background: url("../../images/slide-img1/1.png") 0 0 / cover no-repeat;
       background-size: cover;
-
     }
 
     .slide2 {
       background: url("../../images/slide-img1/2.png") 0 0 / cover no-repeat;
       background-size: cover;
-
     }
 
     .slide3 {
       background: url("../../images/slide-img1/3.png") 0 0 / cover no-repeat;
       background-size: cover;
-
     }
 
     .slide4 {
       background: url("../../images/slide-img1/4.png") 0 0 / cover no-repeat;
       background-size: cover;
-
     }
 
     .slide5 {
       background: url("../../images/slide-img1/5.png") 0 0 / cover no-repeat;
       background-size: cover;
-
     }
 
     .slide6 {
       background: url("../../images/slide-img1/6.png") 0 0 / cover no-repeat;
       background-size: cover;
-
     }
 
     .swiper-pagination {
@@ -1125,7 +1186,7 @@ body {
         &::after {
           display: list-item;
           content: "\f061";
-          font-family: 'Line Awesome Free';
+          font-family: "Line Awesome Free";
           font-weight: 900;
           font-size: 25px;
         }
@@ -1134,7 +1195,6 @@ body {
           color: orange;
         }
       }
-
     }
 
     .m-border {
