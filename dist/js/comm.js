@@ -47,6 +47,18 @@ var mySwiper = new Swiper(".swiper-container2", {
     },
   },
 });
+gsap.to(".content1", {
+  scrollTrigger: {
+    trigger: ".scroll_container_intro", //객체기준범위
+    start: "10% 0%", //시작 지점
+    end: "90% 80%", //끝 지점
+    // end: "+=500"//시작 부분부터 500px까지 스크롤 한 후종료
+    scrub: 1, //부드러운 스크러빙
+    markers: true, //개발가이드선
+  },
+  top: "-100%",
+  // duration: 1
+});
 
 // const scrollBox = document.getElementById('.scroll_box');
 // const content = document.getElementById('.content1');

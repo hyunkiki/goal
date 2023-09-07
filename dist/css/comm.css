@@ -400,28 +400,42 @@ body {
   margin: -0.4375rem;
 }
 .wrap .soccer video {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -3;
+  height: 200vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.scroll_container_intro {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  box-sizing: border-box;
+}
+.scroll_container_intro .content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: -1000;
-  height: 110vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.scroll_container .content1 {
-  height: 110vh;
+  height: 100%;
+  background: red;
+  font-size: 6vw;
+  font-weight: 800;
   mix-blend-mode: lighten;
   color: #000;
   background-color: white;
 }
-.scroll_container .content1 .main-title1 {
-  display: block;
-  font-size: 8em;
-  transform: translateY(280px);
-}
-.scroll_container .content1 p {
+.scroll_container_intro .content1 p {
   line-height: 9.5rem;
 }
 
