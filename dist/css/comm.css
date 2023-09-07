@@ -409,135 +409,65 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.wrap .scroll_container {
-  position: relative;
-  overflow: hidden;
-  height: 110vh;
-  width: 100%;
-}
-.wrap .scroll_container .content1 {
-  position: absolute;
-  z-index: -100;
-  width: 100%;
-  transition-timing-function: ease-in-out;
+
+.scroll_container .content1 {
   height: 110vh;
   mix-blend-mode: lighten;
   color: #000;
   background-color: white;
 }
-.wrap .scroll_container .content1.-moving {
-  z-index: 100 !important;
-}
-.wrap .scroll_container .content1.ss-fade {
-  opacity: 0;
-}
-.wrap .scroll_container .content1.ss-fade.active {
-  opacity: 1;
-  z-index: 1;
-}
-.wrap .scroll_container .content1.ss-move-up {
-  top: 100%;
-}
-.wrap .scroll_container .content1.ss-move-up.ss-move-next {
-  top: 100%;
-}
-.wrap .scroll_container .content1.ss-move-up.ss-move-prev {
-  top: -100%;
-}
-.wrap .scroll_container .content1.ss-move-up.active {
-  top: 0;
-  z-index: 1000 !important;
-}
-.wrap .scroll_container .content1.ss-move-down {
-  top: -100%;
-}
-.wrap .scroll_container .content1.ss-move-down.ss-move-next {
-  top: -100%;
-}
-.wrap .scroll_container .content1.ss-move-down.ss-move-prev {
-  top: 100%;
-}
-.wrap .scroll_container .content1.ss-move-down.active {
-  top: 0;
-  z-index: 1000 !important;
-}
-.wrap .scroll_container .content1.ss-move-right {
-  right: 100%;
-}
-.wrap .scroll_container .content1.ss-move-right.ss-move-next {
-  right: 100%;
-}
-.wrap .scroll_container .content1.ss-move-right.ss-move-prev {
-  right: -100%;
-}
-.wrap .scroll_container .content1.ss-move-right.active {
-  right: 0 !important;
-  z-index: 1000 !important;
-}
-.wrap .scroll_container .content1.ss-move-left {
-  right: -100%;
-}
-.wrap .scroll_container .content1.ss-move-left.ss-move-next {
-  right: -100%;
-}
-.wrap .scroll_container .content1.ss-move-left.ss-move-prev {
-  right: 100%;
-}
-.wrap .scroll_container .content1.ss-move-left.active {
-  right: 0;
-  z-index: 1000 !important;
-}
-.wrap .scroll_container .content1 .main-title1 {
+.scroll_container .content1 .main-title1 {
   display: block;
   font-size: 8em;
   transform: translateY(280px);
 }
-.wrap .scroll_container .content1 p {
+.scroll_container .content1 p {
   line-height: 9.5rem;
 }
-.wrap .content2 {
+
+.content2 {
   position: relative;
   width: 100%;
   height: 110vh;
 }
-.wrap .content2 .swiper-container {
+.content2 .swiper-container {
   overflow: hidden;
 }
-.wrap .content2 .box-card-wrap {
+.content2 .box-card-wrap {
   transform: translateY(33%);
   max-width: 37.5rem;
 }
-.wrap .content2 .swiper-slide {
+.content2 .swiper-slide {
   display: flex;
   align-items: center;
   height: 110vh;
   /* Center slide text vertically */
 }
-.wrap .content2 .slide1 {
+.content2 .slide1 {
   background: url("../../images/slide-img1/1.png") 0 0/cover no-repeat;
   background-size: cover;
 }
-.wrap .content2 .slide2 {
+.content2 .slide2 {
   background: url("../../images/slide-img1/2.png") 0 0/cover no-repeat;
   background-size: cover;
 }
-.wrap .content2 .slide3 {
+.content2 .slide3 {
   background: url("../../images/slide-img1/3.png") 0 0/cover no-repeat;
   background-size: cover;
 }
-.wrap .content2 .slide4 {
+.content2 .slide4 {
   background: url("../../images/slide-img1/4.png") 0 0/cover no-repeat;
   background-size: cover;
 }
-.wrap .content2 .slide5 {
+.content2 .slide5 {
   background: url("../../images/slide-img1/5.png") 0 0/cover no-repeat;
   background-size: cover;
 }
-.wrap .content2 .slide6 {
+.content2 .slide6 {
   background: url("../../images/slide-img1/6.png") 0 0/cover no-repeat;
   background-size: cover;
 }
-.wrap .content2 .swiper-pagination {
+.content2 .swiper-pagination {
   position: absolute;
   top: 21.875rem;
   right: 6.25rem;
@@ -545,13 +475,13 @@ body {
   left: auto !important;
   margin: 0;
 }
-.wrap .content2 .swiper-pagination {
+.content2 .swiper-pagination {
   position: absolute;
   top: 68% !important;
   right: 19.1875rem;
   transform: translateY(-70%);
 }
-.wrap .content2 .swiper-pagination-bullet {
+.content2 .swiper-pagination-bullet {
   padding: 0.3125rem 0;
   border-radius: 0;
   width: auto;
@@ -565,15 +495,15 @@ body {
   opacity: 0.54;
   background: none;
 }
-.wrap .content2 .swiper-pagination-bullet:hover {
+.content2 .swiper-pagination-bullet:hover {
   color: orange;
 }
-.wrap .content2 .swiper-pagination-bullet-active {
+.content2 .swiper-pagination-bullet-active {
   position: relative;
   font-weight: 700;
   opacity: 1;
 }
-.wrap .content2 .swiper-pagination-bullet-active::before {
+.content2 .swiper-pagination-bullet-active::before {
   position: absolute;
   top: 0.125rem;
   right: 12.5rem;
@@ -582,7 +512,7 @@ body {
   font-weight: 900;
   font-size: 3.125rem;
 }
-.wrap .content2 .box-title-wrap {
+.content2 .box-title-wrap {
   position: absolute;
   top: 50%;
   transform: translateY(-133%);
@@ -590,39 +520,39 @@ body {
   z-index: 10;
   margin-bottom: 5rem;
 }
-.wrap .content2 .box-title-wrap .main-title2 {
+.content2 .box-title-wrap .main-title2 {
   padding-top: 13.75rem;
   font-size: 5.625em;
   font-weight: lighter;
 }
-.wrap .content2 .box-title-wrap .mini-exp2 {
+.content2 .box-title-wrap .mini-exp2 {
   font-size: 1.125em;
   padding-top: 1rem;
   color: #333;
 }
-.wrap .content2 .num1 {
+.content2 .num1 {
   font-size: 1.875em;
 }
-.wrap .content2 .mini-tit1 {
+.content2 .mini-tit1 {
   padding-top: 1rem;
   font-size: 2.375rem;
   font-weight: bold;
 }
-.wrap .content2 .mini-exp1 {
+.content2 .mini-exp1 {
   padding-top: 1rem;
   font-size: 1.125em;
   color: #333;
   font-weight: 500;
 }
-.wrap .content2 .btn-more1 {
+.content2 .btn-more1 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content2 .btn-more1 a {
+.content2 .btn-more1 a {
   font-size: 1em;
 }
-.wrap .content2 .btn-more1 a::after {
+.content2 .btn-more1 a::after {
   position: absolute;
   top: 0;
   left: 10.75rem;
@@ -630,18 +560,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .btn-more1 a:hover {
+.content2 .btn-more1 a:hover {
   color: orange;
 }
-.wrap .content2 .btn-more2 {
+.content2 .btn-more2 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content2 .btn-more2 a {
+.content2 .btn-more2 a {
   font-size: 1em;
 }
-.wrap .content2 .btn-more2 a::after {
+.content2 .btn-more2 a::after {
   position: absolute;
   top: 0;
   left: 11.625rem;
@@ -649,18 +579,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .btn-more2 a:hover {
+.content2 .btn-more2 a:hover {
   color: orange;
 }
-.wrap .content2 .btn-more3 {
+.content2 .btn-more3 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content2 .btn-more3 a {
+.content2 .btn-more3 a {
   font-size: 1em;
 }
-.wrap .content2 .btn-more3 a::after {
+.content2 .btn-more3 a::after {
   position: absolute;
   top: 0;
   left: 14.625rem;
@@ -668,18 +598,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .btn-more3 a:hover {
+.content2 .btn-more3 a:hover {
   color: orange;
 }
-.wrap .content2 .btn-more4 {
+.content2 .btn-more4 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content2 .btn-more4 a {
+.content2 .btn-more4 a {
   font-size: 1em;
 }
-.wrap .content2 .btn-more4 a::after {
+.content2 .btn-more4 a::after {
   position: absolute;
   top: 0;
   left: 14.625rem;
@@ -687,18 +617,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .btn-more4 a:hover {
+.content2 .btn-more4 a:hover {
   color: orange;
 }
-.wrap .content2 .btn-more5 {
+.content2 .btn-more5 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content2 .btn-more5 a {
+.content2 .btn-more5 a {
   font-size: 1em;
 }
-.wrap .content2 .btn-more5 a::after {
+.content2 .btn-more5 a::after {
   position: absolute;
   top: 0;
   left: 10.75rem;
@@ -706,18 +636,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .btn-more5 a:hover {
+.content2 .btn-more5 a:hover {
   color: orange;
 }
-.wrap .content2 .btn-more6 {
+.content2 .btn-more6 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content2 .btn-more6 a {
+.content2 .btn-more6 a {
   font-size: 1em;
 }
-.wrap .content2 .btn-more6 a::after {
+.content2 .btn-more6 a::after {
   position: absolute;
   top: 0;
   left: 10.75rem;
@@ -725,21 +655,21 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content2 .btn-more6 a:hover {
+.content2 .btn-more6 a:hover {
   color: orange;
 }
-.wrap .content2 ul {
+.content2 ul {
   position: absolute;
   top: 28.75rem;
   right: 19.3125rem;
   text-align: right;
 }
-.wrap .content2 li {
+.content2 li {
   position: relative;
   padding-bottom: 0.9375rem;
   font-size: 1.125em;
 }
-.wrap .content2 li .on::before {
+.content2 li .on::before {
   position: absolute;
   top: -0.5625rem;
   right: 6.8125rem;
@@ -748,23 +678,24 @@ body {
   font-weight: 900;
   font-size: 1.875rem;
 }
-.wrap .content2 li:hover {
+.content2 li:hover {
   color: orange;
 }
-.wrap .content3 {
+
+.content3 {
   width: 100%;
   height: 19.375rem;
   background: rgba(167, 167, 167, 0.1490196078);
 }
-.wrap .content3 .main-title3 {
+.content3 .main-title3 {
   padding: 2.5rem 0;
   font-size: 2.5em;
 }
-.wrap .content3 .lst-menu {
+.content3 .lst-menu {
   display: flex;
   justify-content: space-between;
 }
-.wrap .content3 .lst-menu .lst-league {
+.content3 .lst-menu .lst-league {
   width: 13%;
   min-width: 7.5rem;
   height: 6.25rem;
@@ -773,10 +704,10 @@ body {
   box-shadow: 0.625rem 0.625rem 0.625rem #e3e3e3;
   transition: all 0.3s ease-out;
 }
-.wrap .content3 .lst-menu .lst-league:hover {
+.content3 .lst-menu .lst-league:hover {
   transform: translateY(-1.25rem);
 }
-.wrap .content3 .lst-menu a {
+.content3 .lst-menu a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -784,111 +715,112 @@ body {
   padding-right: 0.625rem;
   height: 100%;
 }
-.wrap .content3 .lst-menu img {
+.content3 .lst-menu img {
   display: flex;
   align-items: center;
   max-width: 3.125rem;
   height: 3.125rem;
   margin-right: 0.625rem;
 }
-.wrap .content3 .lst-menu .btn-txt {
+.content3 .lst-menu .btn-txt {
   font-size: 0.875rem;
   font-weight: 500;
   margin-left: 0.3125rem;
 }
-.wrap .content4 {
+
+.content4 {
   position: relative;
   width: 100%;
   height: 110vh;
 }
-.wrap .content4 .swiper-container {
+.content4 .swiper-container {
   overflow: hidden;
 }
-.wrap .content4 .box-card-wrap1 {
+.content4 .box-card-wrap1 {
   transform: translateY(110%);
   max-width: 37.5rem;
   margin-top: 5rem;
 }
-.wrap .content4 .box-card-wrap2 {
+.content4 .box-card-wrap2 {
   transform: translateY(89%);
   max-width: 37.5rem;
   margin-top: 5rem;
 }
-.wrap .content4 .box-card-wrap3 {
+.content4 .box-card-wrap3 {
   transform: translateY(89%);
   max-width: 37.5rem;
   margin-top: 5rem;
 }
-.wrap .content4 .box-card-wrap4 {
+.content4 .box-card-wrap4 {
   transform: translateY(102%);
   max-width: 37.5rem;
   margin-top: 5rem;
 }
-.wrap .content4 .box-card-wrap5 {
+.content4 .box-card-wrap5 {
   transform: translateY(111%);
   max-width: 37.5rem;
   margin-top: 5rem;
 }
-.wrap .content4 .box-card-wrap6 {
+.content4 .box-card-wrap6 {
   transform: translateY(89%);
   max-width: 37.5rem;
   margin-top: 5rem;
 }
-.wrap .content4 .box-card-wrap7 {
+.content4 .box-card-wrap7 {
   transform: translateY(102%);
   max-width: 37.5rem;
   margin-top: 5rem;
 }
-.wrap .content4 .slide-img1 {
+.content4 .slide-img1 {
   position: absolute;
   top: -3.75rem;
   right: -30rem;
   max-width: 36.25rem;
   height: 37.5rem;
 }
-.wrap .content4 .slide-img2 {
+.content4 .slide-img2 {
   position: absolute;
   top: -3.75rem;
   right: -30rem;
   max-width: 36.25rem;
   height: 37.5rem;
 }
-.wrap .content4 .slide-img3 {
+.content4 .slide-img3 {
   position: absolute;
   top: -3.75rem;
   right: -30rem;
   max-width: 36.25rem;
   height: 37.5rem;
 }
-.wrap .content4 .slide-img4 {
+.content4 .slide-img4 {
   position: absolute;
   top: -3.75rem;
   right: -30rem;
   max-width: 36.25rem;
   height: 37.5rem;
 }
-.wrap .content4 .slide-img5 {
+.content4 .slide-img5 {
   position: absolute;
   top: -3.75rem;
   right: -30rem;
   max-width: 36.25rem;
   height: 37.5rem;
 }
-.wrap .content4 .slide-img6 {
+.content4 .slide-img6 {
   position: absolute;
   top: -3.75rem;
   right: -30rem;
   max-width: 36.25rem;
   height: 37.5rem;
 }
-.wrap .content4 .slide-img7 {
+.content4 .slide-img7 {
   position: absolute;
   top: -3.75rem;
   right: -30rem;
   max-width: 36.25rem;
   height: 37.5rem;
 }
-.wrap .content4 .swiper-pagination {
+.content4 .swiper-pagination {
   position: absolute;
   top: 21.875rem;
   right: 6.25rem;
@@ -896,13 +828,13 @@ body {
   left: auto !important;
   margin: 0;
 }
-.wrap .content4 .swiper-pagination {
+.content4 .swiper-pagination {
   position: absolute;
   top: 67% !important;
   right: 19.1875rem;
   transform: translateY(-70%);
 }
-.wrap .content4 .swiper-pagination-bullet {
+.content4 .swiper-pagination-bullet {
   padding: 0.3125rem 0;
   border-radius: 0;
   width: auto;
@@ -916,15 +848,15 @@ body {
   opacity: 0.54;
   background: none;
 }
-.wrap .content4 .swiper-pagination-bullet:hover {
+.content4 .swiper-pagination-bullet:hover {
   color: orange;
 }
-.wrap .content4 .swiper-pagination-bullet-active {
+.content4 .swiper-pagination-bullet-active {
   position: relative;
   font-weight: 700;
   opacity: 1;
 }
-.wrap .content4 .swiper-pagination-bullet-active::before {
+.content4 .swiper-pagination-bullet-active::before {
   position: absolute;
   top: 0.125rem;
   right: 7.5rem;
@@ -933,48 +865,48 @@ body {
   font-weight: 900;
   font-size: 3.125rem;
 }
-.wrap .content4 .box-tit-wrap2 {
+.content4 .box-tit-wrap2 {
   position: absolute;
   top: 50%;
   transform: translateY(-133%);
   left: 19.4375rem;
   z-index: 10;
 }
-.wrap .content4 .box-tit-wrap2 .main-title4 {
+.content4 .box-tit-wrap2 .main-title4 {
   padding-top: 13.75rem;
   font-size: 5.625em;
   font-weight: lighter;
 }
-.wrap .content4 .box-tit-wrap2 .mini-exp4 {
+.content4 .box-tit-wrap2 .mini-exp4 {
   font-size: 1.125em;
   padding-top: 1rem;
   color: #5e5e5e;
 }
-.wrap .content4 .num2 {
+.content4 .num2 {
   font-size: 1.875em;
 }
-.wrap .content4 .mini-tit4 {
+.content4 .mini-tit4 {
   padding-top: 1rem;
   font-size: 2.375rem;
   font-weight: bold;
 }
-.wrap .content4 .add-exp4 {
+.content4 .add-exp4 {
   padding-top: 1rem;
   font-size: 1.125em;
   color: #5e5e5e;
 }
-.wrap .content4 ul {
+.content4 ul {
   position: absolute;
   top: 32.1875rem;
   right: 19.3125rem;
   text-align: right;
 }
-.wrap .content4 li {
+.content4 li {
   position: relative;
   padding-bottom: 0.9375rem;
   font-size: 1.125em;
 }
-.wrap .content4 li .on::before {
+.content4 li .on::before {
   position: absolute;
   top: -0.5625rem;
   right: 4.8125rem;
@@ -983,18 +915,18 @@ body {
   font-weight: 900;
   font-size: 1.875rem;
 }
-.wrap .content4 li:hover {
+.content4 li:hover {
   color: orange;
 }
-.wrap .content4 .btn-more5-1 {
+.content4 .btn-more5-1 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content4 .btn-more5-1 a {
+.content4 .btn-more5-1 a {
   font-size: 1em;
 }
-.wrap .content4 .btn-more5-1 a::after {
+.content4 .btn-more5-1 a::after {
   position: absolute;
   top: 0;
   left: 8.625rem;
@@ -1002,18 +934,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content4 .btn-more5-1 a:hover {
+.content4 .btn-more5-1 a:hover {
   color: orange;
 }
-.wrap .content4 .btn-more5-2 {
+.content4 .btn-more5-2 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content4 .btn-more5-2 a {
+.content4 .btn-more5-2 a {
   font-size: 1em;
 }
-.wrap .content4 .btn-more5-2 a::after {
+.content4 .btn-more5-2 a::after {
   position: absolute;
   top: 0;
   left: 10.4375rem;
@@ -1021,18 +953,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content4 .btn-more5-2 a:hover {
+.content4 .btn-more5-2 a:hover {
   color: orange;
 }
-.wrap .content4 .btn-more5-3 {
+.content4 .btn-more5-3 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content4 .btn-more5-3 a {
+.content4 .btn-more5-3 a {
   font-size: 1em;
 }
-.wrap .content4 .btn-more5-3 a::after {
+.content4 .btn-more5-3 a::after {
   position: absolute;
   top: 0;
   left: 8.625rem;
@@ -1040,18 +972,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content4 .btn-more5-3 a:hover {
+.content4 .btn-more5-3 a:hover {
   color: orange;
 }
-.wrap .content4 .btn-more5-4 {
+.content4 .btn-more5-4 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content4 .btn-more5-4 a {
+.content4 .btn-more5-4 a {
   font-size: 1em;
 }
-.wrap .content4 .btn-more5-4 a::after {
+.content4 .btn-more5-4 a::after {
   position: absolute;
   top: 0;
   left: 9.5625rem;
@@ -1059,18 +991,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content4 .btn-more5-4 a:hover {
+.content4 .btn-more5-4 a:hover {
   color: orange;
 }
-.wrap .content4 .btn-more5-5 {
+.content4 .btn-more5-5 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content4 .btn-more5-5 a {
+.content4 .btn-more5-5 a {
   font-size: 1em;
 }
-.wrap .content4 .btn-more5-5 a::after {
+.content4 .btn-more5-5 a::after {
   position: absolute;
   top: 0;
   left: 10.4375rem;
@@ -1078,18 +1010,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content4 .btn-more5-5 a:hover {
+.content4 .btn-more5-5 a:hover {
   color: orange;
 }
-.wrap .content4 .btn-more5-6 {
+.content4 .btn-more5-6 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content4 .btn-more5-6 a {
+.content4 .btn-more5-6 a {
   font-size: 1em;
 }
-.wrap .content4 .btn-more5-6 a::after {
+.content4 .btn-more5-6 a::after {
   position: absolute;
   top: 0;
   left: 11.375rem;
@@ -1097,18 +1029,18 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content4 .btn-more5-6 a:hover {
+.content4 .btn-more5-6 a:hover {
   color: orange;
 }
-.wrap .content4 .btn-more5-7 {
+.content4 .btn-more5-7 {
   position: relative;
   margin-top: 2rem;
   font-weight: 500;
 }
-.wrap .content4 .btn-more5-7 a {
+.content4 .btn-more5-7 a {
   font-size: 1em;
 }
-.wrap .content4 .btn-more5-7 a::after {
+.content4 .btn-more5-7 a::after {
   position: absolute;
   top: 0;
   left: 8.625rem;
@@ -1116,10 +1048,10 @@ body {
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content4 .btn-more5-7 a:hover {
+.content4 .btn-more5-7 a:hover {
   color: orange;
 }
-.wrap .content4 img {
+.content4 img {
   position: absolute;
   top: 14rem;
   right: 30.625rem;
@@ -1127,40 +1059,42 @@ body {
   height: 35.3125rem;
   filter: drop-shadow(0.3125rem 0.3125rem 0.3125rem lightgray);
 }
-.wrap .content5 {
+
+.content5 {
   position: relative;
   width: 100%;
   height: 150vh;
   background: #ffffff;
 }
-.wrap .content5 .swiper-container2 {
+.content5 .swiper-container2 {
   overflow: hidden;
 }
-.wrap .content5 .main-title5 {
+.content5 .main-title5 {
   padding-top: 13.75rem;
   font-size: 5.625em;
   font-weight: lighter;
 }
-.wrap .content5 .mini-exp5 {
+.content5 .mini-exp5 {
   font-size: 1.125em;
   padding-top: 1.125rem;
   padding-bottom: 8rem;
 }
-.wrap .content5 .full-more {
+.content5 .full-more {
   position: absolute;
   top: 23.4375rem;
   right: 19.0625rem;
   font-size: 1.125em;
 }
-.wrap .content5 .full-more::after {
+.content5 .full-more::after {
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
 }
-.wrap .content5 .full-more:hover {
+.content5 .full-more:hover {
   color: orange;
 }
-.wrap .swiper-button-next {
+
+.swiper-button-next {
   position: absolute;
   top: 66.25rem;
   left: 22.9375rem;
@@ -1170,11 +1104,12 @@ body {
   border-radius: 1.25rem;
   color: black !important;
 }
-.wrap .swiper-button-next::after {
+.swiper-button-next::after {
   font-size: 17.6px !important;
   font-weight: 600 !important;
 }
-.wrap .swiper-button-prev {
+
+.swiper-button-prev {
   position: absolute;
   top: 66.25rem;
   left: 19.375rem;
@@ -1184,41 +1119,45 @@ body {
   border-radius: 1.25rem;
   color: black !important;
 }
-.wrap .swiper-button-prev::after {
+.swiper-button-prev::after {
   font-size: 17.6px !important;
   font-weight: 600 !important;
 }
-.wrap .content6 {
+
+.content6 {
   width: 100%;
   height: 110vh;
   background-color: rgba(255, 165, 0, 0.4);
 }
-.wrap .main-tit6 {
+
+.main-tit6 {
   padding-top: 13.75rem;
   font-size: 5.625em;
   font-weight: lighter;
 }
-.wrap .mini-exp6 {
+
+.mini-exp6 {
   font-size: 1.125em;
   padding-top: 1rem;
   color: #5e5e5e;
 }
-.wrap .table_wrap {
+
+.table_wrap {
   display: flex;
   padding-top: 128px;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 64px;
 }
-.wrap .table_wrap .table-tit {
+.table_wrap .table-tit {
   font-size: 3.75rem;
   font-weight: 600;
 }
-.wrap .table_wrap a {
+.table_wrap a {
   display: flex;
   font-size: 1.5rem;
 }
-.wrap .table_wrap a .box-btn {
+.table_wrap a .box-btn {
   border: 5px solid #000;
   display: inline-flex;
   width: auto;
@@ -1227,56 +1166,57 @@ body {
   align-items: center;
   padding-left: 160px;
 }
-.wrap .table_wrap a .box-btn::after {
+.table_wrap a .box-btn::after {
   margin-left: 145px;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
   margin-right: 15px;
 }
-.wrap .table_wrap a .box-btn:hover {
+.table_wrap a .box-btn:hover {
   color: orange;
   border-color: orange;
 }
-.wrap .list-wrap {
+
+.list-wrap {
   display: flex;
   width: 100%;
   border-top: 1px solid #121212;
   border-bottom: 1px solid #121212;
 }
-.wrap .list-wrap li {
+.list-wrap li {
   padding: 25px;
 }
-.wrap .list-wrap li:first-child {
+.list-wrap li:first-child {
   border-bottom: 0.5px dashed #121212;
 }
-.wrap .list-wrap li a {
+.list-wrap li a {
   display: flex;
   justify-content: space-between;
 }
-.wrap .list-wrap li a .txt {
+.list-wrap li a .txt {
   align-self: center;
 }
-.wrap .list-wrap li a::after {
+.list-wrap li a::after {
   display: list-item;
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
   font-size: 25px;
 }
-.wrap .list-wrap li a:hover {
+.list-wrap li a:hover {
   color: orange;
 }
-.wrap .list-wrap .m-border {
+.list-wrap .m-border {
   width: 25%;
 }
-.wrap .list-wrap ul {
+.list-wrap ul {
   width: 25%;
 }
-.wrap .list-wrap ul .no-lst {
+.list-wrap ul .no-lst {
   height: 89px;
   background: none;
 }
-.wrap .list-wrap ul .no-lst a {
+.list-wrap ul .no-lst a {
   visibility: hidden;
 }/*# sourceMappingURL=comm.css.map */
