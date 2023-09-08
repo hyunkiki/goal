@@ -54,11 +54,12 @@ gsap.to(".content1", {
     end: "90% 80%", //끝 지점
     // end: "+=500"//시작 부분부터 500px까지 스크롤 한 후종료
     scrub: 1, //부드러운 스크러빙
-    markers: true, //개발가이드선
+    markers: false, //개발가이드선
   },
   top: "-100%",
   // duration: 1
 });
+
 
 // const scrollBox = document.getElementById('.scroll_box');
 // const content = document.getElementById('.content1');

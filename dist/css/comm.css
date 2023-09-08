@@ -403,12 +403,28 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   z-index: -3;
-  height: 200vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
   overflow: hidden;
+}
+.wrap .soccer .content1-2 {
+  position: relative;
+  height: 100%;
+}
+.wrap .soccer .content1-2 .main-tit-white {
+  display: flex;
+  align-items: center;
+  position: static;
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(0.9rem);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
 
 .scroll_container_intro {
@@ -416,7 +432,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200vh;
+  height: 300vh;
   box-sizing: border-box;
 }
 .scroll_container_intro .content1 {
@@ -429,7 +445,7 @@ body {
   width: 100%;
   height: 100%;
   background: red;
-  font-size: 6vw;
+  font-size: 5vw;
   font-weight: 800;
   mix-blend-mode: lighten;
   color: #000;
@@ -699,7 +715,7 @@ body {
 .content3 {
   width: 100%;
   height: 19.375rem;
-  background: rgba(167, 167, 167, 0.1490196078);
+  background: #eee;
 }
 .content3 .main-title3 {
   padding: 2.5rem 0;
@@ -746,6 +762,7 @@ body {
   position: relative;
   width: 100%;
   height: 110vh;
+  background: #fff;
 }
 .content4 .swiper-container {
   overflow: hidden;
@@ -1141,7 +1158,7 @@ body {
 .content6 {
   width: 100%;
   height: 110vh;
-  background-color: rgba(255, 165, 0, 0.4);
+  background-color: rgb(255, 221, 159);
 }
 
 .main-tit6 {

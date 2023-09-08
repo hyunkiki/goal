@@ -19,8 +19,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
-    rel="stylesheet" />
+  <!-- <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+    rel="stylesheet" /> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
@@ -35,6 +35,7 @@
   <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script defer src="./dist/js/comm.js"></script>
+  <script src="./dist/js/include.js"></script>
 
 </head>
 
@@ -43,22 +44,27 @@
     <a href="#gnb"><span>주요메뉴 바로가기</span></a>
     <a href="#main"><span>컨텐츠 바로가기</span></a>
   </div>
-  <header data-include-path="./outline/header.html"></header>
   <div class="wrap">
+    <header data-include-path="./outline/header.html"></header>
     <!-- logo 왼쪽 type -->
     <main id="main">
       <div class="content1_wrap">
         <div class="scroll_container_intro">
           <section class="content1">
             <div class="inner">
-              <h2>INTRODUCE <p>FOOTBALL</p>
-              </h2>
+              <h2>INTRODUCE<br>FOOTBALL</h2>
             </div>
           </section>
         </div>
         <div class="soccer">
-          <video autoplay="" muted="" loop="">
-            <source src="./images/This is FIFA World Cup 26™.mp4" type="video/mp4">
+          <video muted="muted" autoplay loop>
+            <source src="./images/This_is_FIFA_World_Cup_26™.mp4" type="video/mp4">
+            <!-- <section class="content1-2">
+              <div class="inner">
+                <h2 class="main_tit_white">INTRODUCE<p>FOOTBALL</p>
+                </h2>
+              </div>
+            </section> -->
           </video>
           <div class="bg__metah"></div>
         </div>
@@ -215,47 +221,47 @@
         </section>
         <section class="content3">
           <div class="inner">
-            <h2 class="main-title3"> 각 국 리그들을 만나보세요.</h2>
+            <h2 class="main-title3">각 국 리그들을 만나보세요.</h2>
             <ul class="lst-menu">
               <li class="lst-league">
                 <a href="#">
-                  <img src="./images/league logo/프리미어리그 로고.png" alt="프리미어리그">
+                  <img src="./images/league_logo/premier_league_logo.png" alt="premierleague">
                   <div class="btn-txt">프리미어리그</div>
                 </a>
               </li>
               <li class="lst-league">
                 <a href="#">
-                  <img src="./images/league logo/라리가 로고.png" alt="라리가">
+                  <img src="./images/league_logo/laliga_logo.png" alt="laliga">
                   <div class="btn-txt">라리가</div>
                 </a>
               </li>
               <li class="lst-league">
                 <a href="#">
-                  <img src="./images/league logo/리그앙.png" alt="리그앙">
+                  <img src="./images/league_logo/ligue_1.png" alt="ligue1">
                   <div class="btn-txt">리그앙 </div>
                 </a>
               </li>
               <li class="lst-league">
                 <a href="#">
-                  <img src="./images/league logo/세리에A.png" alt="세리에A">
+                  <img src="./images/league_logo/seriaA_logo.png" alt="seriaA">
                   <div class="btn-txt">세리에A</div>
                 </a>
               </li>
               <li class="lst-league">
                 <a href="#">
-                  <img src="./images/league logo/분데스리가 로고.png" alt="분데스리가">
+                  <img src="./images/league_logo/bundesliga_logo.png" alt="bundesliga">
                   <div class="btn-txt">분데스리가</div>
                 </a>
               </li>
               <li class="lst-league">
                 <a href="#">
-                  <img src="./images/league logo/에레디비시.png" alt="에레디비시">
+                  <img src="./images/league_logo/Eredivisie_logo.png" alt="Eredivisie">
                   <div class="btn-txt">에레디비시</div>
                 </a>
               </li>
               <li class="lst-league">
                 <a href="#">
-                  <img src="./images/league logo/K리그 로고.png" alt="K리그">
+                  <img src="./images/league_logo/K_league_logo.png" alt="Kleague">
                   <div class="btn-txt">K리그</div>
                 </a>
               </li>
@@ -452,7 +458,8 @@
                       <div class="date">1930.07.13 ~ 07.20</div>
                       <div class="img-tit1">1930년 우루과이 월드컵</div>
                       <div class="img-box">
-                        <img class="img-firstworldcup" src="./images/월드컵/1930 FIFA 월드컵.jpg" alt="1930 FIFA 월드컵">
+                        <img class="img-firstworldcup" src="./images/worldcup/1930_FIFA_worldcup.jpg"
+                          alt="1930FIFAworldcup">
                       </div>
                     </a>
                   </div>
@@ -476,7 +483,7 @@
                       <div class="img-tit3">
                         쥘 리메 컵(Jules Rimet Trophy)
                       </div>
-                      <img class="img3" src="./images/쥘리메컵.png" alt="쥘리메컵">
+                      <img class="img3" src="./images/worldcup/Jules_Rimet_cup.png" alt="Jules_Rimet_cup">
                       <div class="slide-exp3">
                         <p>쥘 리메컵은 FIFA월드컵 대회를 우승한 팀에게 수여힌 최초의 트로피이다.
                           원래 Victory(승리)라고 불렸으나, 일반적으로 '월드컵(World Cup)'이나
@@ -493,7 +500,7 @@
                       <div class="img-tit4">
                         월드컵(World Cup)
                       </div>
-                      <img class="img4" src="./images/월드컵.png" alt="월드컵">
+                      <img class="img4" src="./images/worldcup/worldcup.png" alt="worldcup">
                       <div class="slide-exp4">
                         <p>
                           쥘 리메컵을 대체하는 FIFA은 1974년 FIFA 월드컵에서
@@ -514,7 +521,7 @@
                           연도: 1958년, 1962년, 1970년, 1994년, 2002년
                         </p>
                         <div class="img-box">
-                          <img class="img-player" src="/images/월드컵/브라질 우승.jpg" alt="브라질">
+                          <img class="img-player" src="./images/worldcup/brazil_winner.jpg" alt="brazil">
                         </div>
                       </div>
                     </a>
@@ -528,7 +535,7 @@
                           연도: 1958년, 1962년, 1970년
                         </p>
                         <div class="img-box">
-                          <img class="img-player" src="/images/월드컵/최다우승선수 펠레.jpg" alt="Pelé">
+                          <img class="img-player" src="./images/worldcup/pele.jpg" alt="Pelé">
                         </div>
                       </div>
                     </a>
@@ -543,7 +550,7 @@
                         </p>
                       </div>
                       <div class="img-box">
-                        <img class="img-player" src="./images/월드컵/Miroslav Klose.jpg" alt="Miroslav Klose">
+                        <img class="img-player" src="./images/worldcup/Miroslav_Klose.jpg" alt="MiroslavKlose">
                       </div>
                     </a>
                   </div>
@@ -628,10 +635,8 @@
       </div>
     </main>
   </div>
-  </main>
-  </div>
-  <footer data-include-path="./outline/footer.html"></footer>
-  </div>
+  <!-- </div>
+  <footer data-include-path="./outline/footer.html"></footer> -->
 </body>
 
 </html>
