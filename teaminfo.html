@@ -1,100 +1,131 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <title>GOAL</title>
+    <meta
+      name="description"
+      content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="페이지 제목" />
+    <meta property="og:description" content="페이지 설명" />
+    <meta
+      property="og:image"
+      content="http://www.mysite.com/article/article1_featured_image.jpg"
+    />
+    <meta
+      property="og:url"
+      content="http://www.mysite.com/article/article1.html"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="페이지 제목" />
+    <meta name="twitter:description" content="페이지 설명" />
+    <meta
+      name="twitter:image"
+      content="http://www.mysite.com/article/article1.html"
+    />
+    <meta name="twitter:domain" content="사이트 명" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./dist/css/comm.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="./dist/js/comm.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-  <title>GOAL</title>
-  <meta name="description" content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="페이지 제목" />
-  <meta property="og:description" content="페이지 설명" />
-  <meta property="og:image" content="http://www.mysite.com/article/article1_featured_image.jpg" />
-  <meta property="og:url" content="http://www.mysite.com/article/article1.html" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="페이지 제목" />
-  <meta name="twitter:description" content="페이지 설명" />
-  <meta name="twitter:image" content="http://www.mysite.com/article/article1.html" />
-  <meta name="twitter:domain" content="사이트 명" />
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet"
-    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./dist/css/comm.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script defer src="./dist/js/comm.js"></script>
-
-</head>
-
-<body>
-  <div id="u-skip">
-    <a href="#gnb"><span>주요메뉴 바로가기</span></a>
-    <a href="#main"><span>컨텐츠 바로가기</span></a>
-  </div>
-  <header data-include-path="./outline/header.html"></header>
-  <div class="wrap">
-    <!-- logo 왼쪽 type -->
-    <main id="main">
-    <section class="content1">
-      <div class="inner">
-      <div class="teamlogo">
-        <img class="team-logo-img" src="./images/EPL/teamlogo/Manchester_City.png" alt="ManchesterCity">
-      </div>
-      <h2 class="cont1_tit">MANCHESTERCITY</h2>
-      <div class="cont1_exp1">
-      <p>영국 잉글랜드 프리미어리그의 프로축구 클럽 <br>
-         연고지는 그레이터맨체스터주 맨체스터(MANCHESTER), 홈구장은 에티하드 스타디움이다. <br>
-         <br>
-         1부 리그 통산 9회 우승을 기록한 EPL명문구단 중 하나로, <br>
-         특히 잉글랜드 축구 역사상 유이한 트레블과 프리미어리그 단일 시즌 역대 <br>
-         최다 승점 우승 및 유일한 도메스틱 쿼드러플 등의 기록을 보유하고 있다. <br>
-      </p>
-      </div>
-      <img class="team-stadium-img" src="./images/EPL/Etihad_Stadium.jpg" alt="EtihadStadium">
-      </div>
-    </section>
-    <section class="content2">
-      <div class="inner">
-      <h2 class="cont2_tit">
-        TEAM 구성
-      </h2>
-        <div class="container_wrap">
-          <div class="team-box1">
-          <div class="tit-box1">       
-          <div class="tit-s">2023-24시즌</div>
-          <h3 class="tit-b">1군 스쿼드</h3>        
-          </div>
-          <div class="box-squrd">
-            <p>
-              GK: 에데르송 모라예스, 슈테판 오르테가 <br>
-              DF: 카일워커, 후벵 디아스, 존스톤스, 네이션 아케, 주앙칸셀루 <br>
-              MF: 케빈 데브라위너, 잭 그릴리쉬, 로드리, 필 포든<br>
-              FW: 엘링 홀란드, 홀리안 알바레스 <br>
-            </p>
-          </div>
-           <a class="btn-more" href="#">더 알아보기</a>
-          </div>
-        </div>
+  <body>
+    <div id="u-skip">
+      <a href="#gnb"><span>주요메뉴 바로가기</span></a>
+      <a href="#main"><span>컨텐츠 바로가기</span></a>
     </div>
-    </section>
-    <section class="content3">   
-    </section>
-    <section class="content4">    
-    </section>
-    <section class="content5">
-    </section>
-    </main>
-  </div>
-  <footer data-include-path="./outline/footer.html"></footer>
-  </div>
-</body>
-
+    <header data-include-path="./outline/header.html"></header>
+    <div class="wrap">
+      <!-- logo 왼쪽 type -->
+      <main id="main">
+        <section class="content1">
+          <div class="inner">
+            <div class="teamlogo">
+              <img
+                class="team-logo-img"
+                src="./images/EPL/teamlogo/Manchester_City.png"
+                alt="ManchesterCity"
+              />
+            </div>
+            <h2 class="cont1_tit">MANCHESTERCITY</h2>
+            <div class="cont1_exp1">
+              <p>
+                영국 잉글랜드 프리미어리그의 프로축구 클럽 <br />
+                연고지는 그레이터맨체스터주 맨체스터(MANCHESTER), 홈구장은
+                에티하드 스타디움이다. <br />
+                <br />
+                1부 리그 통산 9회 우승을 기록한 EPL명문구단 중 하나로, <br />
+                특히 잉글랜드 축구 역사상 유이한 트레블과 프리미어리그 단일 시즌
+                역대 <br />
+                최다 승점 우승 및 유일한 도메스틱 쿼드러플 등의 기록을 보유하고
+                있다. <br />
+              </p>
+            </div>
+            <img
+              class="team-stadium-img"
+              src="./images/EPL/Etihad_Stadium.jpg"
+              alt="EtihadStadium"
+            />
+          </div>
+        </section>
+        <section class="content2">
+          <div class="inner">
+            <h2 class="cont2_tit">TEAM 구성</h2>
+            <div class="container_wrap">
+              <div class="team-box1">
+                <div class="tit-box1">
+                  <div class="tit-s">2023-24시즌</div>
+                  <h3 class="tit-b">1군 스쿼드</h3>
+                </div>
+                <div class="box-squrd">
+                  <p class="player">
+                    GK: 에데르송 모라예스, 슈테판 오르테가 <br />
+                    DF: 카일워커, 후벵 디아스, 존스톤스, 네이션 아케, 주앙칸셀루
+                    <br />
+                    MF: 케빈 데브라위너, 잭 그릴리쉬, 로드리, 필 포든<br />
+                    FW: 엘링 홀란드, 홀리안 알바레스 <br />
+                  </p>
+                </div>
+                <a class="btn-more" href="#">더 알아보기</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="content3"></section>
+        <section class="content4"></section>
+        <section class="content5"></section>
+      </main>
+    </div>
+    <footer data-include-path="./outline/footer.html"></footer>
+  </body>
 </html>
