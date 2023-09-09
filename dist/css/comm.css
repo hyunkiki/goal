@@ -280,6 +280,116 @@ body {
   max-width: 80rem;
 }
 
+.wrap .content1 {
+  position: relative;
+  width: 100%;
+  height: 1090px;
+  background-color: #85bfed;
+}
+.wrap .content1 .team-logo-img {
+  padding-top: 60px;
+  width: 30%;
+  transform: translateX(-21px);
+}
+.wrap .content1 .cont1_tit {
+  position: absolute;
+  top: 126px;
+  right: 309px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 5.625rem;
+  font-weight: bold;
+  color: #fff;
+}
+.wrap .content1 .cont1_exp1 {
+  position: absolute;
+  top: 270px;
+  right: 451px;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  justify-content: flex-end;
+}
+.wrap .content1 .team-stadium-img {
+  width: 100%;
+  height: 475px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  transform: translateY(56px);
+}
+.wrap .content2 {
+  width: 100%;
+  height: 785px;
+  background: #eee;
+}
+.wrap .content2 .cont2_tit {
+  font-size: 2.375rem;
+  font-weight: 500;
+  color: #013365;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+.wrap .content2 .team-box1 {
+  max-width: 550px;
+  height: 390px;
+  background: #fff;
+  border-radius: 15px;
+}
+.wrap .content2 .team-box1 .tit-box1 {
+  max-width: 550px;
+  height: 110px;
+  background: #85bfed;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrap .content2 .team-box1 .tit-box1 .tit-s {
+  font-size: 1.25rem;
+  text-align: center;
+}
+.wrap .content2 .team-box1 .tit-box1 .tit-b {
+  font-size: 1.625rem;
+  text-align: center;
+}
+.wrap .content2 .team-box1 .tit-box1 .box-squrd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrap .content2 .content3 {
+  width: 100%;
+  height: 1900px;
+  background: #fff;
+}
+.wrap .content2 .content4 {
+  width: 100%;
+  height: 1605px;
+  background: #85bfed;
+}
+.wrap .content2 .content5 {
+  width: 100%;
+  height: 2495px;
+  border: 1px solid #000;
+  background: rgba(133, 191, 237, 0.5);
+}
+
+body {
+  overflow-x: hidden;
+  /* 가로 스크롤 숨김 */
+}
+
+.inner {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80rem;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
