@@ -1,0 +1,350 @@
+@charset "UFT-8";
+@import "variables", "mixin", "fonts", "reset", "main";
+// comm.scss -
+// 공통요소 : 헤더, 풋터, 버튼, 아이콘, 박스
+
+// 공통
+body {
+  overflow-x: hidden;
+  /* 가로 스크롤 숨김 */
+}
+
+.inner {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80rem;
+}
+
+// main
+.wrap {
+  .contents1 {
+    position: relative;
+    width: 100%;
+    height: 1090px;
+    background-color: #85bfed;
+
+    .team-logo-img {
+      padding-top: 60px;
+      width: 30%;
+      transform: translateX(-21px);
+    }
+    .cont1_tit {
+      position: absolute;
+      top: 126px;
+      right: 309px;
+      display: flex;
+      justify-content: flex-end;
+      font-size: 5.625rem;
+      font-weight: bold;
+      color: #fff;
+    }
+    .cont1_exp1 {
+      position: absolute;
+      top: 270px;
+      right: 451px;
+      display: flex;
+      font-size: 1.125rem;
+      font-weight: 500;
+      justify-content: flex-end;
+    }
+    .team-stadium-img {
+      width: 100%;
+      height: 475px;
+      object-fit: cover;
+      border-radius: 15px;
+      transform: translateY(56px);
+    }
+  }
+  .container_wrap1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container_wrap2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contents2 {
+    width: 100%;
+    height: 785px;
+    background: #eee;
+    .cont2_tit {
+      font-size: 2.375rem;
+      font-weight: 500;
+      color: #013365;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 60px;
+    }
+    .team-box1 {
+      width: 45%;
+      height: 390px;
+      background: #fff;
+      border-radius: 15px;
+      .tit-box1 {
+        max-width: 580px;
+        height: 110px;
+        background: #85bfed;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .tit-s {
+          font-size: 1.25rem;
+          text-align: center;
+          color: #000;
+        }
+        .tit-b {
+          font-size: 1.625rem;
+          text-align: center;
+          color: #000;
+        }
+      }
+      .box-squrd {
+        padding-top: 30px;
+        line-height: 35px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 1.125rem;
+      }
+      a {
+        max-width: 160px;
+        height: 20px;
+        background: #85bfed;
+        border-radius: 40px;
+        padding-top: 20px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(210px, 10px);
+        .btn-txt {
+          transform: translateY(-8px);
+        }
+        &::after {
+          content: "\f061";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+          transform: translate(12px, -9px);
+        }
+        &:hover {
+          border: 2px solid #85bfed;
+          background: $w;
+          color: #85bfed;
+        }
+      }
+    }
+    .team-box2 {
+      width: 45%;
+      height: 390px;
+      background: #fff;
+      border-radius: 15px;
+      .tit-box2 {
+        max-width: 580px;
+        height: 110px;
+        background: #85bfed;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .tit-s {
+          font-size: 1.25rem;
+          text-align: center;
+          color: #eee;
+        }
+        .tit-b {
+          font-size: 1.625rem;
+          text-align: center;
+          color: #eee;
+        }
+      }
+      .box-squrd {
+        padding-top: 30px;
+        line-height: 35px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 1.125rem;
+      }
+      a {
+        max-width: 160px;
+        height: 20px;
+        background: #85bfed;
+        border-radius: 40px;
+        padding-top: 20px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(210px, 10px);
+        .btn-txt {
+          transform: translateY(-8px);
+        }
+        &::after {
+          content: "\f061";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+          transform: translate(12px, -9px);
+        }
+        &:hover {
+          border: 2px solid #85bfed;
+          background: $w;
+          color: #85bfed;
+        }
+      }
+    }
+    .team-box3 {
+      width: 45%;
+      height: 390px;
+      background: #fff;
+      border-radius: 15px;
+      .tit-box3 {
+        max-width: 580px;
+        height: 110px;
+        background: #85bfed;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .tit-s {
+          font-size: 1.25rem;
+          text-align: center;
+          color: #eee;
+        }
+        .tit-b {
+          font-size: 1.625rem;
+          text-align: center;
+          color: #eee;
+        }
+      }
+      .box-squrd {
+        padding-top: 65px;
+        line-height: 35px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 1.125rem;
+      }
+      a {
+        max-width: 160px;
+        height: 20px;
+        background: #85bfed;
+        border-radius: 40px;
+        padding-top: 20px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(210px, 10px);
+        .btn-txt {
+          transform: translateY(-8px);
+        }
+        &::after {
+          content: "\f061";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+          transform: translate(12px, -9px);
+        }
+        &:hover {
+          border: 2px solid #85bfed;
+          background: $w;
+          color: #85bfed;
+        }
+      }
+    }
+    .team-box4 {
+      width: 45%;
+      height: 390px;
+      background: #fff;
+      border-radius: 15px;
+      .tit-box4 {
+        max-width: 580px;
+        height: 110px;
+        background: #85bfed;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .tit-s {
+          font-size: 1.25rem;
+          text-align: center;
+          color: #eee;
+        }
+        .tit-b {
+          font-size: 1.625rem;
+          text-align: center;
+          color: #eee;
+        }
+      }
+      .box-squrd {
+        padding-top: 30px;
+        line-height: 35px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 1.125rem;
+      }
+      a {
+        max-width: 160px;
+        height: 20px;
+        background: #85bfed;
+        border-radius: 40px;
+        padding-top: 20px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(210px, 10px);
+        .btn-txt {
+          transform: translateY(-8px);
+        }
+        &::after {
+          content: "\f061";
+          font-family: "Line Awesome Free";
+          font-weight: 900;
+          transform: translate(12px, -9px);
+        }
+        &:hover {
+          border: 2px solid #85bfed;
+          background: $w;
+          color: #85bfed;
+        }
+      }
+    }
+  }
+  .contents3 {
+    width: 100%;
+    height: 1900px;
+    background: #fff;
+    border: 1px solid #000;
+    .cont3_tit {
+      font-size: 2.375rem;
+      font-weight: 500;
+      color: #013365;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 60px;
+    }
+  }
+  .contents4 {
+    width: 100%;
+    height: 1605px;
+    background: #85bfed;
+  }
+
+  .contents5 {
+    width: 100%;
+    height: 2495px;
+    border: 1px solid #000;
+    background: rgb(133, 191, 237, 0.5);
+  }
+}

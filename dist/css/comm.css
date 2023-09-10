@@ -269,6 +269,276 @@ legend {
   content: "";
 }
 
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  src: url(../fonts/MiConv.com__Poppins-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url(../fonts/MiConv.com__Poppins-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: url(../fonts/MiConv.com__Poppins-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  src: url(../fonts/MiConv.com__Poppins-Bold.woff) format("woff");
+}
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+fieldset,
+img {
+  border: 0 none;
+}
+
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+input,
+select,
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+button {
+  font-size: 100%;
+  vertical-align: middle;
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+/* 뷰표트 변환시 폰트크기 자동확대 방지 */
+input[type=text], input[type=password], input[type=submit], input[type=search] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+input:checked[type=checkbox] {
+  background-color: #666;
+  -webkit-appearance: checkbox;
+}
+
+button {
+  -webkit-appearance: button;
+  border-radius: 0;
+}
+
+input[type=button], input[type=submit], input[type=reset], input[type=file] {
+  -webkit-appearance: button;
+  border-radius: 0;
+}
+input[type=search]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* 기본 폰트 설정 */
+/* mobile */
+body {
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Poppins", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
+  color: #111;
+}
+
+/* color값은 디자인가이드에 맞게사용 */
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:active, a:hover {
+  text-decoration: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+hr {
+  display: none;
+}
+
+input[type=password] {
+  font-family: "Malgun Gothic";
+}
+
+/* 웹폰트 사용시 점이 안보임 - 기본 폰트 사용  */
+/* skipnavigation */
+#u-skip {
+  position: relative;
+  z-index: 3000;
+}
+#u-skip a {
+  position: absolute;
+  top: -35px;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  padding: 7px 10px 5px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0;
+}
+#u-skip a:focus {
+  top: 0;
+  opacity: 1;
+  z-index: 1000;
+}
+
+/* 이미지 스프라이트 */
+.img-g {
+  display: inline-block;
+  overflow: hidden;
+  background: url(../../images/comm/img-comm.png) no-repeat;
+  vertical-align: top;
+}
+
+/* 이미지 */
+/* global */
+.ir-pm {
+  display: block;
+  overflow: hidden;
+  font-size: 0px;
+  line-height: 0;
+  text-indent: -9999px;
+}
+
+/* 사용된 이미지내 의미있는 텍스트의 대체텍스트를 제공할때 */
+.ir-wa {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+}
+
+/* 중요한 이미지 대체텍스트로 이미지off시에도 대체 텍스트를 보여주고자 할때 */
+.blind,
+caption,
+legend {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+
+/* 대체텍스트가 아닌 접근성을 위한 숨김텍스트를 제공할때 */
+.f_l {
+  float: left;
+}
+
+.f_r {
+  float: right;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.tbl {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 테이블 초기화 */
+.clearfix {
+  display: block;
+  overflow: visible;
+  width: auto;
+  clear: both;
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  content: "";
+}
+
 body {
   overflow-x: hidden;
   /* 가로 스크롤 숨김 */
@@ -280,18 +550,18 @@ body {
   max-width: 80rem;
 }
 
-.wrap .content1 {
+.wrap .contents1 {
   position: relative;
   width: 100%;
   height: 1090px;
   background-color: #85bfed;
 }
-.wrap .content1 .team-logo-img {
+.wrap .contents1 .team-logo-img {
   padding-top: 60px;
   width: 30%;
   transform: translateX(-21px);
 }
-.wrap .content1 .cont1_tit {
+.wrap .contents1 .cont1_tit {
   position: absolute;
   top: 126px;
   right: 309px;
@@ -301,7 +571,7 @@ body {
   font-weight: bold;
   color: #fff;
 }
-.wrap .content1 .cont1_exp1 {
+.wrap .contents1 .cont1_exp1 {
   position: absolute;
   top: 270px;
   right: 451px;
@@ -310,7 +580,7 @@ body {
   font-weight: 500;
   justify-content: flex-end;
 }
-.wrap .content1 .team-stadium-img {
+.wrap .contents1 .team-stadium-img {
   width: 100%;
   height: 475px;
   -o-object-fit: cover;
@@ -318,12 +588,16 @@ body {
   border-radius: 15px;
   transform: translateY(56px);
 }
-.wrap .content2 {
+.wrap .container_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .contents2 {
   width: 100%;
   height: 785px;
   background: #eee;
 }
-.wrap .content2 .cont2_tit {
+.wrap .contents2 .cont2_tit {
   font-size: 2.375rem;
   font-weight: 500;
   color: #013365;
@@ -331,14 +605,14 @@ body {
   padding-top: 150px;
   padding-bottom: 60px;
 }
-.wrap .content2 .team-box1 {
-  max-width: 550px;
+.wrap .contents2 .team-box1 {
+  width: 45%;
   height: 390px;
   background: #fff;
   border-radius: 15px;
 }
-.wrap .content2 .team-box1 .tit-box1 {
-  max-width: 550px;
+.wrap .contents2 .team-box1 .tit-box1 {
+  width: 45%;
   height: 110px;
   background: #85bfed;
   border-top-left-radius: 15px;
@@ -348,30 +622,115 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.wrap .content2 .team-box1 .tit-box1 .tit-s {
+.wrap .contents2 .team-box1 .tit-box1 .tit-s {
   font-size: 1.25rem;
   text-align: center;
 }
-.wrap .content2 .team-box1 .tit-box1 .tit-b {
+.wrap .contents2 .team-box1 .tit-box1 .tit-b {
   font-size: 1.625rem;
   text-align: center;
 }
-.wrap .content2 .team-box1 .tit-box1 .box-squrd {
+.wrap .contents2 .team-box1 .box-squrd {
+  padding-top: 30px;
+  line-height: 35px;
   display: flex;
   justify-content: center;
 }
-.wrap .content2 .content3 {
+.wrap .contents2 .team-box1 a {
+  max-width: 160px;
+  height: 20px;
+  background: #85bfed;
+  border-radius: 40px;
+  padding-top: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(190px, 10px);
+}
+.wrap .contents2 .team-box1 a .btn-txt {
+  transform: translateY(-8px);
+}
+.wrap .contents2 .team-box1 a::after {
+  content: "\f061";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  transform: translateY(-8px);
+}
+.wrap .contents2 .team-box1 a:hover {
+  border: 2px solid #85bfed;
+  background: #fff;
+  color: #85bfed;
+}
+.wrap .contents2 .team-box2 {
+  width: 45%;
+  height: 390px;
+  background: #fff;
+  border-radius: 15px;
+}
+.wrap .contents2 .team-box2 .tit-box2 {
+  width: 45%;
+  height: 110px;
+  background: #85bfed;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrap .contents2 .team-box2 .tit-box2 .tit-s {
+  font-size: 1.25rem;
+  text-align: center;
+}
+.wrap .contents2 .team-box2 .tit-box2 .tit-b {
+  font-size: 1.625rem;
+  text-align: center;
+}
+.wrap .contents2 .team-box2 .box-squrd {
+  padding-top: 30px;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+}
+.wrap .contents2 .team-box2 a {
+  max-width: 160px;
+  height: 20px;
+  background: #85bfed;
+  border-radius: 40px;
+  padding-top: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(190px, 10px);
+}
+.wrap .contents2 .team-box2 a .btn-txt {
+  transform: translateY(-8px);
+}
+.wrap .contents2 .team-box2 a::after {
+  content: "\f061";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  transform: translateY(-8px);
+}
+.wrap .contents2 .team-box2 a:hover {
+  border: 2px solid #85bfed;
+  background: #fff;
+  color: #85bfed;
+}
+.wrap .contents2 .contents3 {
   width: 100%;
   height: 1900px;
   background: #fff;
   border: 1px solid #000;
 }
-.wrap .content2 .content4 {
+.wrap .contents2 .contents4 {
   width: 100%;
   height: 1605px;
   background: #85bfed;
 }
-.wrap .content2 .content5 {
+.wrap .contents2 .contents5 {
   width: 100%;
   height: 2495px;
   border: 1px solid #000;

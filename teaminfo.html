@@ -51,12 +51,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="./dist/css/comm.css" />
+    <link rel="stylesheet" href="./dist/css/contents.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script defer src="./dist/js/comm.js"></script>
+    <script defer src="./dist/js/contents.js"></script>
   </head>
 
   <body>
@@ -68,7 +68,7 @@
     <div class="wrap">
       <!-- logo 왼쪽 type -->
       <main id="main">
-        <section class="content1">
+        <section class="contents1">
           <div class="inner">
             <div class="teamlogo">
               <img
@@ -98,32 +98,105 @@
             />
           </div>
         </section>
-        <section class="content2">
-          <div class="inner">
-            <h2 class="cont2_tit">TEAM 구성</h2>
-            <div class="container_wrap">
-              <div class="team-box1">
-                <div class="tit-box1">
-                  <div class="tit-s">2023-24시즌</div>
-                  <h3 class="tit-b">1군 스쿼드</h3>
+        <section class="contents2">
+          <h2 class="cont2_tit">TEAM 구성</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide1">
+                <div class="inner">
+                  <div class="container_wrap1">
+                    <div class="team-box1">
+                      <div class="tit-box1">
+                        <div class="tit-s">2023-24시즌</div>
+                        <h3 class="tit-b">1군 스쿼드</h3>
+                      </div>
+                      <div class="box-squrd">
+                        <p class="player">
+                          GK: 에데르송 모라예스, 슈테판 오르테가 <br />
+                          DF: 카일워커, 후벵 디아스, 존스톤스, 네이션 아케,
+                          주앙칸셀루
+                          <br />
+                          MF: 케빈 데브라위너, 잭 그릴리쉬, 로드리, 필 포든<br />
+                          FW: 엘링 홀란드, 홀리안 알바레스 <br />
+                        </p>
+                      </div>
+                      <a class="btn-more" href="#">
+                        <div class="btn-txt">더 알아보기</div>
+                      </a>
+                    </div>
+                    <div class="team-box2">
+                      <div class="tit-box2">
+                        <div class="tit-s">2023-24시즌</div>
+                        <h3 class="tit-b">2군 스쿼드</h3>
+                      </div>
+                      <div class="box-squrd">
+                        <p class="player">
+                          GK: 미키 판시스 <br />
+                          DF: 테일러 하우드벨리스, 아이작 스미스, 제이들 카통고,
+                          루크 음베테
+                          <br />
+                          MF: 오스카르 보브, 조시 애덤, 케인 테일러, 토미 도일,
+                          벤 나이트<br />
+                          FW: 타이 소제, 윌 딕슨 <br />
+                        </p>
+                      </div>
+                      <a class="btn-more" href="#">
+                        <div class="btn-txt">더 알아보기</div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="box-squrd">
-                  <p class="player">
-                    GK: 에데르송 모라예스, 슈테판 오르테가 <br />
-                    DF: 카일워커, 후벵 디아스, 존스톤스, 네이션 아케, 주앙칸셀루
-                    <br />
-                    MF: 케빈 데브라위너, 잭 그릴리쉬, 로드리, 필 포든<br />
-                    FW: 엘링 홀란드, 홀리안 알바레스 <br />
-                  </p>
+              </div>
+              <div class="swiper-slide slide2">
+                <div class="inner">
+                  <div class="container_wrap2">
+                    <div class="team-box3">
+                      <div class="tit-box3">
+                        <div class="tit-s">2023-24시즌</div>
+                        <h3 class="tit-b">임대 선수</h3>
+                      </div>
+                      <div class="box-squrd">
+                        <p class="player">
+                          DF: 나우엘 페라레시, 얀 코투, 칼럼 도일, 조슈아
+                          윌슨에스브랜드
+                          <br />
+                          MF: 키안 브레킨, 알렉스 로버튼슨<br />
+                          FW: 카이키 샤가스, 나우엘 부스토스, 리암 델랍<br />
+                        </p>
+                      </div>
+                      <a class="btn-more" href="#">
+                        <div class="btn-txt">더 알아보기</div>
+                      </a>
+                    </div>
+                    <div class="team-box4">
+                      <div class="tit-box4">
+                        <div class="tit-s">2023-24시즌</div>
+                        <h3 class="tit-b">유소년 아카데미</h3>
+                      </div>
+                      <div class="box-squrd">
+                        <p class="player">
+                          GK: 트루 그랜트, 조지 머레이 존스 <br />
+                          DF: 맥스 알레인, 에즈라 캐링턴, 토마스 갈베즈,
+                          세바스티안 네일러 <br />
+                          MF: 찰리 그레이, 알피 해리슨, 마이클 오케케 <br />
+                          FW: 파리드 알파루프레흐트, 제이든 헤스키 <br />
+                        </p>
+                      </div>
+                      <a class="btn-more" href="#">
+                        <div class="btn-txt">더 알아보기</div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <a class="btn-more" href="#">더 알아보기</a>
               </div>
             </div>
           </div>
         </section>
-        <section class="content3"></section>
-        <section class="content4"></section>
-        <section class="content5"></section>
+        <section class="contents3">
+          <h2 class="cont3_tit">주요 소개</h2>
+        </section>
+        <section class="contents4"></section>
+        <section class="contents5"></section>
       </main>
     </div>
     <footer data-include-path="./outline/footer.html"></footer>
