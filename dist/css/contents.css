@@ -277,46 +277,46 @@ body {
 .inner {
   margin: 0 auto;
   width: 100%;
-  max-width: 80rem;
+  max-width: 1280px;
 }
 
 .wrap .contents1 {
   position: relative;
   width: 100%;
-  height: 1090px;
+  height: 68.125rem;
   background-color: #85bfed;
 }
 .wrap .contents1 .team-logo-img {
-  padding-top: 60px;
+  padding-top: 3.75rem;
   width: 30%;
-  transform: translateX(-21px);
+  transform: translateX(-1.3125rem);
 }
 .wrap .contents1 .cont1_tit {
   position: absolute;
-  top: 126px;
-  right: 309px;
+  top: 7.875rem;
+  right: 19.3125rem;
   display: flex;
   justify-content: flex-end;
-  font-size: 5.625rem;
+  font-size: 90px;
   font-weight: bold;
   color: #fff;
 }
 .wrap .contents1 .cont1_exp1 {
   position: absolute;
-  top: 270px;
-  right: 451px;
+  top: 16.875rem;
+  right: 28.1875rem;
   display: flex;
-  font-size: 1.125rem;
+  font-size: 18px;
   font-weight: 500;
   justify-content: flex-end;
 }
 .wrap .contents1 .team-stadium-img {
   width: 100%;
-  height: 475px;
+  height: 29.6875rem;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 15px;
-  transform: translateY(56px);
+  border-radius: 0.9375rem;
+  transform: translateY(3.5rem);
 }
 .wrap .container_wrap1 {
   display: flex;
@@ -328,283 +328,437 @@ body {
 }
 .wrap .contents2 {
   width: 100%;
-  height: 785px;
+  height: 49.0625rem;
   background: #eee;
 }
 .wrap .contents2 .cont2_tit {
-  font-size: 2.375rem;
+  font-size: 38px;
   font-weight: 500;
   color: #013365;
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 60px;
+  padding-top: 9.375rem;
+  padding-bottom: 3.75rem;
 }
 .wrap .contents2 .team-box1 {
   width: 45%;
-  height: 390px;
+  height: 24.375rem;
   background: #fff;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 .wrap .contents2 .team-box1 .tit-box1 {
-  max-width: 580px;
-  height: 110px;
+  max-width: 36.25rem;
+  height: 6.875rem;
   background: #85bfed;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .wrap .contents2 .team-box1 .tit-box1 .tit-s {
-  font-size: 1.25rem;
+  font-size: 20px;
   text-align: center;
   color: #000;
 }
 .wrap .contents2 .team-box1 .tit-box1 .tit-b {
-  font-size: 1.625rem;
+  font-size: 26px;
   text-align: center;
   color: #000;
 }
 .wrap .contents2 .team-box1 .box-squrd {
-  padding-top: 30px;
-  line-height: 35px;
+  padding-top: 1.875rem;
+  line-height: 2.1875rem;
   text-align: center;
   display: flex;
   justify-content: center;
-  font-size: 1.125rem;
+  font-size: 18px;
+  color: #666;
 }
 .wrap .contents2 .team-box1 a {
-  max-width: 160px;
-  height: 20px;
+  max-width: 10rem;
+  height: 1.25rem;
   background: #85bfed;
-  border-radius: 40px;
-  padding-top: 20px;
-  margin-top: 30px;
+  border-radius: 2.5rem;
+  padding-top: 1.25rem;
+  margin-top: 1.875rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(210px, 10px);
+  transform: translate(13.125rem, 0.625rem);
 }
 .wrap .contents2 .team-box1 a .btn-txt {
-  transform: translateY(-8px);
+  transform: translateY(-0.5rem);
 }
 .wrap .contents2 .team-box1 a::after {
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
-  transform: translate(12px, -9px);
+  transform: translate(0.75rem, -0.5625rem);
 }
 .wrap .contents2 .team-box1 a:hover {
-  border: 2px solid #85bfed;
+  border: 0.125rem solid #85bfed;
   background: #fff;
   color: #85bfed;
 }
 .wrap .contents2 .team-box2 {
   width: 45%;
-  height: 390px;
+  height: 24.375rem;
   background: #fff;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 .wrap .contents2 .team-box2 .tit-box2 {
-  max-width: 580px;
-  height: 110px;
+  max-width: 36.25rem;
+  height: 6.875rem;
   background: #85bfed;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .wrap .contents2 .team-box2 .tit-box2 .tit-s {
-  font-size: 1.25rem;
+  font-size: 20px;
   text-align: center;
   color: #eee;
 }
 .wrap .contents2 .team-box2 .tit-box2 .tit-b {
-  font-size: 1.625rem;
+  font-size: 26px;
   text-align: center;
   color: #eee;
 }
 .wrap .contents2 .team-box2 .box-squrd {
-  padding-top: 30px;
-  line-height: 35px;
+  padding-top: 1.875rem;
+  line-height: 2.1875rem;
   text-align: center;
   display: flex;
   justify-content: center;
-  font-size: 1.125rem;
+  font-size: 18px;
+  color: #666;
 }
 .wrap .contents2 .team-box2 a {
-  max-width: 160px;
-  height: 20px;
+  max-width: 10rem;
+  height: 1.25rem;
   background: #85bfed;
-  border-radius: 40px;
-  padding-top: 20px;
-  margin-top: 30px;
+  border-radius: 2.5rem;
+  padding-top: 1.25rem;
+  margin-top: 1.875rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(210px, 10px);
+  transform: translate(13.125rem, 0.625rem);
 }
 .wrap .contents2 .team-box2 a .btn-txt {
-  transform: translateY(-8px);
+  transform: translateY(-0.5rem);
 }
 .wrap .contents2 .team-box2 a::after {
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
-  transform: translate(12px, -9px);
+  transform: translate(0.75rem, -0.5625rem);
 }
 .wrap .contents2 .team-box2 a:hover {
-  border: 2px solid #85bfed;
+  border: 0.125rem solid #85bfed;
   background: #fff;
   color: #85bfed;
 }
 .wrap .contents2 .team-box3 {
   width: 45%;
-  height: 390px;
+  height: 24.375rem;
   background: #fff;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 .wrap .contents2 .team-box3 .tit-box3 {
-  max-width: 580px;
-  height: 110px;
+  max-width: 36.25rem;
+  height: 6.875rem;
   background: #85bfed;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .wrap .contents2 .team-box3 .tit-box3 .tit-s {
-  font-size: 1.25rem;
+  font-size: 20px;
   text-align: center;
   color: #eee;
 }
 .wrap .contents2 .team-box3 .tit-box3 .tit-b {
-  font-size: 1.625rem;
+  font-size: 26px;
   text-align: center;
   color: #eee;
 }
 .wrap .contents2 .team-box3 .box-squrd {
-  padding-top: 65px;
-  line-height: 35px;
+  padding-top: 4.0625rem;
+  line-height: 2.1875rem;
   text-align: center;
   display: flex;
   justify-content: center;
-  font-size: 1.125rem;
+  font-size: 18px;
+  color: #666;
 }
 .wrap .contents2 .team-box3 a {
-  max-width: 160px;
-  height: 20px;
+  max-width: 10rem;
+  height: 1.25rem;
   background: #85bfed;
-  border-radius: 40px;
-  padding-top: 20px;
-  margin-top: 30px;
+  border-radius: 2.5rem;
+  padding-top: 1.25rem;
+  margin-top: 1.875rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(210px, 10px);
+  transform: translate(13.125rem, 0.625rem);
 }
 .wrap .contents2 .team-box3 a .btn-txt {
-  transform: translateY(-8px);
+  transform: translateY(-0.5rem);
 }
 .wrap .contents2 .team-box3 a::after {
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
-  transform: translate(12px, -9px);
+  transform: translate(0.75rem, -0.5625rem);
 }
 .wrap .contents2 .team-box3 a:hover {
-  border: 2px solid #85bfed;
+  border: 0.125rem solid #85bfed;
   background: #fff;
   color: #85bfed;
 }
 .wrap .contents2 .team-box4 {
   width: 45%;
-  height: 390px;
+  height: 24.375rem;
   background: #fff;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 .wrap .contents2 .team-box4 .tit-box4 {
-  max-width: 580px;
-  height: 110px;
+  max-width: 36.25rem;
+  height: 6.875rem;
   background: #85bfed;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .wrap .contents2 .team-box4 .tit-box4 .tit-s {
-  font-size: 1.25rem;
+  font-size: 20px;
   text-align: center;
   color: #eee;
 }
 .wrap .contents2 .team-box4 .tit-box4 .tit-b {
-  font-size: 1.625rem;
+  font-size: 26px;
   text-align: center;
   color: #eee;
 }
 .wrap .contents2 .team-box4 .box-squrd {
-  padding-top: 30px;
-  line-height: 35px;
+  padding-top: 1.875rem;
+  line-height: 2.1875rem;
   text-align: center;
   display: flex;
   justify-content: center;
-  font-size: 1.125rem;
+  font-size: 18px;
+  color: #666;
 }
 .wrap .contents2 .team-box4 a {
-  max-width: 160px;
-  height: 20px;
+  max-width: 10rem;
+  height: 1.25rem;
   background: #85bfed;
-  border-radius: 40px;
-  padding-top: 20px;
-  margin-top: 30px;
+  border-radius: 2.5rem;
+  padding-top: 1.25rem;
+  margin-top: 1.875rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(210px, 10px);
+  transform: translate(13.125rem, 0.625rem);
 }
 .wrap .contents2 .team-box4 a .btn-txt {
-  transform: translateY(-8px);
+  transform: translateY(-0.5rem);
 }
 .wrap .contents2 .team-box4 a::after {
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
-  transform: translate(12px, -9px);
+  transform: translate(0.75rem, -0.5625rem);
 }
 .wrap .contents2 .team-box4 a:hover {
-  border: 2px solid #85bfed;
+  border: 0.125rem solid #85bfed;
   background: #fff;
   color: #85bfed;
 }
 .wrap .contents3 {
+  position: relative;
   width: 100%;
-  height: 1900px;
+  height: 118.75rem;
   background: #fff;
-  border: 1px solid #000;
 }
 .wrap .contents3 .cont3_tit {
-  font-size: 2.375rem;
+  font-size: 38px;
   font-weight: 500;
   color: #013365;
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 60px;
+  padding-top: 9.375rem;
+  padding-bottom: 3.75rem;
+}
+.wrap .contents3 .manager_img {
+  max-width: 36.5625rem;
+  height: 20.625rem;
+  border-radius: 0.9375rem;
+}
+.wrap .contents3 .manager {
+  position: absolute;
+  top: 20rem;
+  right: 41.3125rem;
+}
+.wrap .contents3 .manager .manager_tit1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #013365;
+}
+.wrap .contents3 .manager .manager_tit2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.wrap .contents3 .manager .manager_exp {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+  color: #666;
+}
+.wrap .contents3 .cityzens_img {
+  width: 47%;
+  height: 20.625rem;
+  border-radius: 0.9375rem;
+  transform: translate(5.5625rem, 23.75rem);
+}
+.wrap .contents3 .cityzens {
+  width: 45%;
+  text-align: end;
+  transform: translateY(6.4375rem);
+}
+.wrap .contents3 .cityzens .cityzens_tit1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #013365;
+}
+.wrap .contents3 .cityzens .cityzens_tit2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.wrap .contents3 .cityzens .cityzens_exp {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+  color: #666;
+}
+.wrap .contents3 .Poznań_img {
+  max-width: 36.5625rem;
+  height: 20.625rem;
+  border-radius: 0.9375rem;
+  transform: translateY(15.6875rem);
+}
+.wrap .contents3 .Poznan {
+  position: absolute;
+  bottom: 35.9375rem;
+  right: 29.25rem;
+}
+.wrap .contents3 .Poznan .Poznan_tit1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #013365;
+}
+.wrap .contents3 .Poznan .Poznan_tit2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.wrap .contents3 .Poznan .Poznan_exp {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+  color: #666;
+}
+.wrap .contents3 .banana_balloon_img {
+  width: 47%;
+  height: 20.625rem;
+  border-radius: 0.9375rem;
+  transform: translate(5.5625rem, 39.1875rem);
+}
+.wrap .contents3 .banana_balloon {
+  width: 45%;
+  text-align: end;
+  transform: translateY(21.875rem);
+}
+.wrap .contents3 .banana_balloon .banana_balloon_tit1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #013365;
+}
+.wrap .contents3 .banana_balloon .banana_balloon_tit2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.wrap .contents3 .banana_balloon .banana_balloon_exp {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+  color: #666;
 }
 .wrap .contents4 {
   width: 100%;
-  height: 1605px;
+  height: 100.3125rem;
   background: #85bfed;
+}
+.wrap .contents4 .con4_tit {
+  font-size: 38px;
+  font-weight: 500;
+  color: #013365;
+  text-align: center;
+  padding-top: 9.375rem;
+  padding-bottom: 3.75rem;
+}
+.wrap .contents4 .con4_exp {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.wrap .contents4 .best_player .best_player_tit {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3.75rem;
+  color: #013365;
+}
+.wrap .contents4 .best_player .box_img {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+.wrap .contents4 .best_player .best_players {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+  color: #013365;
+  margin: 0 65px;
+  padding-top: 30px;
+}
+.wrap .contents4 .best_player .best_player_career {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 0.875rem;
+  padding-top: 20px;
+}
+.wrap .contents4 .best_player .best_player2_career {
+  padding-right: 45px;
+}
+.wrap .contents4 .best_player .best_player3_career {
+  padding-right: 35px;
 }
 .wrap .contents5 {
   width: 100%;
-  height: 2495px;
-  border: 1px solid #000;
+  height: 155.9375rem;
   background: rgba(133, 191, 237, 0.5);
 }/*# sourceMappingURL=contents.css.map */
