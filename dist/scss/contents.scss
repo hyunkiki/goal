@@ -12,7 +12,7 @@ body {
 .inner {
   margin: 0 auto;
   width: 100%;
-  max-width: 1280px;
+  max-width: 80rem;
 }
 
 // main
@@ -20,42 +20,42 @@ body {
   .contents1 {
     position: relative;
     width: 100%;
-    height: 68.125rem;
+    height: 1090px;
     background-color: #85bfed;
 
     .team-logo-img {
-      padding-top: 3.75rem;
+      padding-top: 60px;
       width: 30%;
-      transform: translateX(-1.3125rem);
+      transform: translateX(-21px);
     }
 
     .cont1_tit {
       position: absolute;
-      top: 7.875rem;
-      right: 19.3125rem;
+      top: 126px;
+      right: 309px;
       display: flex;
       justify-content: flex-end;
-      font-size: 90px;
+      font-size: 5.625rem;
       font-weight: bold;
       color: #fff;
     }
 
     .cont1_exp1 {
       position: absolute;
-      top: 16.875rem;
-      right: 28.1875rem;
+      top: 270px;
+      right: 451px;
       display: flex;
-      font-size: 18px;
+      font-size: 1.125rem;
       font-weight: 500;
       justify-content: flex-end;
     }
 
     .team-stadium-img {
       width: 100%;
-      height: 29.6875rem;
+      height: 475px;
       object-fit: cover;
-      border-radius: .9375rem;
-      transform: translateY(3.5rem);
+      border-radius: 15px;
+      transform: translateY(56px);
     }
   }
 
@@ -71,83 +71,83 @@ body {
 
   .contents2 {
     width: 100%;
-    height: 49.0625rem;
+    height: 785px;
     background: #eee;
 
     .cont2_tit {
-      font-size: 38px;
+      font-size: 2.375rem;
       font-weight: 500;
       color: #013365;
       text-align: center;
-      padding-top: 9.375rem;
-      padding-bottom: 3.75rem;
+      padding-top: 150px;
+      padding-bottom: 60px;
     }
 
     .team-box1 {
       width: 45%;
-      height: 24.375rem;
+      height: 390px;
       background: #fff;
-      border-radius: .9375rem;
+      border-radius: 15px;
 
       .tit-box1 {
-        max-width: 36.25rem;
-        height: 6.875rem;
+        max-width: 580px;
+        height: 110px;
         background: #85bfed;
-        border-top-left-radius: .9375rem;
-        border-top-right-radius: .9375rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
 
         .tit-s {
-          font-size: 20px;
+          font-size: 1.25rem;
           text-align: center;
           color: #000;
         }
 
         .tit-b {
-          font-size: 26px;
+          font-size: 1.625rem;
           text-align: center;
           color: #000;
         }
       }
 
       .box-squrd {
-        padding-top: 1.875rem;
-        line-height: 2.1875rem;
+        padding-top: 30px;
+        line-height: 35px;
         text-align: center;
         display: flex;
         justify-content: center;
-        font-size: 18px;
+        font-size: 1.125rem;
         color: #666;
       }
 
       a {
-        max-width: 10rem;
-        height: 1.25rem;
+        max-width: 160px;
+        height: 20px;
         background: #85bfed;
-        border-radius: 2.5rem;
-        padding-top: 1.25rem;
-        margin-top: 1.875rem;
+        border-radius: 40px;
+        padding-top: 20px;
+        margin-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: translate(13.125rem, .625rem);
+        transform: translate(210px, 10px);
 
         .btn-txt {
-          transform: translateY(-0.5rem);
+          transform: translateY(-8px);
         }
 
         &::after {
           content: "\f061";
           font-family: "Line Awesome Free";
           font-weight: 900;
-          transform: translate(.75rem, -0.5625rem);
+          transform: translate(12px, -9px);
         }
 
         &:hover {
-          border: .125rem solid #85bfed;
+          border: 2px solid #85bfed;
           background: $w;
           color: #85bfed;
         }
@@ -156,69 +156,69 @@ body {
 
     .team-box2 {
       width: 45%;
-      height: 24.375rem;
+      height: 390px;
       background: #fff;
-      border-radius: .9375rem;
+      border-radius: 15px;
 
       .tit-box2 {
-        max-width: 36.25rem;
-        height: 6.875rem;
+        max-width: 580px;
+        height: 110px;
         background: #85bfed;
-        border-top-left-radius: .9375rem;
-        border-top-right-radius: .9375rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
 
         .tit-s {
-          font-size: 20px;
+          font-size: 1.25rem;
           text-align: center;
           color: #eee;
         }
 
         .tit-b {
-          font-size: 26px;
+          font-size: 1.625rem;
           text-align: center;
           color: #eee;
         }
       }
 
       .box-squrd {
-        padding-top: 1.875rem;
-        line-height: 2.1875rem;
+        padding-top: 30px;
+        line-height: 35px;
         text-align: center;
         display: flex;
         justify-content: center;
-        font-size: 18px;
+        font-size: 1.125rem;
         color: #666;
       }
 
       a {
-        max-width: 10rem;
-        height: 1.25rem;
+        max-width: 160px;
+        height: 20px;
         background: #85bfed;
-        border-radius: 2.5rem;
-        padding-top: 1.25rem;
-        margin-top: 1.875rem;
+        border-radius: 40px;
+        padding-top: 20px;
+        margin-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: translate(13.125rem, .625rem);
+        transform: translate(210px, 10px);
 
         .btn-txt {
-          transform: translateY(-0.5rem);
+          transform: translateY(-8px);
         }
 
         &::after {
           content: "\f061";
           font-family: "Line Awesome Free";
           font-weight: 900;
-          transform: translate(.75rem, -0.5625rem);
+          transform: translate(12px, -9px);
         }
 
         &:hover {
-          border: .125rem solid #85bfed;
+          border: 2px solid #85bfed;
           background: $w;
           color: #85bfed;
         }
@@ -227,69 +227,69 @@ body {
 
     .team-box3 {
       width: 45%;
-      height: 24.375rem;
+      height: 390px;
       background: #fff;
-      border-radius: .9375rem;
+      border-radius: 15px;
 
       .tit-box3 {
-        max-width: 36.25rem;
-        height: 6.875rem;
+        max-width: 580px;
+        height: 110px;
         background: #85bfed;
-        border-top-left-radius: .9375rem;
-        border-top-right-radius: .9375rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
 
         .tit-s {
-          font-size: 20px;
+          font-size: 1.25rem;
           text-align: center;
           color: #eee;
         }
 
         .tit-b {
-          font-size: 26px;
+          font-size: 1.625rem;
           text-align: center;
           color: #eee;
         }
       }
 
       .box-squrd {
-        padding-top: 4.0625rem;
-        line-height: 2.1875rem;
+        padding-top: 65px;
+        line-height: 35px;
         text-align: center;
         display: flex;
         justify-content: center;
-        font-size: 18px;
+        font-size: 1.125rem;
         color: #666;
       }
 
       a {
-        max-width: 10rem;
-        height: 1.25rem;
+        max-width: 160px;
+        height: 20px;
         background: #85bfed;
-        border-radius: 2.5rem;
-        padding-top: 1.25rem;
-        margin-top: 1.875rem;
+        border-radius: 40px;
+        padding-top: 20px;
+        margin-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: translate(13.125rem, .625rem);
+        transform: translate(210px, 10px);
 
         .btn-txt {
-          transform: translateY(-0.5rem);
+          transform: translateY(-8px);
         }
 
         &::after {
           content: "\f061";
           font-family: "Line Awesome Free";
           font-weight: 900;
-          transform: translate(.75rem, -0.5625rem);
+          transform: translate(12px, -9px);
         }
 
         &:hover {
-          border: .125rem solid #85bfed;
+          border: 2px solid #85bfed;
           background: $w;
           color: #85bfed;
         }
@@ -298,69 +298,69 @@ body {
 
     .team-box4 {
       width: 45%;
-      height: 24.375rem;
+      height: 390px;
       background: #fff;
-      border-radius: .9375rem;
+      border-radius: 15px;
 
       .tit-box4 {
-        max-width: 36.25rem;
-        height: 6.875rem;
+        max-width: 580px;
+        height: 110px;
         background: #85bfed;
-        border-top-left-radius: .9375rem;
-        border-top-right-radius: .9375rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
 
         .tit-s {
-          font-size: 20px;
+          font-size: 1.25rem;
           text-align: center;
           color: #eee;
         }
 
         .tit-b {
-          font-size: 26px;
+          font-size: 1.625rem;
           text-align: center;
           color: #eee;
         }
       }
 
       .box-squrd {
-        padding-top: 1.875rem;
-        line-height: 2.1875rem;
+        padding-top: 30px;
+        line-height: 35px;
         text-align: center;
         display: flex;
         justify-content: center;
-        font-size: 18px;
+        font-size: 1.125rem;
         color: #666;
       }
 
       a {
-        max-width: 10rem;
-        height: 1.25rem;
+        max-width: 160px;
+        height: 20px;
         background: #85bfed;
-        border-radius: 2.5rem;
-        padding-top: 1.25rem;
-        margin-top: 1.875rem;
+        border-radius: 40px;
+        padding-top: 20px;
+        margin-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: translate(13.125rem, .625rem);
+        transform: translate(210px, 10px);
 
         .btn-txt {
-          transform: translateY(-0.5rem);
+          transform: translateY(-8px);
         }
 
         &::after {
           content: "\f061";
           font-family: "Line Awesome Free";
           font-weight: 900;
-          transform: translate(.75rem, -0.5625rem);
+          transform: translate(12px, -9px);
         }
 
         &:hover {
-          border: .125rem solid #85bfed;
+          border: 2px solid #85bfed;
           background: $w;
           color: #85bfed;
         }
@@ -371,138 +371,137 @@ body {
   .contents3 {
     position: relative;
     width: 100%;
-    height: 118.75rem;
+    height: 1900px;
     background: #fff;
 
     .cont3_tit {
-      font-size: 38px;
+      font-size: 2.375rem;
       font-weight: 500;
       color: #013365;
       text-align: center;
-      padding-top: 9.375rem;
-      padding-bottom: 3.75rem;
+      padding-top: 150px;
+      padding-bottom: 60px;
     }
 
-
     .manager_img {
-      max-width: 36.5625rem;
-      height: 20.625rem;
-      border-radius: .9375rem;
+      max-width: 585px;
+      height: 330px;
+      border-radius: 15px;
     }
 
     .manager {
       position: absolute;
-      top: 20rem;
-      right: 41.3125rem;
+      top: 320px;
+      right: 661px;
 
       .manager_tit1 {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: bold;
         color: #013365;
       }
 
       .manager_tit2 {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: bold;
       }
 
       .manager_exp {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
-        margin-top: 1rem;
+        margin-top: 16px;
         color: #666;
       }
     }
 
     .cityzens_img {
       width: 47%;
-      height: 20.625rem;
-      border-radius: .9375rem;
-      transform: translate(5.5625rem, 23.75rem);
+      height: 330px;
+      border-radius: 15px;
+      transform: translate(89px, 380px);
     }
 
     .cityzens {
       width: 45%;
       text-align: end;
-      transform: translateY(6.4375rem);
+      transform: translateY(103px);
 
       .cityzens_tit1 {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: bold;
         color: #013365;
       }
 
       .cityzens_tit2 {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: bold;
       }
 
       .cityzens_exp {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
-        margin-top: 1rem;
+        margin-top: 16px;
         color: #666;
       }
     }
 
     .Poznań_img {
-      max-width: 36.5625rem;
-      height: 20.625rem;
-      border-radius: .9375rem;
-      transform: translateY(15.6875rem);
+      max-width: 585px;
+      height: 330px;
+      border-radius: 15px;
+      transform: translateY(251px);
     }
 
     .Poznan {
       position: absolute;
-      bottom: 35.9375rem;
-      right: 29.25rem;
+      bottom: 575px;
+      right: 468px;
 
       .Poznan_tit1 {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: bold;
         color: #013365;
       }
 
       .Poznan_tit2 {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: bold;
       }
 
       .Poznan_exp {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
-        margin-top: 1rem;
+        margin-top: 16px;
         color: #666;
       }
     }
 
     .banana_balloon_img {
       width: 47%;
-      height: 20.625rem;
-      border-radius: .9375rem;
-      transform: translate(5.5625rem, 39.1875rem);
+      height: 330px;
+      border-radius: 15px;
+      transform: translate(89px, 627px);
     }
 
     .banana_balloon {
       width: 45%;
       text-align: end;
-      transform: translateY(21.875rem);
+      transform: translateY(350px);
 
       .banana_balloon_tit1 {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: bold;
         color: #013365;
       }
 
       .banana_balloon_tit2 {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: bold;
       }
 
       .banana_balloon_exp {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
-        margin-top: 1rem;
+        margin-top: 16px;
         color: #666;
       }
     }
@@ -510,73 +509,127 @@ body {
 
   .contents4 {
     width: 100%;
-    height: 100.3125rem;
+    height: 1605px;
     background: #85bfed;
 
     .con4_tit {
-      font-size: 38px;
+      font-size: 2.375rem;
       font-weight: 500;
       color: #013365;
       text-align: center;
-      padding-top: 9.375rem;
-      padding-bottom: 3.75rem;
+      padding-top: 150px;
+      padding-bottom: 60px;
+    }
+    .best_player_tit {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: center;
+      color: #013365;
+      padding-top: 8.125rem;
     }
 
     .con4_exp {
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: 400;
       text-align: center;
     }
 
-    .best_player {
-      .best_player_tit {
-        font-size: 40px;
+    .best_player_btn {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 3.75rem;
+      text-align: center;
+
+      .best_player_name {
+        font-size: 2.5rem;
         font-weight: bold;
+        color: #013365;
         text-align: center;
-        padding-top: 3.75rem;
-        color: #013365;
-      }
-
-      .box_img {
-        padding-top: 5rem;
-        display: flex;
-        justify-content: space-between;
-        margin: 0 15px;
-      }
-
-      .best_players {
-        display: flex;
-        justify-content: space-between;
-        font-size: 24px;
-        font-weight: bold;
-        color: #013365;
-        margin: 0 65px;
-        padding-top: 30px;
       }
 
       .best_player_career {
-        display: flex;
-        justify-content: space-between;
         text-align: center;
-        font-size: 0.875rem;
-        padding-top: 20px;
-      }
-
-      .best_player2_career {
-        padding-right: 45px;
-      }
-
-      .best_player3_career {
-        padding-right: 35px;
+        font-size: 1rem;
+        &:hover {
+          color: #013365;
+          font-weight: bold;
+        }
       }
     }
 
+    .legend_player_btn {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 3.75rem;
+      text-align: center;
+      .legend_player_name {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #013365;
+        text-align: center;
+      }
+
+      .legend_player_career {
+        text-align: center;
+        font-size: 1rem;
+        &:hover {
+          color: #013365;
+          font-weight: bold;
+        }
+      }
+    }
+    .legend_player_tit {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: center;
+      color: #013365;
+      padding-top: 30px;
+    }
   }
 
   .contents5 {
+    position: relative;
     width: 100%;
-    height: 155.9375rem;
+    height: 2495px;
     background: rgb(133, 191, 237, 0.5);
+    .con5_tit {
+      font-size: 2.375rem;
+      font-weight: 500;
+      color: #013365;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 60px;
+    }
+    .history_line {
+      position: absolute;
+      top: 254px;
+      left: 938px;
+      width: 1%;
+      height: 1945px;
+      background: #013365;
+      text-align: center;
+    }
+    .history-detail {
+      .year {
+        position: relative;
+        font-size: 4.375rem;
+        color: #013365;
+        font-weight: 400;
+        transform: translate(706px, -40px);
+        &::after {
+          content: "";
+          width: 4%;
+          height: 50px;
+          border-radius: 50%;
+          background: #013365;
+          position: absolute;
+          top: 42px;
+          margin-top: -23px;
+          left: -39px;
+          margin-left: -54px;
+          z-index: 2;
+        }
+      }
+    }
   }
-
 }
