@@ -18,44 +18,50 @@ body {
 // main
 .wrap {
   .contents1 {
-    position: relative;
     width: 100%;
     height: 1090px;
     background-color: #85bfed;
 
-    .team-logo-img {
+    .team {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .thumb1 {
+        width: 30%;
+
+        .team-logo-img {
+          padding-top: 60px;
+          width: 100%;
+        }
+      }
+    }
+
+    .team_intro {
       padding-top: 60px;
-      width: 30%;
-      transform: translateX(-21px);
+
+      .cont1_tit {
+        font-size: 5.625rem;
+        font-weight: bold;
+        color: #fff;
+      }
+
+      .cont1_exp1 {
+        font-size: 1.125rem;
+        font-weight: 500;
+        padding-top: 30px;
+      }
     }
 
-    .cont1_tit {
-      position: absolute;
-      top: 126px;
-      right: 309px;
-      display: flex;
-      justify-content: flex-end;
-      font-size: 5.625rem;
-      font-weight: bold;
-      color: #fff;
-    }
+    .thumb1-2 {
+      padding-top: 40px;
 
-    .cont1_exp1 {
-      position: absolute;
-      top: 270px;
-      right: 451px;
-      display: flex;
-      font-size: 1.125rem;
-      font-weight: 500;
-      justify-content: flex-end;
-    }
-
-    .team-stadium-img {
-      width: 100%;
-      height: 475px;
-      object-fit: cover;
-      border-radius: 15px;
-      transform: translateY(56px);
+      .team-stadium-img {
+        width: 100%;
+        height: 475px;
+        object-fit: cover;
+        border-radius: 15px;
+      }
     }
   }
 
@@ -369,7 +375,6 @@ body {
   }
 
   .contents3 {
-    position: relative;
     width: 100%;
     height: 1900px;
     background: #fff;
@@ -383,16 +388,26 @@ body {
       padding-bottom: 60px;
     }
 
-    .manager_img {
-      max-width: 585px;
-      height: 330px;
-      border-radius: 15px;
+    li {
+      display: flex;
+      align-items: center;
+
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+    }
+
+    .thumb {
+      width: 50%;
+
+      img {
+        width: 100%;
+        border-radius: 15px;
+      }
     }
 
     .manager {
-      position: absolute;
-      top: 320px;
-      right: 661px;
+      margin-left: 100px;
 
       .manager_tit1 {
         font-size: 1.75rem;
@@ -407,23 +422,19 @@ body {
 
       .manager_exp {
         font-size: 1rem;
-        font-weight: 400;
+        font-weight: 500;
         margin-top: 16px;
         color: #666;
+
+        .txt_color {
+          color: #013365;
+        }
       }
     }
 
-    .cityzens_img {
-      width: 47%;
-      height: 330px;
-      border-radius: 15px;
-      transform: translate(89px, 380px);
-    }
-
     .cityzens {
-      width: 45%;
-      text-align: end;
-      transform: translateY(103px);
+      margin-right: 100px;
+      text-align: right;
 
       .cityzens_tit1 {
         font-size: 1.75rem;
@@ -444,17 +455,8 @@ body {
       }
     }
 
-    .Poznań_img {
-      max-width: 585px;
-      height: 330px;
-      border-radius: 15px;
-      transform: translateY(251px);
-    }
-
     .Poznan {
-      position: absolute;
-      bottom: 575px;
-      right: 468px;
+      margin-left: 100px;
 
       .Poznan_tit1 {
         font-size: 1.75rem;
@@ -475,17 +477,9 @@ body {
       }
     }
 
-    .banana_balloon_img {
-      width: 47%;
-      height: 330px;
-      border-radius: 15px;
-      transform: translate(89px, 627px);
-    }
-
     .banana_balloon {
-      width: 45%;
-      text-align: end;
-      transform: translateY(350px);
+      margin-right: 100px;
+      text-align: right;
 
       .banana_balloon_tit1 {
         font-size: 1.75rem;
@@ -520,12 +514,13 @@ body {
       padding-top: 150px;
       padding-bottom: 60px;
     }
+
     .best_player_tit {
       font-size: 2.5rem;
       font-weight: bold;
       text-align: center;
       color: #013365;
-      padding-top: 8.125rem;
+      padding-top: 100px;
     }
 
     .con4_exp {
@@ -550,6 +545,7 @@ body {
       .best_player_career {
         text-align: center;
         font-size: 1rem;
+
         &:hover {
           color: #013365;
           font-weight: bold;
@@ -562,6 +558,7 @@ body {
       justify-content: space-evenly;
       padding-top: 3.75rem;
       text-align: center;
+
       .legend_player_name {
         font-size: 2.5rem;
         font-weight: bold;
@@ -572,12 +569,14 @@ body {
       .legend_player_career {
         text-align: center;
         font-size: 1rem;
+
         &:hover {
           color: #013365;
           font-weight: bold;
         }
       }
     }
+
     .legend_player_tit {
       font-size: 2.5rem;
       font-weight: bold;
@@ -590,8 +589,9 @@ body {
   .contents5 {
     position: relative;
     width: 100%;
-    height: 2495px;
+    height: 3165px;
     background: rgb(133, 191, 237, 0.5);
+
     .con5_tit {
       font-size: 2.375rem;
       font-weight: 500;
@@ -600,36 +600,286 @@ body {
       padding-top: 150px;
       padding-bottom: 60px;
     }
+
     .history_line {
       position: absolute;
       top: 254px;
-      left: 938px;
+      left: 50%;
       width: 1%;
       height: 1945px;
       background: #013365;
       text-align: center;
     }
-    .history-detail {
+
+    .history-detail_right {
+      margin: 0;
+      position: absolute;
+      top: 14%;
+      left: 68%;
+      transform: translate(-74%, -50%);
+
       .year {
         position: relative;
         font-size: 4.375rem;
         color: #013365;
         font-weight: 400;
-        transform: translate(706px, -40px);
+        line-height: 1;
+        margin-bottom: 15px;
+
         &::after {
           content: "";
-          width: 4%;
+          width: 15%;
           height: 50px;
           border-radius: 50%;
           background: #013365;
           position: absolute;
-          top: 42px;
-          margin-top: -23px;
-          left: -39px;
+          top: 33px;
+          margin-top: -74px;
+          left: -13%;
           margin-left: -54px;
           z-index: 2;
         }
       }
     }
+
+    .cont {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
+
+  .team-history {
+    .tit {
+      font-size: 2.5em;
+      text-align: center;
+    }
+
+    .history-list {
+      position: relative;
+      padding-top: 2rem;
+    }
+
+    .history-list-content:first-child .history-list-inner {
+      padding-top: 0;
+    }
+
+    .history-list-inner {
+      padding: 5rem 0;
+    }
+
+    .history-detail__item {
+      padding-bottom: 3.75em;
+      position: relative;
+
+      &.right {
+        margin-left: 50%;
+        padding-left: 2.5rem;
+      }
+
+      &.left {
+        margin-right: 50%;
+        padding-right: 2.5rem;
+        text-align: right;
+
+        .img-bx {
+          justify-content: flex-end;
+        }
+      }
+
+      .year {
+        font-size: 3.75rem;
+        line-height: 1;
+        margin-bottom: 0.9375rem;
+        font-weight: 400;
+        position: relative;
+        color: #013365;
+
+        &:after {
+          content: "";
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background: #013365;
+          position: absolute;
+          top: 30%;
+          margin-top: -2px;
+          left: -2.4375rem;
+          margin-left: -4px;
+          transition: all 0.3s ease-out;
+          z-index: 2;
+        }
+      }
+
+      .cont {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.125em;
+        color: $b;
+        margin: 0.4375rem 0;
+
+        .month {
+          font-size: 1.125em;
+          font-weight: 600;
+          flex: 0 0 35px;
+          max-width: 35px;
+        }
+
+        .text {
+          flex: 1 1 auto;
+          width: 1%;
+        }
+      }
+
+      .img-bx {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        img {
+          display: inline-block;
+          margin-bottom: 10px;
+
+          &:first-child {
+            padding-right: 0.9375rem;
+          }
+        }
+      }
+    }
+
+    .history-line {
+      position: absolute;
+      left: 50%;
+      width: 1px;
+      top: 3rem;
+      bottom: 0;
+      // background: #ddd;
+      text-align: center;
+
+      .line {
+        width: 10%;
+        height: 2535px;
+        background: #013365;
+        transition: height 0.3s ease-out;
+      }
+    }
+  }
+
+}
+
+// history
+
+@media (min-width: 1024.02px) {
+  .team-history .history-detail__item.left {
+    .year:after {
+      left: auto;
+      right: -2.5rem;
+      margin-left: 0;
+      margin-right: -5px;
+    }
+
+    .cont {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .team-history .history-detail__item .img-bx {
+    width: 50%;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .team-history .history-detail__item {
+    &.right {
+      margin-left: 3.125rem;
+      padding-left: 1.5625rem;
+    }
+
+    &.left {
+      margin-right: 0;
+      margin-left: 3.125rem;
+      padding-right: 0;
+      padding-left: 1.5625rem;
+      text-align: left;
+    }
+
+    .year {
+      font-size: 1.875em;
+
+      &:before {
+        left: -1.5625rem;
+        margin-left: -9px;
+      }
+
+      &:after {
+        left: -1.5625rem;
+      }
+    }
+
+    .cont {
+      font-size: 1.0625em;
+      margin: 10px 0;
+
+      .month {
+        flex: 1 0 100%;
+        max-width: 100%;
+        margin-bottom: 3px;
+      }
+
+      .text {
+        flex: 1 0 100%;
+        width: auto;
+        max-width: 100%;
+      }
+    }
+
+    .img-bx {
+      width: 100%;
+      margin: 0;
+      justify-content: flex-start;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .team-history .history-detail__item {
+
+    &.left,
+    &.right {
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    .year {
+
+      &:before,
+      &:after {
+        left: -1.4375rem;
+      }
+    }
+
+    .img-bx {
+      display: block;
+
+      img {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .team-history .history-line {
+    left: 3.125rem;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-history .history-line {
+    left: 0;
+    margin-left: 0;
   }
 }
