@@ -1735,12 +1735,13 @@ body {
   transform: translateY(-1.25rem);
 }
 .content3 .lst-menu a {
+  height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
-  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .content3 .lst-menu img {
   display: flex;
@@ -1752,7 +1753,7 @@ body {
 .content3 .lst-menu .btn-txt {
   font-size: 0.875rem;
   font-weight: 500;
-  margin-top: 0.3125rem;
+  margin-top: 15px;
 }
 
 .content4 {
@@ -1766,9 +1767,8 @@ body {
   overflow: hidden;
 }
 .content4 .box-card-wrap1 {
-  transform: translateY(110%);
+  transform: translateY(140%);
   max-width: 37.5rem;
-  margin-top: 5rem;
 }
 .content4 .box-card-wrap2 {
   transform: translateY(89%);
@@ -1851,17 +1851,11 @@ body {
 }
 .content4 .swiper-pagination {
   position: absolute;
-  top: 21.875rem;
-  right: 6.25rem;
+  top: 68% !important;
+  left: 50%;
+  transform: translate(500%, -70%);
   width: auto !important;
-  left: auto !important;
   margin: 0;
-}
-.content4 .swiper-pagination {
-  position: absolute;
-  top: 67% !important;
-  right: 19.1875rem;
-  transform: translateY(-70%);
 }
 .content4 .swiper-pagination-bullet {
   padding: 0.3125rem 0;
@@ -1896,13 +1890,14 @@ body {
 }
 .content4 .box-tit-wrap2 {
   position: absolute;
-  top: 50%;
-  transform: translateY(-133%);
-  left: 19.4375rem;
+  top: 13vh;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
+  width: 100%;
+  max-width: 80rem;
 }
 .content4 .box-tit-wrap2 .main-title4 {
-  padding-top: 13.75rem;
   font-size: 5.625em;
   font-weight: lighter;
 }
@@ -2095,24 +2090,36 @@ body {
   height: 150vh;
   background: #ffffff;
 }
-.content5 .swiper-container2 {
-  overflow: hidden;
+.content5 .box-slide-wrap {
+  transform: translateY(85%);
 }
-.content5 .main-title5 {
-  padding-top: 13.75rem;
+.content5 .box_tit_wrap3 {
+  position: absolute;
+  top: 13vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 100%;
+  max-width: 80rem;
+}
+.content5 .box_tit_wrap3 .main-title5 {
   font-size: 5.625em;
   font-weight: lighter;
 }
-.content5 .mini-exp5 {
+.content5 .box_tit_wrap3 .mini-exp5 {
   font-size: 1.125em;
   padding-top: 1.125rem;
-  padding-bottom: 8rem;
+}
+.content5 .swiper-container2 {
+  overflow: hidden;
 }
 .content5 .full-more {
   position: absolute;
-  top: 23.4375rem;
-  right: 19.0625rem;
-  font-size: 1.125em;
+  top: 68% !important;
+  left: 50%;
+  transform: translate(760%, 140%);
+  width: auto !important;
+  margin: 0;
 }
 .content5 .full-more::after {
   content: "\f105";
