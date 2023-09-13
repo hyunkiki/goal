@@ -27,9 +27,10 @@ body {
     background: #fff;
     border-right: 1px solid #333;
 
-    .world_cup {
+    .uruguay_world_cup {
       font-size: 1rem;
-      padding-right: 60px;
+      padding-left: 30px;
+      padding-top: 20px;
     }
 
     .thumb_world_cup_img {
@@ -52,10 +53,44 @@ body {
     .slide-tit {
       font-size: 1.875rem;
       font-weight: 500;
-      padding-bottom: 16px;
-      transform: translateX(20px);
+      padding-left: 20px;
     }
 
+    .slide-exp5 {
+      font-size: 1rem;
+      padding: 20px;
+    }
+    .img-tit5 {
+      font-size: 1rem;
+      padding-top: 20px;
+      transform: translateX(30px);
+    }
+    .thumb_cup {
+      position: absolute;
+      z-index: -1000;
+      top: 132px;
+      left: 0;
+      opacity: 0.3;
+      width: 40%;
+      img {
+        width: 100%;
+      }
+    }
+    .thumb_player {
+      width: 85%;
+      height: 70%;
+      overflow: hidden;
+      transform: translateX(20px);
+      .img-player {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease-out;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
     // a {
     //   .slide-tit {
     //     font-size: 1.875rem;
@@ -144,13 +179,11 @@ body {
     //     font-size: 18px;
     //   }
 
-
     //   .img-player {
     //     width: 100%;
     //     height: 100%;
     //     transition: transform 0.3s ease-out;
     //   }
-
 
     //   &:hover {
     //     color: orange;
@@ -195,7 +228,7 @@ body {
       position: static;
       display: flex;
       align-items: center;
-      transform: translateY(.625rem);
+      transform: translateY(0.625rem);
       height: 100%;
       color: #fff;
       font-size: 5vw;
@@ -386,7 +419,6 @@ body {
     font-size: 1.125em;
     color: #333;
     font-weight: 500;
-
   }
 
   .btn-more1-let5 {
@@ -510,7 +542,7 @@ body {
     a {
       height: 6.875rem;
       display: flex;
-      padding: .625rem;
+      padding: 0.625rem;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -527,7 +559,7 @@ body {
     .btn-txt {
       font-size: 14px;
       font-weight: 500;
-      margin-top: .625rem;
+      margin-top: 0.625rem;
     }
   }
 }
@@ -906,7 +938,7 @@ body {
     font-size: 24px;
 
     .box-btn {
-      border: .3125rem solid #000;
+      border: 0.3125rem solid #000;
       display: inline-flex;
       width: auto;
       height: 6.25rem;
@@ -919,7 +951,7 @@ body {
         content: "\f105";
         font-family: "Line Awesome Free";
         font-weight: 900;
-        margin-right: .9375rem;
+        margin-right: 0.9375rem;
       }
 
       &:hover {
@@ -933,14 +965,14 @@ body {
 .list-wrap {
   display: flex;
   width: 100%;
-  border-top: .0625rem solid #121212;
-  border-bottom: .0625rem solid #121212;
+  border-top: 0.0625rem solid #121212;
+  border-bottom: 0.0625rem solid #121212;
 
   li {
     padding: 1.5625rem;
 
     &:first-child {
-      border-bottom: .0313rem dashed #121212;
+      border-bottom: 0.0313rem dashed #121212;
     }
 
     a {
