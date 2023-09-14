@@ -27,44 +27,24 @@ body {
     background: #fff;
     border-right: 1px solid #333;
 
-    .uruguay_world_cup {
-      font-size: 1rem;
-      padding-left: 30px;
-      padding-top: 20px;
-    }
-
-    .thumb_world_cup_img {
-      overflow: hidden;
-      width: 80%;
-      height: 100%;
-      transform: translate(25px, 40px);
-
-      .img-firstworldcup {
-        width: 100%;
-        height: 70%;
-        transition: transform 0.3s ease-out;
-
-        &:hover {
-          transform: scale(1.2);
-        }
-      }
-    }
 
     .slide-tit {
       font-size: 1.875rem;
       font-weight: 500;
-      padding-left: 20px;
+
     }
 
     .slide-exp5 {
       font-size: 1rem;
-      padding: 20px;
+      padding-top: 20px;
+      line-height: 30px;
     }
+
     .img-tit5 {
       font-size: 1rem;
       padding-top: 20px;
-      transform: translateX(30px);
     }
+
     .thumb_cup {
       position: absolute;
       z-index: -1000;
@@ -72,135 +52,84 @@ body {
       left: 0;
       opacity: 0.3;
       width: 40%;
+
       img {
         width: 100%;
       }
     }
-    .thumb_player {
-      width: 85%;
-      height: 70%;
-      overflow: hidden;
-      transform: translateX(20px);
-      .img-player {
-        width: 100%;
-        height: 100%;
-        transition: transform 0.3s ease-out;
 
-        &:hover {
-          transform: scale(1.2);
-        }
+    .uruguay_world_cup_txt {
+      padding: 20px 30px 20px 45px;
+
+      .txt5_1 {
+        font-size: 1rem;
+        line-height: 30px;
+        padding: 20px 30px 20px 0;
       }
     }
-    // a {
-    //   .slide-tit {
-    //     font-size: 1.875rem;
-    //     font-weight: 500;
-    //     padding-bottom: 16px;
-    //     transform: translateX(20px);
-    //   }
 
-    //   .world_cup {
-    //     font-size: 1rem;
-    //   }
+    .txt5 {
+      padding: 20px 30px 20px 15px;
 
-    //   .thumb5 {
-    //     overflow: hidden;
-    //     width: 80%;
-    //     height: 100%;
-    //     transform: translate(25px, 40px);
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+}
 
-    //     .img-firstworldcup {
-    //       width: 100%;
-    //       height: 100%;
-    //       transition: transform 0.3s ease-out;
-    //     }
-    //   }
+.link_thumb {
+  &:hover {
+    .img-player {
+      transform: scale(1.2);
+    }
 
-    //   .slide-exp2 {
-    //     font-size: 1rem;
-    //     padding-right: 60px;
-    //   }
+    .img-firstworldcup {
+      transform: scale(1.2);
+    }
 
-    //   .img-tit3 {
-    //     font-size: 1rem;
-    //     padding-bottom: 16px;
-    //     transform: translateX(20px);
-    //   }
+    .uruguay_world_cup_txt {
+      color: orange;
+    }
 
-    //   .img3 {
-    //     position: absolute;
-    //     z-index: -1000;
-    //     top: 110px;
-    //     left: 0;
-    //     opacity: 0.3;
-    //     max-width: 380px;
-    //     height: 380px;
-    //   }
+    .txt5 {
+      color: orange;
+    }
+  }
 
-    //   .slide-exp3 {
-    //     font-size: 18px;
-    //     line-height: 30px;
-    //     padding-top: 55px;
-    //     padding-right: 60px;
-    //   }
+  .txt5 {
+    font-size: 1rem;
+    line-height: 30px;
+  }
 
-    //   .img4 {
-    //     position: absolute;
-    //     z-index: -1000;
-    //     top: 110px;
-    //     left: 0;
-    //     opacity: 0.3;
-    //     max-width: 380px;
-    //     height: 380px;
-    //   }
+  .uruguay_world_cup {
+    padding: 20px 30px 20px 45px;
+  }
 
-    //   .img-tit4 {
-    //     font-size: 1rem;
-    //     padding-bottom: 16px;
-    //     transform: translateX(20px);
-    //   }
+  .thumb_world_cup_img {
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+    transform: translate(13%, -7%);
 
-    //   .slide-exp4 {
-    //     font-size: 18px;
-    //     line-height: 30px;
-    //     padding-top: 55px;
-    //     padding-right: 60px;
-    //   }
+    .img-firstworldcup {
+      width: 100%;
+      height: 70%;
+      transition: transform 0.3s ease-out;
+    }
+  }
 
-    //   .slide-exp5 {
-    //     font-size: 18px;
-    //   }
+  .thumb_player {
+    width: 85%;
+    height: 70%;
+    overflow: hidden;
+    transform: translateX(15px);
 
-    //   .slide-exp6 {
-    //     font-size: 18px;
-    //   }
-
-    //   .slide-exp7 {
-    //     font-size: 18px;
-    //   }
-
-    //   .img-player {
-    //     width: 100%;
-    //     height: 100%;
-    //     transition: transform 0.3s ease-out;
-    //   }
-
-    //   &:hover {
-    //     color: orange;
-
-    //     .img-player {
-    //       transform: scale(1.2);
-    //     }
-
-    //     .img-firstworldcup {
-    //       transform: scale(1.2);
-    //     }
-    //   }
-    // }
-
-    // &:hover {
-    //   color: orange;
-    // }
+    .img-player {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease-out;
+    }
   }
 }
 
@@ -228,7 +157,8 @@ body {
       position: static;
       display: flex;
       align-items: center;
-      transform: translateY(0.625rem);
+      transform: translateY(-745%);
+      width: 100%;
       height: 100%;
       color: #fff;
       font-size: 5vw;
@@ -789,15 +719,6 @@ body {
       color: orange;
     }
   }
-
-  // img {
-  //   position: absolute;
-  //   top: 224px;
-  //   right: 490px;
-  //   max-width: 545px;
-  //   height: 565px;
-  //   filter: drop-shadow(5px 5px 5px lightgray);
-  // }
 }
 
 .content5 {
@@ -857,9 +778,9 @@ body {
 
 .swiper_buttion {
   position: absolute;
-  top: 0;
+  top: -73px;
   left: 50%;
-  transform: translate(-73%, -50%);
+  transform: translate(-72%, -48%);
   z-index: 10;
   width: 100%;
   max-width: 1280px;
@@ -867,7 +788,7 @@ body {
   .swiper-button-next {
     position: absolute;
     top: 1060px;
-    left: 367px;
+    left: 379px;
     // background-color: #fff;
     border: 1px solid #333;
     // opacity: 0.5;
