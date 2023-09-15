@@ -325,29 +325,104 @@ body {
 .wrap .cont2 {
   width: 100%;
   height: 1965px;
-  border: 1px solid #000;
 }
-.wrap .cont2 .cont2_tit {
+.wrap .cont2 .supTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.wrap .cont2 .supTop .cont2_tit {
   font-size: 2.375rem;
   font-weight: 500;
   color: #013365;
-  text-align: center;
   padding-top: 150px;
   padding-bottom: 60px;
 }
-.wrap .cont2 .url_copy {
-  width: 8%;
-  height: 30px;
-  border: 1px solid #E0E0E0;
-  float: right;
+.wrap .cont2 .supTop .right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(80%);
+}
+.wrap .cont2 .supTop .right .url_copy {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #666;
   font-size: 1rem;
   font-weight: 400;
-  color: #E0E0E0;
+  color: #666;
   padding: 5px 10px;
 }
-.wrap .cont2 .tab_wrap {
-  padding-top: 80px;
+.wrap .tab_wrap .tab_ul {
   width: 100%;
-  height: 55px;
-  border: 1px solid #000;
+  height: 80px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wrap .tab_wrap li {
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+.wrap .tab_wrap li.on a {
+  border-bottom: 3px solid #013365;
+  color: #013365;
+}
+.wrap .tab_wrap li.on::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 14px solid #013365;
+  transform: translateY(-240%);
+}
+.wrap .tab_wrap li a {
+  display: block;
+  height: 80px;
+}
+.wrap .player_view {
+  padding-top: 80px;
+}
+.wrap .player_view h3 {
+  display: flex;
+  font-size: 1.875rem;
+  align-items: center;
+  font-weight: 500;
+}
+.wrap .player_view h3::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 28px;
+  background: url("../../images/Group 133.png") 0 0 no-repeat;
+  margin-right: 14px;
+}
+.wrap .player_view .thumb_box {
+  display: flex;
+  justify-content: center;
+}
+.wrap .player_view .thumb_box .thumb_player_img {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 35%;
+}
+.wrap .player_view .player_info_box {
+  position: relative;
+}
+.wrap .player_view .player_info_box .info_img {
+  width: 100%;
+  padding-top: 80px;
+}
+.wrap .player_view .player_info_box .info_tit {
+  position: absolute;
+  top: 0;
+  left: 0;
 }/*# sourceMappingURL=contents2.css.map */
