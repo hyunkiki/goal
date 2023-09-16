@@ -30,6 +30,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script defer src="./dist/js/contents.js"></script>
 </head>
 
@@ -67,9 +68,6 @@
           <section class="tab_wrap">
             <ul class="tab_ul">
               <li class="on">
-                <a href="#">ALL</a>
-              </li>
-              <li>
                 <a href="#">FW</a>
               </li>
               <li>
@@ -79,30 +77,214 @@
                 <a href="#">DF</a>
               </li>
               <li>
-                <a href="#">F</a>
+                <a href="#">GK</a>
               </li>
               <li>
                 <a href="#">코칭스태프</a>
+              </li>
+              <li>
+                <a href="#">지원스태프</a>
               </li>
             </ul>
           </section>
           <section class="player_view">
             <h3>FW</h3>
             <div class="thumb_box">
-              <div>
                 <ul class="thumb_player_img">
                   <li>
-                    <a href=""></a>
+                    <a href="#">                
+                      <img class="foword_player_img on" src="./images/player_introduce/Erling_haaland.svg"
+                  alt="Erlinghaaland">
+                
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img class="foword_player_img" src="./images/player_introduce/julian_Alvarez.svg" alt="julianAlvarez">                   
+                    </a>
                   </li>
                 </ul>
-                <img class="foword_player_img on" src="./images/player_introduce/Erling_haaland.svg"
-                  alt="Erlinghaaland">
-                <img class="foword_player_img" src="./images/player_introduce/julian_Alvarez.svg" alt="julianAlvarez">
-              </div>
             </div>
             <div class="player_info_box">
               <h2 class="info_tit">2023 SEASON</h2>
+              <div class="player_stat">
+                <dl>
+                  <dt>GAME</dt>
+                  <dd class="playerViewGame">35</dd>
+                </dl>
+                <dl>
+                  <dt>GOAL</dt>
+                  <dd class="playerViewGoal">36</dd>
+                </dl>
+                <dl>
+                  <dt>GAME</dt>
+                  <dd class="playerViewAssist">8</dd>
+                </dl>
+              </div>
+              <div class="player_profile">
+                <dl>
+                  <dt>
+                    <span class="num">FW 9</span>
+                    <span class="name">엘링 홀란드</span>
+                  </dt>
+                  <dd>
+                    <ul>
+                      <li>
+                        <dl>
+                          <dt>생년월일</dt>
+                          <dd>20000721</dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt>출생지</dt>
+                          <dd>잉글랜드 요크셔햄버 웨스트요크셔주 리즈</dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt>신장/체중</dt>
+                          <dd>195cm/88kg</dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt>입단연도</dt>
+                          <dd>2022년</dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt>출신교</dt>
+                          <dd>가톨릭</dd>
+                        </dl>
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+              </div>
               <img class="info_img" src="./images/info.svg" alt="playerinfo">
+            </div>
+            <div class="player_career">
+              <h3>
+                주요경력
+              </h3>
+              <ul>
+                <li>
+                  <dl class>
+                    <dt>
+                      20<span>22</span>
+                    </dt>
+                    <dd>
+                       맨체스터 시티 입단 
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class>
+                    <dt>
+                      20<span>19</span>
+                    </dt>
+                    <dd>
+                       보루시아 도르트문트 입단
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class>
+                    <dt>
+                      20<span>19</span>
+                    </dt>
+                    <dd>
+                      FIFA U-20 월드컵 국가대표
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class>
+                    <dt>
+                      20<span>18</span>
+                    </dt>
+                    <dd>
+                       FC 레드불 잘츠부르크 입단
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class>
+                    <dt>
+                      20<span>17</span>
+                    </dt>
+                    <dd>
+                       몰데FK 입단
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class>
+                    <dt>
+                      20<span>16</span>
+                    </dt>
+                    <dd>
+                      브뤼네 FK 입단
+                    </dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+            <div class="player_record">
+              <h3>연도별 리그 기록</h3>
+              <form action>
+                <fieldset>
+                  <legend>연도별 기록 연도 선택</legend>
+                  <select class="selectYear" name="selectYear_Erlinghaaland">
+                    <option value="2023">2023년</option>
+                    <option value="2022">2022년</option>
+                  </select>
+                </fieldset>
+              </form>
+              <div class="tbwrap_col">
+                <table>
+                  <caption>연도, 교체 in, 교체 out, 교체, 전반득점, 후반득점, 연장득점, 득점에 대한 해당 선수 연도별 기록</caption>
+                  <colgroup>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th scope="col">연도</th>
+                      <th scope="col">출전</th>
+                      <th scope="col">득점</th>
+                      <th scope="col">도움</th>
+                      <th scope="col">슈팅</th>
+                      <th scope="col">파울</th>
+                      <th scope="col">경고</th>
+                      <th scope="col">퇴장</th>
+                      <th scope="col">실점</th>
+                    </tr>
+                  </thead>
+                  <tbody class="recordTbody">
+                    <tr class="Erlinghaaland_2023"> 
+                      <td>2023</td>
+                      <td>35</td>
+                      <td>36</td>
+                      <td>8</td>
+                      <td>25</td>
+                      <td>12</td>
+                      <td>2</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </section>
         </div>
