@@ -763,7 +763,6 @@ body {
       }
     }
   }
-
 }
 
 // history
@@ -845,7 +844,6 @@ body {
 
 @media (max-width: 768px) {
   .team-history .history-detail__item {
-
     &.left,
     &.right {
       margin-left: 0;
@@ -853,7 +851,6 @@ body {
     }
 
     .year {
-
       &:before,
       &:after {
         left: -1.4375rem;

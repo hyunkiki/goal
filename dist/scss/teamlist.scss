@@ -3,7 +3,161 @@
 // comm.scss -
 // 공통요소 : 헤더, 풋터, 버튼, 아이콘, 박스
 
-
 // 공통
+body {
+  overflow-x: hidden;
+  /* 가로 스크롤 숨김 */
+}
+
+.inner {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
 
 // main
+.wrap {
+  .con1 {
+    .bg_img {
+      position: relative;
+      background-image: url("../../images/premier_league_background.png");
+      height: 430px;
+      background-position: 50% 70%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .league_intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .thumb-img {
+        width: 25%;
+        padding-top: 60px;
+        .premierleague_logo_img {
+          width: 100%;
+        }
+      }
+      .con1_tit {
+        font-size: 5.625rem;
+        font-weight: bold;
+        color: $w;
+      }
+    }
+  }
+  .con2 {
+    width: 100%;
+    height: 2500px;
+    .con2_tit {
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding-top: 150px;
+    }
+    li {
+      font-size: 0;
+      //   margin-top: 60px;
+      > div {
+        display: inline-block !important;
+        vertical-align: top;
+        width: 50%;
+        font-size: 1rem;
+      }
+      .img_box {
+        height: 400px;
+        background: #371d54;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        border-radius: 15px;
+      }
+      .thumb {
+        width: 55%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        .team_logo_img {
+          width: 100%;
+        }
+      }
+      .txt_box {
+        padding-left: 100px;
+        .team_tit {
+          font-size: 1.875rem;
+          font-weight: 500;
+        }
+        .home {
+          display: flex;
+          /* padding-left: 0px; */
+          justify-content: space-between;
+          padding-top: 20px;
+          width: 57%;
+          .home_studium {
+            width: 40%;
+            height: 45px;
+            background: #d9d9d9;
+            text-align: center;
+            padding-top: 7px;
+            font-size: 1.25rem;
+            border-radius: 10px;
+            color: rgb(0, 0, 0, 0.5);
+          }
+          .studium_name {
+            font-size: 1.25rem;
+            padding: 7px 0;
+          }
+        }
+        .rival {
+          display: flex;
+          /* padding-left: 0px; */
+          justify-content: space-between;
+          padding-top: 20px;
+          width: 60%;
+          .rival_team {
+            width: 40%;
+            height: 45px;
+            background: #d9d9d9;
+            text-align: center;
+            padding-top: 7px;
+            font-size: 1.25rem;
+            border-radius: 10px;
+            color: rgb(0, 0, 0, 0.5);
+          }
+          .rival_name {
+            font-size: 1.25rem;
+            padding: 7px 0;
+          }
+        }
+        .detail_more {
+          font-size: 1rem;
+          font-weight: 600;
+          padding-top: 20px;
+          a {
+            &::after {
+              content: "\f061";
+              font-family: "Line Awesome Free";
+              font-weight: 900;
+            }
+            &:hover {
+              color: #371d54;
+            }
+          }
+        }
+        .manager_thumb {
+          width: 40%;
+          margin-top: 20px;
+          img {
+            width: 100%;
+            border-radius: 10px;
+          }
+        }
+      }
+      &:nth-child(even) {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      &:first-child {
+        margin-top: 60px;
+      }
+    }
+  }
+}
