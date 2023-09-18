@@ -178,8 +178,10 @@ body {
         padding-top: 10px;
         width: 35%;
       }
+
       .foword_player_img {
         width: 110%;
+
         &.on {
           width: 100%;
           border: 5px solid #013365 !important;
@@ -202,6 +204,7 @@ body {
         font-size: 1.875rem;
         color: $w;
       }
+
       .player_stat {
         display: flex;
         align-items: center;
@@ -213,6 +216,7 @@ body {
         margin-left: 102px;
         padding-top: 155px;
         color: $w;
+
         dl {
           flex: 134px;
           min-width: 134px;
@@ -220,6 +224,7 @@ body {
           position: relative;
           text-align: center;
           line-height: 1;
+
           &::after {
             content: "";
             display: block;
@@ -231,19 +236,23 @@ body {
             background: rgba(255, 255, 255, 0.3);
           }
         }
+
         dd {
           font-size: 63.17px;
           font-weight: 600;
         }
       }
+
       .player_profile {
         position: absolute;
         top: 50%;
         left: 10%;
+
         dl {
           display: inline-block;
           min-width: 400px;
         }
+
         dt {
           display: flex;
           justify-content: flex-start;
@@ -252,17 +261,21 @@ body {
           font-weight: 600;
           color: $w;
         }
+
         .num {
           font-size: 40px;
           margin-right: 40px;
         }
+
         .name {
           font-size: 40px;
           margin-left: auto;
         }
+
         dd {
           ul {
             list-style: none;
+
             li {
               height: 50px;
               border-top: 1px solid;
@@ -270,12 +283,14 @@ body {
               line-height: 48px;
               border-bottom: 1px solid rgb(255, 255, 255, 0.5);
             }
+
             dt {
               display: inline-block;
               width: 103px;
               padding-left: 13px;
               position: relative;
               font-weight: 300;
+
               &::before {
                 content: "";
                 display: block;
@@ -288,6 +303,7 @@ body {
                 background: $w;
               }
             }
+
             dd {
               display: inline-block;
               padding-left: 45px;
@@ -299,18 +315,22 @@ body {
         }
       }
     }
+
     .player_career {
       h3 {
         margin-top: 80px;
         color: #013365;
       }
+
       ul {
         border-top: 1px solid #222;
       }
+
       li {
         border-bottom: 1px solid #d2d2d2;
         vertical-align: middle;
       }
+
       dl {
         display: flex;
         // -webkit-box-align: center;
@@ -327,6 +347,7 @@ body {
         flex-wrap: wrap;
         padding: 30px 10px 30px 204px;
       }
+
       dt {
         width: 180px;
         min-width: 180px;
@@ -338,16 +359,19 @@ body {
         top: 50%;
         left: 0;
         transform: translateY(-50%);
+
         span {
           display: inline-block;
           color: #013365;
         }
       }
+
       dd {
         padding: 0 19px 0 10px;
         position: relative;
         color: #666;
         font-size: 16px;
+
         &::before {
           content: "";
           display: block;
@@ -360,12 +384,15 @@ body {
         }
       }
     }
+
     .player_record {
       position: relative;
+
       h3 {
         margin-top: 80px;
         color: #013365;
       }
+
       form {
         float: right;
         width: 120px;
@@ -374,6 +401,7 @@ body {
         text-align: right;
         transform: translateY(-230%);
       }
+
       legend {
         font-size: 0;
         width: 0;
@@ -382,6 +410,7 @@ body {
         position: absolute;
         left: -9999px;
       }
+
       select {
         min-width: 120px;
         height: 40px;
@@ -396,16 +425,19 @@ body {
         appearance: none;
       }
     }
+
     .tbwrap_col {
       display: flex;
       // -webkit-box-orient: vertical;
       // -webkit-box-direction: normal;
       // -ms-flex-direction: column;
       flex-direction: column;
+
       table {
         width: 1280px;
         border-collapse: collapse;
         margin-top: 20px;
+
         caption {
           font-size: 0;
           width: 0;
@@ -414,6 +446,7 @@ body {
           position: absolute;
           left: -9999px;
         }
+
         // col {
         //   max-width: 120px;
         // }
@@ -423,21 +456,26 @@ body {
           border-top: 2px solid #000;
           padding: 20px 0;
           background-color: rgb(237, 237, 237, 0.5);
+
           &:first-child {
             border-left: 0;
           }
+
           &:last-child {
             border-right: 0;
           }
         }
+
         td {
           max-width: 120px;
           text-align: center;
           border: 1px solid #d2d2d2;
           padding: 20px 0;
+
           &:first-child {
             border-left: 0;
           }
+
           &:last-child {
             border-right: 0;
           }
