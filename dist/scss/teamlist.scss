@@ -51,8 +51,8 @@ body {
 
   .con2 {
     width: 100%;
-    height: 5000px;
-    border: 1px solid #000;
+    height: 4800px;
+    // border: 1px solid #000;
 
     .con2_tit {
       font-size: 2.5rem;
@@ -188,63 +188,36 @@ body {
       &:nth-child(even) {
         display: flex;
         flex-direction: row-reverse;
-
-        .team_tit {
-          text-align: right;
+        .txt_box {
+          display: flex;
           padding-left: 0;
           padding-right: 100px;
+          /* text-align: end; */
+          flex-direction: column;
+          align-items: flex-end;
         }
-
         .team_info {
           display: flex;
-          padding-left: 0;
-          padding-right: 100px;
-          flex-direction: row-reverse;
-          align-items: flex-end;
-
-          dd {
-            margin-right: 20px;
-          }
+          padding-top: 20px;
+          justify-content: flex-end;
+          width: 100%;
         }
-
         .manager_box {
           display: flex;
-          align-items: flex-end;
+          justify-content: flex-end;
+          width: 100%;
         }
-
-        .detail_more {
-          text-align: right;
-          padding-left: 0;
-          padding-right: 100px;
-        }
-      }
-
-      .btn_lst {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-
-        a {
-          display: block;
-          width: 4%;
-          height: 50px;
-
-          .btn_1st {
-
-            border-radius: 25px;
-            background: #000;
-            font-size: 30px;
-            color: white;
-            text-align: center;
-          }
-
-          .btn_2st {
-            border-radius: 25px;
-            background: #000;
-            font-size: 30px;
-            color: white;
-            text-align: center;
-          }
+        .manager_thumb {
+          width: 50%;
+          margin-top: 20px;
+          margin-right: 0;
+          margin-left: 20px;
+          // img {
+          //   width: 100%;
+          //   height: 180px;
+          //   border-radius: 10px;
+          //   object-fit: cover;
+          // }
         }
       }
     }
@@ -270,5 +243,31 @@ body {
       font-size: 1.25rem;
       margin-left: 20px;
     }
+  }
+}
+
+.btn_lst {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+
+  .btn_lst1 {
+    border-radius: 25px;
+    background: #000;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 5vh;
+    height: 5vh;
+  }
+
+  .btn_lst2 {
+    border-radius: 25px;
+    background: #666;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 5vh;
+    height: 5vh;
   }
 }
