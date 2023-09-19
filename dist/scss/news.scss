@@ -49,20 +49,23 @@ body {
   .c2 {
     width: 100%;
     height: 3860px;
-    border: 1px solid #000;
+    // border: 1px solid #000;
 
     .cont2_tit {
       padding-top: 150px;
       font-size: 2.5rem;
       font-weight: bold;
+      margin-bottom: 60px;
     }
 
     .news_box {
       display: flex;
-
-      .thumb {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      li {
         width: 45%;
-
+      }
+      .thumb {
         img {
           width: 100%;
           border-radius: 15px;
