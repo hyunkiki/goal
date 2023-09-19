@@ -1392,17 +1392,6 @@ body {
      object-fit: fill;
   overflow: hidden;
 }
-.wrap .soccer .scroll_txt {
-  position: static;
-  display: flex;
-  align-items: center;
-  transform: translateY(-745%);
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  font-size: 5vw;
-  overflow: hidden;
-}
 
 .scroll_container_intro {
   position: relative;

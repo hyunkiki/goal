@@ -1,0 +1,209 @@
+@charset "UFT-8";
+@import "variables", "mixin", "fonts", "reset", "main";
+// comm.scss -
+// 공통요소 : 헤더, 풋터, 버튼, 아이콘, 박스
+
+// 공통
+body {
+  overflow-x: hidden;
+  /* 가로 스크롤 숨김 */
+}
+
+.inner {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80rem;
+}
+
+// main
+.wrap {
+  .contents_1 {
+
+    .back_img {
+      // position: relative;
+      background-image: url("../../images/cup.jpg");
+      height: 430px;
+      background-position: 50% 70%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .cup_intro {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contents1_tit {
+      padding-top: 60px;
+      font-size: 5.625rem;
+      font-weight: bold;
+      color: $w;
+    }
+
+    .contents1_exp {
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: #fff;
+      text-align: end;
+      padding-top: 150px;
+    }
+  }
+
+  .contents_2 {
+    position: relative;
+    width: 100%;
+    height: 2440px;
+    // border: 1px solid #000;
+
+    .contents2_tit {
+      padding-top: 150px;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .cup_bg1 {
+      position: relative;
+      margin-top: 60px;
+      background-image: url("../../images/Champions_League.png");
+      height: 725px;
+      background-position: 50% 20%;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      .txt_box1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translateY(140%);
+        width: 50%;
+
+        .cup_tit1 {
+          color: white;
+          font-size: 3.125rem;
+        }
+
+        .cup_year1 {
+          color: white;
+          font-size: 1.25rem;
+          margin-top: 20px;
+
+        }
+
+        .btn_more {
+          margin-top: 20px;
+
+          a {
+            color: white;
+            font-size: 1.25rem;
+
+            &::after {
+              content: "\f061";
+              font-family: 'Line Awesome Free';
+              font-weight: 900;
+            }
+
+            &:hover {
+              color: orange;
+            }
+          }
+        }
+      }
+    }
+
+    .cup_bg2 {
+      position: relative;
+      background-image: url("../../images/Europa_League.png");
+      height: 725px;
+      background-position: 50% 10%;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      .txt_box2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translateY(160%);
+        width: 50%;
+
+        .cup_tit2 {
+          color: white;
+          font-size: 3.125rem;
+        }
+
+        .cup_year2 {
+          color: white;
+          font-size: 1.25rem;
+          margin-top: 20px;
+
+        }
+
+        .btn_more {
+          margin-top: 20px;
+
+          a {
+            color: white;
+            font-size: 1.25rem;
+
+            &::after {
+              content: "\f061";
+              font-family: 'Line Awesome Free';
+              font-weight: 900;
+            }
+
+            &:hover {
+              color: orange;
+            }
+          }
+        }
+      }
+    }
+
+    .cup_bg3 {
+      position: relative;
+      background-image: url("../../images/europa-conference-league.png");
+      height: 725px;
+      background-position: 50% 80%;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      .txt_box3 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translateY(120%);
+        width: 50%;
+
+        .cup_tit3 {
+          color: white;
+          font-size: 3.125rem;
+        }
+
+        .cup_year3 {
+          color: white;
+          font-size: 1.25rem;
+          margin-top: 20px;
+
+        }
+
+        .btn_more {
+          margin-top: 20px;
+
+          a {
+            color: white;
+            font-size: 1.25rem;
+
+            &::after {
+              content: "\f061";
+              font-family: 'Line Awesome Free';
+              font-weight: 900;
+            }
+
+            &:hover {
+              color: orange;
+            }
+          }
+        }
+      }
+    }
+  }
+}

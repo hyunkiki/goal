@@ -51,13 +51,14 @@ body {
 
   .con2 {
     width: 100%;
-    height: 4800px;
+    height: 4850px;
     // border: 1px solid #000;
 
     .con2_tit {
       font-size: 2.5rem;
       font-weight: bold;
       padding-top: 150px;
+      padding-bottom: 60px;
     }
 
     li {
@@ -156,7 +157,7 @@ body {
             }
 
             &:hover {
-              color: #371d54;
+              color: orange;
             }
           }
         }
@@ -188,6 +189,7 @@ body {
       &:nth-child(even) {
         display: flex;
         flex-direction: row-reverse;
+
         .txt_box {
           display: flex;
           padding-left: 0;
@@ -196,17 +198,20 @@ body {
           flex-direction: column;
           align-items: flex-end;
         }
+
         .team_info {
           display: flex;
           padding-top: 20px;
           justify-content: flex-end;
           width: 100%;
         }
+
         .manager_box {
           display: flex;
           justify-content: flex-end;
           width: 100%;
         }
+
         .manager_thumb {
           width: 50%;
           margin-top: 20px;
@@ -254,20 +259,22 @@ body {
   .btn_lst1 {
     border-radius: 25px;
     background: #000;
-    font-size: 30px;
+    font-size: 1.25rem;
     color: white;
     text-align: center;
     width: 5vh;
     height: 5vh;
+    padding: 10px 0;
   }
 
   .btn_lst2 {
     border-radius: 25px;
-    background: #666;
-    font-size: 30px;
+    background: lightgray;
+    font-size: 1.25rem;
     color: white;
     text-align: center;
     width: 5vh;
     height: 5vh;
+    padding: 10px 0;
   }
 }

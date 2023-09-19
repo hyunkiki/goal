@@ -277,171 +277,50 @@ body {
 .inner {
   margin: 0 auto;
   width: 100%;
-  max-width: 1280px;
+  max-width: 80rem;
 }
 
-.wrap .con1 .bg_img {
-  position: relative;
-  background-image: url("../../images/premier_league_background.png");
+.wrap .bg_img {
+  background-image: url("../../images/football_news.jpg");
   height: 430px;
-  background-position: 50% 70%;
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.wrap .con1 .league_intro {
+.wrap .news_intro {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
 }
-.wrap .con1 .league_intro .thumb-img {
-  width: 25%;
+.wrap .c1_tit {
   padding-top: 60px;
-}
-.wrap .con1 .league_intro .thumb-img .premierleague_logo_img {
-  width: 100%;
-}
-.wrap .con1 .league_intro .con1_tit {
   font-size: 5.625rem;
   font-weight: bold;
   color: #fff;
 }
-.wrap .con2 {
-  width: 100%;
-  height: 4850px;
+.wrap .c1_exp {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: end;
+  padding-top: 150px;
 }
-.wrap .con2 .con2_tit {
+.wrap .c2 {
+  width: 100%;
+  height: 3860px;
+  border: 1px solid #000;
+}
+.wrap .c2 .cont2_tit {
+  padding-top: 150px;
   font-size: 2.5rem;
   font-weight: bold;
-  padding-top: 150px;
-  padding-bottom: 60px;
 }
-.wrap .con2 li {
+.wrap .c2 .news_box {
   display: flex;
 }
-.wrap .con2 li .img_box {
-  width: 50%;
-  height: 430px;
-  background: #371d54;
+.wrap .c2 .news_box .thumb {
+  width: 45%;
+}
+.wrap .c2 .news_box .thumb img {
+  width: 100%;
   border-radius: 15px;
-}
-.wrap .con2 li .thumb {
-  width: 55%;
-  margin: auto;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-.wrap .con2 li .thumb .team_logo_img {
-  width: 100%;
-}
-.wrap .con2 li .txt_box {
-  width: 50%;
-  padding-left: 100px;
-}
-.wrap .con2 li .txt_box .team_tit {
-  font-size: 1.875rem;
-  font-weight: 500;
-}
-.wrap .con2 li .txt_box .detail_more {
-  font-size: 1rem;
-  font-weight: 600;
-  padding-top: 10px;
-}
-.wrap .con2 li .txt_box .detail_more a::after {
-  content: "\f061";
-  font-family: "Line Awesome Free";
-  font-weight: 900;
-}
-.wrap .con2 li .txt_box .detail_more a:hover {
-  color: orange;
-}
-.wrap .con2 li .txt_box .manager_box {
-  display: flex;
-  align-items: flex-end;
-}
-.wrap .con2 li .txt_box .manager_thumb {
-  width: 50%;
-  margin-top: 20px;
-  margin-right: 20px;
-}
-.wrap .con2 li .txt_box .manager_thumb img {
-  width: 100%;
-  height: 180px;
-  border-radius: 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.wrap .con2 li:nth-child(even) {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.wrap .con2 li:nth-child(even) .txt_box {
-  display: flex;
-  padding-left: 0;
-  padding-right: 100px;
-  /* text-align: end; */
-  flex-direction: column;
-  align-items: flex-end;
-}
-.wrap .con2 li:nth-child(even) .team_info {
-  display: flex;
-  padding-top: 20px;
-  justify-content: flex-end;
-  width: 100%;
-}
-.wrap .con2 li:nth-child(even) .manager_box {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-.wrap .con2 li:nth-child(even) .manager_thumb {
-  width: 50%;
-  margin-top: 20px;
-  margin-right: 0;
-  margin-left: 20px;
-}
-.wrap .team_info {
-  display: flex;
-  padding-top: 20px;
-}
-.wrap .team_info dt {
-  width: 25%;
-  height: 45px;
-  background: #d9d9d9;
-  text-align: center;
-  padding-top: 7px;
-  font-size: 1.25rem;
-  border-radius: 10px;
-  color: rgba(0, 0, 0, 0.5);
-}
-.wrap .team_info dd {
-  line-height: 45px;
-  font-size: 1.25rem;
-  margin-left: 20px;
-}
-
-.btn_lst {
-  margin-top: 80px;
-  display: flex;
-  justify-content: center;
-}
-.btn_lst .btn_lst1 {
-  border-radius: 25px;
-  background: #000;
-  font-size: 1.25rem;
-  color: white;
-  text-align: center;
-  width: 5vh;
-  height: 5vh;
-  padding: 10px 0;
-}
-.btn_lst .btn_lst2 {
-  border-radius: 25px;
-  background: lightgray;
-  font-size: 1.25rem;
-  color: white;
-  text-align: center;
-  width: 5vh;
-  height: 5vh;
-  padding: 10px 0;
-}/*# sourceMappingURL=teamlist.css.map */
+}/*# sourceMappingURL=news.css.map */
