@@ -1,20 +1,3 @@
-@charset "UFT-8";
-@import "variables", "mixin", "fonts", "reset", "main";
-// comm.scss -
-// 공통요소 : 헤더, 풋터, 버튼, 아이콘, 박스
-
-// 공통
-body {
-  overflow-x: hidden;
-  /* 가로 스크롤 숨김 */
-}
-
-.inner {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 80rem;
-}
-
 // main
 .wrap {
   .bg_img {
@@ -48,7 +31,7 @@ body {
 
   .c2 {
     width: 100%;
-    height: 3860px;
+    height: 2820px;
     // border: 1px solid #000;
 
     .cont2_tit {
@@ -58,17 +41,72 @@ body {
       margin-bottom: 60px;
     }
 
-    .news_box {
+    .cont2_tit_2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 60px;
+    }
+
+    .Transfer_news_box {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+
       li {
         width: 45%;
+        margin-bottom: 80px;
       }
+
       .thumb {
+        height: 75%;
+
         img {
           width: 100%;
+          height: 100%;
           border-radius: 15px;
+        }
+      }
+
+      .news_tit {
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+      }
+
+      .news {
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+
+    .newest_news_box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      li {
+        width: 45%;
+        margin-bottom: 80px;
+      }
+
+      .thumb {
+        height: 75%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 15px;
+        }
+      }
+
+      .news_tit {
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+      }
+
+      .news {
+        &:hover {
+          color: orange;
         }
       }
     }

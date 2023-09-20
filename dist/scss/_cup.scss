@@ -1,20 +1,3 @@
-@charset "UFT-8";
-@import "variables", "mixin", "fonts", "reset", "main";
-// comm.scss -
-// 공통요소 : 헤더, 풋터, 버튼, 아이콘, 박스
-
-// 공통
-body {
-  overflow-x: hidden;
-  /* 가로 스크롤 숨김 */
-}
-
-.inner {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 80rem;
-}
-
 // main
 .wrap {
   .contents_1 {
