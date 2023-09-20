@@ -58,31 +58,73 @@
   }
 }
 
-@media screen and (max-width: 428px) {}
-
-.container_wrap1 {
-  display: flex;
-  justify-content: space-between;
+@media screen and (max-width: 428px) {
 }
 
-@media screen and (max-width: 1024px) {}
+// @media screen and (max-width: 1024px) {
+// }
 
-@media screen and (max-width: 428px) {}
+// @media screen and (max-width: 428px) {
+// }
 
-.container_wrap2 {
-  display: flex;
-  justify-content: space-between;
-}
+// @media screen and (max-width: 1024px) {
+// }
 
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 428px) {}
+// @media screen and (max-width: 428px) {
+// }
 
 .contents2 {
   width: 100%;
-  height: 785px;
+  height: 917px;
   background: #eee;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
 
+  .swiper-slide.slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // font-size: 30px;
+    // background: #fff;
+    // border-right: 1px solid #333;
+  }
+
+  .swiper-slide.slide2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide.slide2 {
+    width: 80%;
+    background: transparent;
+  }
+  // .swiper {
+  //   width: 100%;
+  //   height: 100%;
+  //   .swiper_slide_2 {
+  //     position: relative;
+  //     height: 500px;
+  //     // font-size: 30px;
+  //     // background: #fff;
+  //     // border-right: 1px solid #333;
+  //   }
+  // }
+
+  // .container_wrap1 {
+  //   display: flex;
+  //   justify-content: space-between;
+  // }
+  // .container_wrap2 {
+  //   display: flex;
+  //   justify-content: space-between;
+  // }
   .cont2_tit {
     font-size: 2.375rem;
     font-weight: 500;
@@ -93,13 +135,13 @@
   }
 
   .team-box1 {
-    width: 45%;
-    height: 390px;
+    // width: 75%;
+    height: 500px;
     background: #fff;
     border-radius: 15px;
 
     .tit-box1 {
-      max-width: 580px;
+      width: 100%;
       height: 110px;
       background: #85bfed;
       border-top-left-radius: 15px;
@@ -142,10 +184,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: translate(210px, 10px);
+      transform: translate(100%, -10%);
 
-      .btn-txt {
-        transform: translateY(-8px);
+      .btn-text {
+        padding-bottom: 15px;
       }
 
       &::after {
@@ -164,13 +206,13 @@
   }
 
   .team-box2 {
-    width: 45%;
-    height: 390px;
+    // width: 75%;
+    height: 500px;
     background: #fff;
     border-radius: 15px;
 
     .tit-box2 {
-      max-width: 580px;
+      width: 100%;
       height: 110px;
       background: #85bfed;
       border-top-left-radius: 15px;
@@ -213,10 +255,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: translate(210px, 10px);
+      transform: translate(100%, -40%);
 
-      .btn-txt {
-        transform: translateY(-8px);
+      .btn-text {
+        padding-bottom: 15px;
       }
 
       &::after {
@@ -235,13 +277,13 @@
   }
 
   .team-box3 {
-    width: 45%;
-    height: 390px;
+    // width: 75%;
+    height: 500px;
     background: #fff;
     border-radius: 15px;
 
     .tit-box3 {
-      max-width: 580px;
+      width: 100%;
       height: 110px;
       background: #85bfed;
       border-top-left-radius: 15px;
@@ -284,10 +326,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: translate(210px, 10px);
+      transform: translate(100%, -20%);
 
-      .btn-txt {
-        transform: translateY(-8px);
+      .btn-text {
+        padding-bottom: 15px;
       }
 
       &::after {
@@ -306,13 +348,13 @@
   }
 
   .team-box4 {
-    width: 45%;
-    height: 390px;
+    // width: 75%;
+    height: 500px;
     background: #fff;
     border-radius: 15px;
 
     .tit-box4 {
-      max-width: 580px;
+      width: 100%;
       height: 110px;
       background: #85bfed;
       border-top-left-radius: 15px;
@@ -355,10 +397,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: translate(210px, 10px);
+      transform: translate(100%, -40%);
 
-      .btn-txt {
-        transform: translateY(-8px);
+      .btn-text {
+        padding-bottom: 15px;
       }
 
       &::after {
@@ -377,9 +419,11 @@
   }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+}
 
-@media screen and (max-width: 428px) {}
+@media screen and (max-width: 428px) {
+}
 
 .contents3 {
   width: 100%;
@@ -508,9 +552,11 @@
   }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+}
 
-@media screen and (max-width: 428px) {}
+@media screen and (max-width: 428px) {
+}
 
 .contents4 {
   width: 100%;
@@ -597,9 +643,11 @@
   }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+}
 
-@media screen and (max-width: 428px) {}
+@media screen and (max-width: 428px) {
+}
 
 .contents5 {
   position: relative;
@@ -663,9 +711,11 @@
   }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+}
 
-@media screen and (max-width: 428px) {}
+@media screen and (max-width: 428px) {
+}
 
 .team-history {
   .tit {
@@ -783,10 +833,11 @@
   }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+}
 
-@media screen and (max-width: 428px) {}
-
+@media screen and (max-width: 428px) {
+}
 
 // history
 
@@ -867,7 +918,6 @@
 
 @media (max-width: 768px) {
   .team-history .history-detail__item {
-
     &.left,
     &.right {
       margin-left: 0;
@@ -875,7 +925,6 @@
     }
 
     .year {
-
       &:before,
       &:after {
         left: -1.4375rem;
