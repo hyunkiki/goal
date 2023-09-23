@@ -1,178 +1,218 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <title>GOAL</title>
+    <meta
+      name="description"
+      content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="페이지 제목" />
+    <meta property="og:description" content="페이지 설명" />
+    <meta
+      property="og:image"
+      content="http://www.mysite.com/article/article1_featured_image.jpg"
+    />
+    <meta
+      property="og:url"
+      content="http://www.mysite.com/article/article1.html"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="페이지 제목" />
+    <meta name="twitter:description" content="페이지 설명" />
+    <meta
+      name="twitter:image"
+      content="http://www.mysite.com/article/article1.html"
+    />
+    <meta name="twitter:domain" content="사이트 명" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./dist/css/comm.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="./dist/js/contents.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-  <title>GOAL</title>
-  <meta name="description" content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="페이지 제목" />
-  <meta property="og:description" content="페이지 설명" />
-  <meta property="og:image" content="http://www.mysite.com/article/article1_featured_image.jpg" />
-  <meta property="og:url" content="http://www.mysite.com/article/article1.html" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="페이지 제목" />
-  <meta name="twitter:description" content="페이지 설명" />
-  <meta name="twitter:image" content="http://www.mysite.com/article/article1.html" />
-  <meta name="twitter:domain" content="사이트 명" />
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet"
-    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./dist/css/comm.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script defer src="./dist/js/contents.js"></script>
-</head>
-
-<body>
-  <div id="u-skip">
-    <a href="#gnb"><span>주요메뉴 바로가기</span></a>
-    <a href="#main"><span>컨텐츠 바로가기</span></a>
-  </div>
-  <header data-include-path="./outline/header.html"></header>
-  <div class="wrap">
-    <!-- logo 왼쪽 type -->
-    <main id="main">
-      <section class="contents1">
-        <div class="inner">
-          <div class="team">
-            <div class="thumb1">
-              <img class="team-logo-img" src="./images/EPL/teamlogo/Manchester_City.png" alt="ManchesterCity" />
-            </div>
-            <div class="team_intro">
-              <h2 class="cont1_tit">MANCHESTERCITY</h2>
-              <div class="cont1_exp1">
-                <p>
-                  영국 잉글랜드 프리미어리그의 프로축구 클럽 <br />
-                  연고지는 그레이터맨체스터주 맨체스터(MANCHESTER), 홈구장은
-                  에티하드 스타디움이다. <br />
-                  <br />
-                  1부 리그 통산 9회 우승을 기록한 EPL명문구단 중 하나로,
-                  <br />
-                  특히 잉글랜드 축구 역사상 유이한 트레블과 프리미어리그 단일
-                  시즌 역대 <br />
-                  최다 승점 우승 및 유일한 도메스틱 쿼드러플 등의 기록을
-                  보유하고 있다. <br />
-                </p>
+  <body>
+    <div id="u-skip">
+      <a href="#gnb"><span>주요메뉴 바로가기</span></a>
+      <a href="#main"><span>컨텐츠 바로가기</span></a>
+    </div>
+    <header data-include-path="./outline/header.html"></header>
+    <div class="wrap">
+      <!-- logo 왼쪽 type -->
+      <main id="main">
+        <section class="contents1">
+          <div class="inner">
+            <div class="team">
+              <div class="thumb1">
+                <img
+                  class="team-logo-img"
+                  src="./images/EPL/teamlogo/Manchester_City.png"
+                  alt="ManchesterCity"
+                />
               </div>
+              <div class="team_intro">
+                <h2 class="cont1_tit">MANCHESTERCITY</h2>
+                <div class="cont1_exp1">
+                  <p>
+                    영국 잉글랜드 프리미어리그의 프로축구 클럽 <br />
+                    연고지는 그레이터맨체스터주 맨체스터(MANCHESTER), 홈구장은
+                    에티하드 스타디움이다. <br />
+                    <br />
+                    1부 리그 통산 9회 우승을 기록한 EPL명문구단 중 하나로,
+                    <br />
+                    특히 잉글랜드 축구 역사상 유이한 트레블과 프리미어리그 단일
+                    시즌 역대 <br />
+                    최다 승점 우승 및 유일한 도메스틱 쿼드러플 등의 기록을
+                    보유하고 있다. <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thumb1-2">
+              <img
+                class="team-stadium-img"
+                src="./images/EPL/Etihad_Stadium.jpg"
+                alt="EtihadStadium"
+              />
             </div>
           </div>
-          <div class="thumb1-2">
-            <img class="team-stadium-img" src="./images/EPL/Etihad_Stadium.jpg" alt="EtihadStadium" />
+        </section>
+        <section class="contents2">
+          <div class="inner">
+            <h2 class="cont2_tit">TEAM 구성</h2>
           </div>
-        </div>
-      </section>
-      <section class="contents2">
-        <div class="inner">
-          <h2 class="cont2_tit">TEAM 구성</h2>
-        </div>
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide slide2">
-              <div class="inner">
-                <div class="team-box1">
-                  <div class="tit-box1">
-                    <div class="tit-s">2023-24시즌</div>
-                    <h3 class="tit-b">1군 스쿼드</h3>
-                  </div>
-                  <div class="box-squrd">
-                    <p class="player">
-                      GK: 에데르송 모라예스, 슈테판 오르테가 <br />
-                      DF: 카일워커, 후벵 디아스, 존스톤스, 네이션 아케,
-                      주앙칸셀루
-                      <br />
-                      MF: 케빈 데브라위너, 잭 그릴리쉬, 로드리, 필 포든<br />
-                      FW: 엘링 홀란드, 홀리안 알바레스 <br />
-                    </p>
-                  </div>
-                  <div class="btn_box">
-                    <a class="btn-more2" href="#">
-                      <div class="btn-text">더 알아보기</div>
-                    </a>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide2">
+                <div class="inner">
+                  <div class="team-box1">
+                    <div class="tit-box1">
+                      <div class="tit-s">2023-24시즌</div>
+                      <h3 class="tit-b">1군 스쿼드</h3>
+                    </div>
+                    <div class="box-squrd">
+                      <p class="player">
+                        GK: 에데르송 모라예스, 슈테판 오르테가 <br />
+                        DF: 카일워커, 후벵 디아스, 존스톤스, 네이션 아케,
+                        주앙칸셀루
+                        <br />
+                        MF: 케빈 데브라위너, 잭 그릴리쉬, 로드리, 필 포든<br />
+                        FW: 엘링 홀란드, 홀리안 알바레스 <br />
+                      </p>
+                    </div>
+                    <div class="btn_box">
+                      <a class="btn-more2" href="#">
+                        <div class="btn-text">더 알아보기</div>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="swiper-slide slide2">
-              <div class="inner">
-                <div class="team-box2">
-                  <div class="tit-box2">
-                    <div class="tit-s">2023-24시즌</div>
-                    <h3 class="tit-b">2군 스쿼드</h3>
+              <div class="swiper-slide slide2">
+                <div class="inner">
+                  <div class="team-box2">
+                    <div class="tit-box2">
+                      <div class="tit-s">2023-24시즌</div>
+                      <h3 class="tit-b">2군 스쿼드</h3>
+                    </div>
+                    <div class="box-squrd">
+                      <p class="player">
+                        GK: 미키 판시스 <br />
+                        DF: 테일러 하우드벨리스, 아이작 스미스, 제이들 카통고,
+                        루크 음베테
+                        <br />
+                        MF: 오스카르 보브, 조시 애덤, 케인 테일러, 토미 도일, 벤
+                        나이트<br />
+                        FW: 타이 소제, 윌 딕슨 <br />
+                      </p>
+                    </div>
+                    <div class="btn_box">
+                      <a class="btn-more2" href="#">
+                        <div class="btn-text">더 알아보기</div>
+                      </a>
+                    </div>
                   </div>
-                  <div class="box-squrd">
-                    <p class="player">
-                      GK: 미키 판시스 <br />
-                      DF: 테일러 하우드벨리스, 아이작 스미스, 제이들 카통고,
-                      루크 음베테
-                      <br />
-                      MF: 오스카르 보브, 조시 애덤, 케인 테일러, 토미 도일, 벤
-                      나이트<br />
-                      FW: 타이 소제, 윌 딕슨 <br />
-                    </p>
-                  </div>
-                  <a class="btn-more2" href="#">
-                    <div class="btn-text">더 알아보기</div>
-                  </a>
                 </div>
               </div>
-            </div>
-            <div class="swiper-slide slide2">
-              <div class="inner">
-                <div class="team-box3">
-                  <div class="tit-box3">
-                    <div class="tit-s">2023-24시즌</div>
-                    <h3 class="tit-b">임대 선수</h3>
+              <div class="swiper-slide slide2">
+                <div class="inner">
+                  <div class="team-box3">
+                    <div class="tit-box3">
+                      <div class="tit-s">2023-24시즌</div>
+                      <h3 class="tit-b">임대 선수</h3>
+                    </div>
+                    <div class="box-squrd">
+                      <p class="player">
+                        DF: 나우엘 페라레시, 얀 코투, 칼럼 도일, 조슈아
+                        윌슨에스브랜드
+                        <br />
+                        MF: 키안 브레킨, 알렉스 로버튼슨<br />
+                        FW: 카이키 샤가스, 나우엘 부스토스, 리암 델랍<br />
+                      </p>
+                    </div>
+                    <div class="btn_box">
+                      <a class="btn-more2" href="#">
+                        <div class="btn-text">더 알아보기</div>
+                      </a>
+                    </div>
                   </div>
-                  <div class="box-squrd">
-                    <p class="player">
-                      DF: 나우엘 페라레시, 얀 코투, 칼럼 도일, 조슈아
-                      윌슨에스브랜드
-                      <br />
-                      MF: 키안 브레킨, 알렉스 로버튼슨<br />
-                      FW: 카이키 샤가스, 나우엘 부스토스, 리암 델랍<br />
-                    </p>
-                  </div>
-                  <a class="btn-more2" href="#">
-                    <div class="btn-text">더 알아보기</div>
-                  </a>
                 </div>
               </div>
-            </div>
-            <div class="swiper-slide slide2">
-              <div class="inner">
-                <div class="team-box4">
-                  <div class="tit-box4">
-                    <div class="tit-s">2023-24시즌</div>
-                    <h3 class="tit-b">유소년 아카데미</h3>
+              <div class="swiper-slide slide2">
+                <div class="inner">
+                  <div class="team-box4">
+                    <div class="tit-box4">
+                      <div class="tit-s">2023-24시즌</div>
+                      <h3 class="tit-b">유소년 아카데미</h3>
+                    </div>
+                    <div class="box-squrd">
+                      <p class="player">
+                        GK: 트루 그랜트, 조지 머레이 존스 <br />
+                        DF: 맥스 알레인, 에즈라 캐링턴, 토마스 갈베즈,
+                        세바스티안 네일러 <br />
+                        MF: 찰리 그레이, 알피 해리슨, 마이클 오케케 <br />
+                        FW: 파리드 알파루프레흐트, 제이든 헤스키 <br />
+                      </p>
+                    </div>
+                    <div class="btn_box">
+                      <a class="btn-more2" href="#">
+                        <div class="btn-text">더 알아보기</div>
+                      </a>
+                    </div>
                   </div>
-                  <div class="box-squrd">
-                    <p class="player">
-                      GK: 트루 그랜트, 조지 머레이 존스 <br />
-                      DF: 맥스 알레인, 에즈라 캐링턴, 토마스 갈베즈,
-                      세바스티안 네일러 <br />
-                      MF: 찰리 그레이, 알피 해리슨, 마이클 오케케 <br />
-                      FW: 파리드 알파루프레흐트, 제이든 헤스키 <br />
-                    </p>
-                  </div>
-                  <a class="btn-more2" href="#">
-                    <div class="btn-text">더 알아보기</div>
-                  </a>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- <div class="swiper mySwiper">
+          <!-- <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper_slide_2">
                 <div class="inner">
@@ -263,374 +303,407 @@
               </div>
             </div>
           </div> -->
-      </section>
-      <section class="contents3">
-        <div class="inner">
-          <h2 class="cont3_tit">주요 소개</h2>
-          <ul class="impor_wrap">
-            <li class="1st_lst">
-              <div class="thumb">
-                <img class="manager_img" src="./images/EPL/Josep_Guardiola.jpg" alt="JosepGuardiola" />
-              </div>
-              <div class="manager">
-                <h3 class="manager_tit1">01 맨체스터시티 감독</h3>
-                <h3 class="manager_tit2">펩 과르디올라 감독</h3>
-                <div class="manager_exp">
-                  <p>
-                    <span class="txt_color">우승경력</span> <br />
-                    <span class="txt_color">프리미어리그 5회</span> 우승
-                    <br />
-                    <span class="txt_color">FA컵 2회</span> 우승 <br />
-                    <span class="txt_color">EFL컵 4회</span> 우승 <br />
-                    <span class="txt_color">UEFA 챔피언스리그 1회</span>우승
-                    <br />
-                  </p>
+        </section>
+        <section class="contents3">
+          <div class="inner">
+            <h2 class="cont3_tit">주요 소개</h2>
+            <ul class="impor_wrap">
+              <li class="1st_lst">
+                <div class="thumb">
+                  <img
+                    class="manager_img"
+                    src="./images/EPL/Josep_Guardiola.jpg"
+                    alt="JosepGuardiola"
+                  />
                 </div>
-              </div>
-            </li>
-            <li class="2nd_lst">
-              <div class="thumb">
-                <img class="cityzens_img" src="./images/EPL/citizens.jpg" alt="citizens" />
-              </div>
-              <div class="cityzens">
-                <h3 class="cityzens_tit1">02 공식 멤버십</h3>
-                <h3 class="cityzens_tit2">시티즌(The citizens)</h3>
-                <div class="cityzens_exp">
-                  <p>
-                    2014년 7월, 맨체스터시티는 새 커뮤니티 이름으로 <br />
-                    맨체스터와 영국, 전세계 팬들을 위해 맨시티 공식 멤버쉽
-                    <br />
-                    회원들을 지칭하는 시티즌(The Citizens)을 런칭했습니다.
-                    <br />
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="3rd_lst">
-              <div class="thumb">
-                <img class="Poznań_img" src="./images/EPL/The_Poznań.jpg" alt="The_Poznań" />
-              </div>
-              <div class="Poznan">
-                <h3 class="Poznan_tit1">03 응원문화</h3>
-                <h3 class="Poznan_tit2">포즈난 응원 (The Poznań)</h3>
-                <div class="Poznan_exp">
-                  <p>
-                    포즈난 응원 방식은 서포터즈 모두가 그라운드를 등진채
-                    <br />
-                    뒤돌아서서 관중석 옆 사람과 어깨 동우를 하고 움켜진 상태로
-                    <br />
-                    제자리에서 점프를 하는 것을 말합니다. <br />
-                    승부는 이미 끝났기 때문에 더 이상 경기를 볼 필요가 없다는
-                    의미로 <br />
-                    지고 있는 팀에서 상당한 굴욕감을 안기는 방식으로 <br />
-                    상대팬으로선 열받는 응원이기도 합니다. <br />
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="4th_lst">
-              <div class="thumb">
-                <img class="banana_balloon_img" src="./images/EPL/banana_balloon.jpg" alt="banana_balloon" />
-              </div>
-              <div class="banana_balloon">
-                <div class="banana_balloon_tit1">04 응원문화</div>
-                <div class="banana_balloon_tit2">대형 바나나 풍선</div>
-                <div class="banana_balloon_exp">
-                  <p>
-                    경기장에서 대형 바나나 풍선을 들고 응원하는 모습을 간혹
-                    <br />
-                    볼 수가 있는데 1980년대 후반부터 등장한 맨시티 팬들의
-                    오래된
-                    <br />
-                    응원 문화 중에 하나로 현재까지도 30년 넘게 이어져 오고
-                    있습니다. <br />
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="contents4">
-        <div class="inner">
-          <h2 class="con4_tit">선수 소개</h2>
-          <div class="con4_exp">
-            <p>
-              MANCHESTER CITY PLAYERS <br />
-              맨체스터 시티의 베스트 선수들과 레전드 선수들을 소개합니다.
-              <br />
-            </p>
-          </div>
-          <div class="best_player">
-            <h3 class="best_player_tit">MANCHESTER CITY BEST PLAYERS</h3>
-            <ul class="best_player_btn">
-              <li>
-                <a href="#">
-                  <img class="best_player_img" src="./images/player_introduce/Erling_Haaland.png" alt="ErlingHaaland" />
-                  <h3 class="best_player_name">엘링홀란드</h3>
-                  <div class="best_player_career">
+                <div class="manager">
+                  <h3 class="manager_tit1">01 맨체스터시티 감독</h3>
+                  <h3 class="manager_tit2">펩 과르디올라 감독</h3>
+                  <div class="manager_exp">
                     <p>
-                      통산: (진행중) <br />
-                      프리미어리그 단일 시즌 <br />
-                      공식 경기 최다 득점자 <br />
-                      최초 홈 3경기 연속 해트트릭 득점자 <br />
-                      22/23시즌 트레블 달성 <br />
+                      <span class="txt_color">우승경력</span> <br />
+                      <span class="txt_color">프리미어리그 5회</span> 우승
+                      <br />
+                      <span class="txt_color">FA컵 2회</span> 우승 <br />
+                      <span class="txt_color">EFL컵 4회</span> 우승 <br />
+                      <span class="txt_color">UEFA 챔피언스리그 1회</span>우승
+                      <br />
                     </p>
                   </div>
-                </a>
+                </div>
               </li>
-              <li>
-                <a href="#">
-                  <img class="best_player_img" src="./images/player_introduce/Kevin_De_Bruyne.png"
-                    alt="KevinDeBruyne" />
-                  <h3 class="best_player_name">케빈 데 브라위너</h3>
-                  <div class="best_player_career">
+              <li class="2nd_lst">
+                <div class="thumb">
+                  <img
+                    class="cityzens_img"
+                    src="./images/EPL/citizens.jpg"
+                    alt="citizens"
+                  />
+                </div>
+                <div class="cityzens">
+                  <h3 class="cityzens_tit1">02 공식 멤버십</h3>
+                  <h3 class="cityzens_tit2">시티즌(The citizens)</h3>
+                  <div class="cityzens_exp">
                     <p>
-                      통산: 356경기 96골 144도움(진행중) <br />
-                      프리미어리그 통산 100도움 달성 <br />
-                      프리미어리그 도움왕 3회 <br />
-                      프리미어리그 우승 3회 <br />
-                      22/23시즌 트레블 달성 <br />
+                      2014년 7월, 맨체스터시티는 새 커뮤니티 이름으로 <br />
+                      맨체스터와 영국, 전세계 팬들을 위해 맨시티 공식 멤버쉽
+                      <br />
+                      회원들을 지칭하는 시티즌(The Citizens)을 런칭했습니다.
+                      <br />
                     </p>
                   </div>
-                </a>
+                </div>
               </li>
-              <li>
-                <a href="#">
-                  <img class="best_player_img" src="./images/player_introduce/Rúben_Dias.png" alt="Rúben_Dias" />
-                  <h3 class="best_player_name">후벵 디아스</h3>
-                  <div class="best_player_career">
+              <li class="3rd_lst">
+                <div class="thumb">
+                  <img
+                    class="Poznań_img"
+                    src="./images/EPL/The_Poznań.jpg"
+                    alt="The_Poznań"
+                  />
+                </div>
+                <div class="Poznan">
+                  <h3 class="Poznan_tit1">03 응원문화</h3>
+                  <h3 class="Poznan_tit2">포즈난 응원 (The Poznań)</h3>
+                  <div class="Poznan_exp">
                     <p>
-                      통산: 125경기 4골 5도움(진행중) <br />
-                      20-21 맨체스터 올해의 선수 <br />
-                      22/23시즌 트레블 달성 <br />
+                      포즈난 응원 방식은 서포터즈 모두가 그라운드를 등진채
+                      <br />
+                      뒤돌아서서 관중석 옆 사람과 어깨 동우를 하고 움켜진 상태로
+                      <br />
+                      제자리에서 점프를 하는 것을 말합니다. <br />
+                      승부는 이미 끝났기 때문에 더 이상 경기를 볼 필요가 없다는
+                      의미로 <br />
+                      지고 있는 팀에서 상당한 굴욕감을 안기는 방식으로 <br />
+                      상대팬으로선 열받는 응원이기도 합니다. <br />
                     </p>
                   </div>
-                </a>
+                </div>
+              </li>
+              <li class="4th_lst">
+                <div class="thumb">
+                  <img
+                    class="banana_balloon_img"
+                    src="./images/EPL/banana_balloon.jpg"
+                    alt="banana_balloon"
+                  />
+                </div>
+                <div class="banana_balloon">
+                  <div class="banana_balloon_tit1">04 응원문화</div>
+                  <div class="banana_balloon_tit2">대형 바나나 풍선</div>
+                  <div class="banana_balloon_exp">
+                    <p>
+                      경기장에서 대형 바나나 풍선을 들고 응원하는 모습을 간혹
+                      <br />
+                      볼 수가 있는데 1980년대 후반부터 등장한 맨시티 팬들의
+                      오래된
+                      <br />
+                      응원 문화 중에 하나로 현재까지도 30년 넘게 이어져 오고
+                      있습니다. <br />
+                    </p>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
-          <div class="legend_player">
-            <h3 class="legend_player_tit">MANCHESTER CITY LEGEND PLAYERS</h3>
-            <ul class="legend_player_btn">
-              <li>
-                <a href="#">
-                  <img class="legend_player_img" src="./images/player_introduce/Sergio_Agüero.png" alt="SergioAgüero" />
-                  <h3 class="legend_player_name">세르히오 아구에로</h3>
-                  <div class="legend_player_career">
-                    <p>
-                      통산: 390경기 260골 73도움 <br />
-                      맨시티 역사상 가장 위대한 스트라이커 <br />
-                      프리미어리그 외국인 최다 득점자 <br />
-                      맨체스터 시티 최다 득점자 <br />
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img class="legend_player_img" src="./images/player_introduce/Vincent_Kompany.png"
-                    alt="VincentKompany" />
-                  <h3 class="legend_player_name">빈센트 콤파니</h3>
-                  <div class="legend_player_career">
-                    <p>
-                      통산 359경기 19골 11도움 <br />
-                      2010년 이후 주전 센터백을 맡아 <br />
-                      팀의 탄탄한 수비의 공로자로 인정받기 시작함. <br />
-                      2011-12 시즌 맨체스터 시티의 주장이 <br />
-                      되어 팀을 프리미어리그 우승을 이끌음. <br />
-                    </p>
-                  </div>
-                </a>
-              </li>
-            </ul>
+        </section>
+        <section class="contents4">
+          <div class="inner">
+            <h2 class="con4_tit">선수 소개</h2>
+            <div class="con4_exp">
+              <p>
+                MANCHESTER CITY PLAYERS <br />
+                맨체스터 시티의 베스트 선수들과 레전드 선수들을 소개합니다.
+                <br />
+              </p>
+            </div>
+            <div class="best_player">
+              <h3 class="best_player_tit">MANCHESTER CITY BEST PLAYERS</h3>
+              <ul class="best_player_btn">
+                <li>
+                  <a href="#">
+                    <img
+                      class="best_player_img"
+                      src="./images/player_introduce/Erling_Haaland.png"
+                      alt="ErlingHaaland"
+                    />
+                    <h3 class="best_player_name">엘링홀란드</h3>
+                    <div class="best_player_career">
+                      <p>
+                        통산: (진행중) <br />
+                        프리미어리그 단일 시즌 <br />
+                        공식 경기 최다 득점자 <br />
+                        최초 홈 3경기 연속 해트트릭 득점자 <br />
+                        22/23시즌 트레블 달성 <br />
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      class="best_player_img"
+                      src="./images/player_introduce/Kevin_De_Bruyne.png"
+                      alt="KevinDeBruyne"
+                    />
+                    <h3 class="best_player_name">케빈 데 브라위너</h3>
+                    <div class="best_player_career">
+                      <p>
+                        통산: 356경기 96골 144도움(진행중) <br />
+                        프리미어리그 통산 100도움 달성 <br />
+                        프리미어리그 도움왕 3회 <br />
+                        프리미어리그 우승 3회 <br />
+                        22/23시즌 트레블 달성 <br />
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      class="best_player_img"
+                      src="./images/player_introduce/Rúben_Dias.png"
+                      alt="Rúben_Dias"
+                    />
+                    <h3 class="best_player_name">후벵 디아스</h3>
+                    <div class="best_player_career">
+                      <p>
+                        통산: 125경기 4골 5도움(진행중) <br />
+                        20-21 맨체스터 올해의 선수 <br />
+                        22/23시즌 트레블 달성 <br />
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="legend_player">
+              <h3 class="legend_player_tit">MANCHESTER CITY LEGEND PLAYERS</h3>
+              <ul class="legend_player_btn">
+                <li>
+                  <a href="#">
+                    <img
+                      class="legend_player_img"
+                      src="./images/player_introduce/Sergio_Agüero.png"
+                      alt="SergioAgüero"
+                    />
+                    <h3 class="legend_player_name">세르히오 아구에로</h3>
+                    <div class="legend_player_career">
+                      <p>
+                        통산: 390경기 260골 73도움 <br />
+                        맨시티 역사상 가장 위대한 스트라이커 <br />
+                        프리미어리그 외국인 최다 득점자 <br />
+                        맨체스터 시티 최다 득점자 <br />
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      class="legend_player_img"
+                      src="./images/player_introduce/Vincent_Kompany.png"
+                      alt="VincentKompany"
+                    />
+                    <h3 class="legend_player_name">빈센트 콤파니</h3>
+                    <div class="legend_player_career">
+                      <p>
+                        통산 359경기 19골 11도움 <br />
+                        2010년 이후 주전 센터백을 맡아 <br />
+                        팀의 탄탄한 수비의 공로자로 인정받기 시작함. <br />
+                        2011-12 시즌 맨체스터 시티의 주장이 <br />
+                        되어 팀을 프리미어리그 우승을 이끌음. <br />
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="contents5">
-        <div class="inner">
-          <div class="con5_tit">팀연혁</div>
-          <div class="team-history">
-            <div class="history-list mt-10 mb-20">
-              <div class="history-list-content">
-                <div class="history-list-inner">
-                  <div class="container">
-                    <div class="history-detail">
-                      <div class="history-detail__item right active">
-                        <h2 class="year">1880</h2>
-                        <div class="cont">
-                          <div class="text">
-                            <p>
-                              1880년 맨체스터의 고튼 서부에 위치한 <br />
-                              세인트 마스크 교회의 교인들이 맨체스터 시티를
-                              창단
-                            </p>
+        </section>
+        <section class="contents5">
+          <div class="inner">
+            <div class="con5_tit">팀연혁</div>
+            <div class="team-history">
+              <div class="history-list mt-10 mb-20">
+                <div class="history-list-content">
+                  <div class="history-list-inner">
+                    <div class="container">
+                      <div class="history-detail">
+                        <div class="history-detail__item right active">
+                          <h2 class="year">1880</h2>
+                          <div class="cont">
+                            <div class="text">
+                              <p>
+                                1880년 맨체스터의 고튼 서부에 위치한 <br />
+                                세인트 마스크 교회의 교인들이 맨체스터 시티를
+                                창단
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="history-detail__item left active">
-                        <h2 class="year">1892</h2>
-                        <div class="cont">
-                          <div class="text">
-                            잉글랜드 2부 축구리그가 설립되어 창단 멤버로 참가
+                        <div class="history-detail__item left active">
+                          <h2 class="year">1892</h2>
+                          <div class="cont">
+                            <div class="text">
+                              잉글랜드 2부 축구리그가 설립되어 창단 멤버로 참가
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="history-detail__item right active">
-                        <h2 class="year">1894</h2>
-                        <div class="cont">
-                          <div class="text">
-                            드디어 맨체스터 시티라는 이름을 사용
+                        <div class="history-detail__item right active">
+                          <h2 class="year">1894</h2>
+                          <div class="cont">
+                            <div class="text">
+                              드디어 맨체스터 시티라는 이름을 사용
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="history-detail__item left active">
-                        <h2 class="year">1926</h2>
-                        <div class="cont">
-                          <div class="text">1925~26시즌에 FA컵을 우승</div>
-                        </div>
-                      </div>
-                      <div class="history-detail__item right active">
-                        <h2 class="year">1965</h2>
-                        <div class="cont">
-                          <div class="text">
-                            <p>
-                              조머서가 감독으로 부임 후 말콤 앨리슨이 코치로
-                              부임 <br />
-                              2부리그에서 다시 1부리그로 승격 <br />
-                              67-68 시즌의 팀의 2번째 리그 우승 <br />
-                              68-69시즌에는 FA컵을 우승 <br />
-                              69-70시즌에는 리그 컵 우승, UEFA컵 위너스컵까지
-                              우승 <br />
-                            </p>
+                        <div class="history-detail__item left active">
+                          <h2 class="year">1926</h2>
+                          <div class="cont">
+                            <div class="text">1925~26시즌에 FA컵을 우승</div>
                           </div>
                         </div>
-                      </div>
-                      <div class="history-detail__item left active">
-                        <h2 class="year">1992</h2>
-                        <div class="cont">
-                          <div class="text">프리미어리그가 새롭게 개편</div>
-                        </div>
-                      </div>
-                      <div class="history-detail__item right active">
-                        <h2 class="year">2002</h2>
-                        <div class="cont">
-                          <div class="text">
-                            <p>
-                              2부 리그 우승을 차지 <br />
-                              케빈 키건 ∙ 스튜어트 피어스 감독이 팀을 이끔
-                              <br />
-                            </p>
+                        <div class="history-detail__item right active">
+                          <h2 class="year">1965</h2>
+                          <div class="cont">
+                            <div class="text">
+                              <p>
+                                조머서가 감독으로 부임 후 말콤 앨리슨이 코치로
+                                부임 <br />
+                                2부리그에서 다시 1부리그로 승격 <br />
+                                67-68 시즌의 팀의 2번째 리그 우승 <br />
+                                68-69시즌에는 FA컵을 우승 <br />
+                                69-70시즌에는 리그 컵 우승, UEFA컵 위너스컵까지
+                                우승 <br />
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="history-detail__item left active">
-                        <h2 class="year">2008</h2>
-                        <div class="cont">
-                          <div class="text">
-                            <p>
-                              아랍에미리트연합 아부다비 왕가 출신의 사업가
-                              <br />
-                              셰이크 만수르 빈 자이드 빈 술탄 알 나하얀 회장이
-                              구단을 인수 <br />
-                              만수르 회장은 맨체스터 시티에 대대적인 투자를
-                              약속 <br />
-                              맨체스터 시티는 호비뉴, 숀 라이트 필립스, 셰이
-                              기븐, <br />
-                              크레이그 벨라미와 같은 스타들을 대거 영입 <br />
-                            </p>
+                        <div class="history-detail__item left active">
+                          <h2 class="year">1992</h2>
+                          <div class="cont">
+                            <div class="text">프리미어리그가 새롭게 개편</div>
                           </div>
                         </div>
-                      </div>
-                      <div class="history-detail__item right active">
-                        <h2 class="year">2009</h2>
-                        <div class="cont">
-                          <div class="text">
-                            <p>
-                              08/09시즌에 팀은 10위에 안착 <br />
-                              엄청난 자금을 동원해 에마뉘엘 아데바요르,
-                              카를로스 테베스, <br />
-                              가레스 베리 등을 불러 모았고 팀의 시즌 전망은
-                              밝았음. <br />
-                              하지만 시즌 성적이 나이지지 않자 2009년 12월에
-                              마크 휴즈를 경질 후, <br />
-                              로베르토 만치니 감독 선임. <br />
-                            </p>
+                        <div class="history-detail__item right active">
+                          <h2 class="year">2002</h2>
+                          <div class="cont">
+                            <div class="text">
+                              <p>
+                                2부 리그 우승을 차지 <br />
+                                케빈 키건 ∙ 스튜어트 피어스 감독이 팀을 이끔
+                                <br />
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="history-detail__item left active">
-                        <h2 class="year">2012</h2>
-                        <div class="cont">
-                          <div class="text">
-                            <p>
-                              만치니 감독은 2011/12시즌 맨체스터 유나이티드를
-                              <br />
-                              올드 트래포드(OT)에서6:1로 대파하는 등 <br />
-                              선전을 이어가면서 리그 우승까지 차지,리그 44만에
-                              1부 리그 우승 <br />
-                              프리미어리그 단일 시즌 역대 최다 승점 100점우승
-                              <br />
-                              잉글랜드 축구 역사상 최초로 <br />
-                              쿼드러플(프리미어리그, FA컵, EPL컵, FA커뮤니티
-                              실드)을 달성 <br />
-                            </p>
+                        <div class="history-detail__item left active">
+                          <h2 class="year">2008</h2>
+                          <div class="cont">
+                            <div class="text">
+                              <p>
+                                아랍에미리트연합 아부다비 왕가 출신의 사업가
+                                <br />
+                                셰이크 만수르 빈 자이드 빈 술탄 알 나하얀 회장이
+                                구단을 인수 <br />
+                                만수르 회장은 맨체스터 시티에 대대적인 투자를
+                                약속 <br />
+                                맨체스터 시티는 호비뉴, 숀 라이트 필립스, 셰이
+                                기븐, <br />
+                                크레이그 벨라미와 같은 스타들을 대거 영입 <br />
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="history-detail__item right active">
-                        <h2 class="year">2016</h2>
-                        <div class="cont">
-                          <div class="text">
-                            <p>
-                              15-16시즌이 끝나고 페예그리니 감독이 떠나고
-                              16-17시즌 앞두고 <br />
-                              바이에른 뮌헨 감독직을 맡았던 펩 과르디올라 감독
-                              부임 <br />
-                              팀의 개편을 위해 마르틴 데미첼리스, 사미르
-                              나스리, <br />
-                              윌프레드 보니, 조 하트 등 기존선수들을 임대 이적
-                              <br />
-                              그리고 이적시장에서 도르트문트 소속 미드필더
-                              일카이 귄도간, <br />
-                              에버튼 소속 수비수 존 스톤스, 바르셀로나 소속
-                              골키퍼 클라우디오 브라보, <br />
-                              FC살케 유망주 르로이사네를 영입하면서 전력보강을
-                              성공 <br />
-                            </p>
+                        <div class="history-detail__item right active">
+                          <h2 class="year">2009</h2>
+                          <div class="cont">
+                            <div class="text">
+                              <p>
+                                08/09시즌에 팀은 10위에 안착 <br />
+                                엄청난 자금을 동원해 에마뉘엘 아데바요르,
+                                카를로스 테베스, <br />
+                                가레스 베리 등을 불러 모았고 팀의 시즌 전망은
+                                밝았음. <br />
+                                하지만 시즌 성적이 나이지지 않자 2009년 12월에
+                                마크 휴즈를 경질 후, <br />
+                                로베르토 만치니 감독 선임. <br />
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="history-detail__item left active">
-                        <h2 class="year">2023</h2>
-                        <div class="cont">
-                          <div class="text">
-                            <p>
-                              펩 과르디올라 감독 이후 <br />
-                              22-23시즌에 맨체스터 시티가 구단 역사상 처음으로
-                              <br />
-                              UEFA챔피언스리그우승과 함께 이미 달성한 적이
-                              있는 <br />
-                              리그우승 및 주관 컵 대회 우승으로 구단 역사상
-                              트레블을 달성. <br />
-                            </p>
+                        <div class="history-detail__item left active">
+                          <h2 class="year">2012</h2>
+                          <div class="cont">
+                            <div class="text">
+                              <p>
+                                만치니 감독은 2011/12시즌 맨체스터 유나이티드를
+                                <br />
+                                올드 트래포드(OT)에서6:1로 대파하는 등 <br />
+                                선전을 이어가면서 리그 우승까지 차지,리그 44만에
+                                1부 리그 우승 <br />
+                                프리미어리그 단일 시즌 역대 최다 승점 100점우승
+                                <br />
+                                잉글랜드 축구 역사상 최초로 <br />
+                                쿼드러플(프리미어리그, FA컵, EPL컵, FA커뮤니티
+                                실드)을 달성 <br />
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="history-detail__item right active">
+                          <h2 class="year">2016</h2>
+                          <div class="cont">
+                            <div class="text">
+                              <p>
+                                15-16시즌이 끝나고 페예그리니 감독이 떠나고
+                                16-17시즌 앞두고 <br />
+                                바이에른 뮌헨 감독직을 맡았던 펩 과르디올라 감독
+                                부임 <br />
+                                팀의 개편을 위해 마르틴 데미첼리스, 사미르
+                                나스리, <br />
+                                윌프레드 보니, 조 하트 등 기존선수들을 임대 이적
+                                <br />
+                                그리고 이적시장에서 도르트문트 소속 미드필더
+                                일카이 귄도간, <br />
+                                에버튼 소속 수비수 존 스톤스, 바르셀로나 소속
+                                골키퍼 클라우디오 브라보, <br />
+                                FC살케 유망주 르로이사네를 영입하면서 전력보강을
+                                성공 <br />
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="history-detail__item left active">
+                          <h2 class="year">2023</h2>
+                          <div class="cont">
+                            <div class="text">
+                              <p>
+                                펩 과르디올라 감독 이후 <br />
+                                22-23시즌에 맨체스터 시티가 구단 역사상 처음으로
+                                <br />
+                                UEFA챔피언스리그우승과 함께 이미 달성한 적이
+                                있는 <br />
+                                리그우승 및 주관 컵 대회 우승으로 구단 역사상
+                                트레블을 달성. <br />
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="history-line">
-                <div class="line"></div>
+                <div class="history-line">
+                  <div class="line"></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
-  </div>
-  <footer data-include-path="./outline/footer.html"></footer>
-</body>
-
+        </section>
+      </main>
+    </div>
+    <footer data-include-path="./outline/footer.html"></footer>
+  </body>
 </html>

@@ -326,16 +326,30 @@ body {
     width: calc(100% - 40px);
   }
   .contents1 {
-    height: 1027px;
+    height: 1075px;
   }
   .contents1 .team_intro .cont1_exp1 {
     font-size: 1rem;
   }
   .contents1 .team .thumb1 {
-    width: 25%;
+    width: 35%;
   }
   .contents1 .team_intro .cont1_tit {
     font-size: 4.375rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .contents1 {
+    height: 998px;
+  }
+  .contents1 .team_intro .cont1_tit {
+    font-size: 3.125rem;
+  }
+  .contents1 .team .thumb1 {
+    width: 40%;
   }
 }
 @media screen and (max-width: 428px) {
@@ -458,7 +472,7 @@ body {
 }
 .contents2 .team-box1 a .btn-text {
   padding-bottom: 20px;
-  font-size: 1.1vw;
+  font-size: 1.125rem;
 }
 .contents2 .team-box1 a::after {
   content: "\f061";
@@ -506,9 +520,16 @@ body {
   font-size: 1.25rem;
   color: #666;
 }
+.contents2 .team-box2 .btn_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contents2 .team-box2 a {
   max-width: 160px;
   height: 20px;
+  width: 20%;
   background: #85bfed;
   border-radius: 40px;
   padding-top: 20px;
@@ -519,6 +540,7 @@ body {
 }
 .contents2 .team-box2 a .btn-text {
   padding-bottom: 20px;
+  font-size: 1.125rem;
 }
 .contents2 .team-box2 a::after {
   content: "\f061";
@@ -566,9 +588,16 @@ body {
   font-size: 1.25rem;
   color: #666;
 }
+.contents2 .team-box3 .btn_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contents2 .team-box3 a {
   max-width: 160px;
   height: 20px;
+  width: 20%;
   background: #85bfed;
   border-radius: 40px;
   padding-top: 20px;
@@ -579,6 +608,7 @@ body {
 }
 .contents2 .team-box3 a .btn-text {
   padding-bottom: 20px;
+  font-size: 1.125rem;
 }
 .contents2 .team-box3 a::after {
   content: "\f061";
@@ -626,9 +656,16 @@ body {
   font-size: 1.25rem;
   color: #666;
 }
+.contents2 .team-box4 .btn_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contents2 .team-box4 a {
   max-width: 160px;
   height: 20px;
+  width: 20%;
   background: #85bfed;
   border-radius: 40px;
   padding-top: 20px;
@@ -639,6 +676,7 @@ body {
 }
 .contents2 .team-box4 a .btn-text {
   padding-bottom: 20px;
+  font-size: 1.125rem;
 }
 .contents2 .team-box4 a::after {
   content: "\f061";
@@ -659,65 +697,64 @@ body {
   .contents2 .cont2_tit {
     font-size: 2.1875rem;
   }
-  .contents2 .team-box1 .tit-box1 .tit-s {
-    font-size: 1.125rem;
-  }
-  .contents2 .team-box1 .tit-box1 .tit-b {
-    font-size: 1.5rem;
-  }
-  .contents2 .team-box2 .tit-box2 .tit-s {
-    font-size: 1.125rem;
-  }
-  .contents2 .team-box2 .tit-box2 .tit-b {
-    font-size: 1.5rem;
-  }
-  .contents2 .team-box3 .tit-box3 .tit-s {
-    font-size: 1.125rem;
-  }
-  .contents2 .team-box3 .tit-box3 .tit-b {
-    font-size: 1.5rem;
-  }
+  .contents2 .team-box1 .tit-box1 .tit-s,
+  .contents2 .team-box2 .tit-box2 .tit-s,
+  .contents2 .team-box3 .tit-box3 .tit-s,
   .contents2 .team-box4 .tit-box4 .tit-s {
     font-size: 1.125rem;
   }
+  .contents2 .team-box1 .tit-box1 .tit-b,
+  .contents2 .team-box2 .tit-box2 .tit-b,
+  .contents2 .team-box3 .tit-box3 .tit-b,
   .contents2 .team-box4 .tit-box4 .tit-b {
     font-size: 1.5rem;
   }
-  .contents2 .team-box1 .box-squrd {
-    font-size: 1.125rem;
-  }
-  .contents2 .team-box2 .box-squrd {
-    font-size: 1.125rem;
-  }
-  .contents2 .team-box3 .box-squrd {
-    font-size: 1.125rem;
-  }
+  .contents2 .team-box1 .box-squrd,
+  .contents2 .team-box2 .box-squrd,
+  .contents2 .team-box3 .box-squrd,
   .contents2 .team-box4 .box-squrd {
-    font-size: 1.125rem;
-  }
-  .contents2 .team-box1 a {
-    transform: translate(195%, -3%);
-  }
-  .contents2 .team-box2 a {
-    transform: translate(195%, 3%);
-  }
-  .contents2 .team-box3 a {
-    transform: translate(195%, 0%);
-  }
-  .contents2 .team-box4 a {
-    transform: translate(195%, -4%);
-  }
-  .contents2 .team-box1 a .btn-text {
     font-size: 1rem;
   }
-  .contents2 .team-box2 a .btn-text {
-    font-size: 1rem;
+  .contents2 .team-box1 .btn_box,
+  .contents2 .team-box2 .btn_box,
+  .contents2 .team-box3 .btn_box,
+  .contents2 .team-box4 .btn_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .contents2 .team-box3 a .btn-text {
-    font-size: 1rem;
-  }
+  .contents2 .team-box1 a .btn-text,
+  .contents2 .team-box2 a .btn-text,
+  .contents2 .team-box3 a .btn-text,
   .contents2 .team-box4 a .btn-text {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .contents2 .cont2_tit {
+    font-size: 2rem;
+  }
+  .contents2 .team-box1 .tit-box1 .tit-s,
+  .contents2 .team-box2 .tit-box2 .tit-s,
+  .contents2 .team-box3 .tit-box3 .tit-s,
+  .contents2 .team-box4 .tit-box4 .tit-s {
+    font-size: 1rem;
+  }
+  .contents2 .team-box1 .tit-box1 .tit-b,
+  .contents2 .team-box2 .tit-box2 .tit-b,
+  .contents2 .team-box3 .tit-box3 .tit-b,
+  .contents2 .team-box4 .tit-box4 .tit-b {
+    font-size: 1.375rem;
+  }
+  .contents2 .team-box1 a,
+  .contents2 .team-box2 a,
+  .contents2 .team-box3 a,
+  .contents2 .team-box4 a {
+    width: 30%;
   }
 }
 @media screen and (max-width: 428px) {
@@ -915,6 +952,38 @@ body {
     font-size: 1.625rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .contents3 {
+    height: 2693px;
+  }
+  .contents3 .manager .manager_tit1 {
+    font-size: 1.5rem;
+  }
+  .contents3 .manager .manager_tit2 {
+    font-size: 1.5rem;
+  }
+  .contents3 .cityzens .cityzens_tit1 {
+    font-size: 1.5rem;
+  }
+  .contents3 .cityzens .cityzens_tit2 {
+    font-size: 1.5rem;
+  }
+  .contents3 .Poznan .Poznan_tit1 {
+    font-size: 1.5rem;
+  }
+  .contents3 .Poznan .Poznan_tit2 {
+    font-size: 1.5rem;
+  }
+  .contents3 .banana_balloon .banana_balloon_tit1 {
+    font-size: 1.5rem;
+  }
+  .contents3 .banana_balloon .banana_balloon_tit2 {
+    font-size: 1.5rem;
+  }
+}
 @media screen and (max-width: 428px) {
   .inner {
     width: calc(100% - 40px);
@@ -1033,6 +1102,9 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
   .contents4 {
     height: 1626px;
   }
@@ -1040,16 +1112,58 @@ body {
     font-size: 2.1875rem;
   }
   .contents4 .best_player_btn .best_player_name {
-    font-size: 1.875rem;
+    font-size: 2.1875rem;
   }
   .contents4 .legend_player_btn .legend_player_name {
-    font-size: 1.875rem;
+    font-size: 2.1875rem;
+  }
+  .contents4 .best_player_tit {
+    font-size: 2.1875rem;
+  }
+  .contents4 .legend_player_tit {
+    font-size: 2.1875rem;
+  }
+  .contents4 .con4_exp {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .contents4 {
+    height: 2766px;
+  }
+  .contents4 .con4_tit {
+    font-size: 2rem;
+  }
+  .contents4 .con4_exp {
+    font-size: 1rem;
   }
   .contents4 .best_player_tit {
     font-size: 1.875rem;
   }
   .contents4 .legend_player_tit {
     font-size: 1.875rem;
+  }
+  .contents4 .best_player_btn .best_player_name {
+    font-size: 1.875rem;
+  }
+  .contents4 .legend_player_btn .legend_player_name {
+    font-size: 1.875rem;
+  }
+  .contents4 .best_player_btn {
+    display: flex;
+    padding-top: 3.75rem;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .contents4 .legend_player_btn {
+    display: flex;
+    padding-top: 3.75rem;
+    text-align: center;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 428px) {
@@ -1116,6 +1230,14 @@ body {
 @media screen and (max-width: 1024px) {
   .contents5 .con5_tit {
     font-size: 2.1875rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .contents5 .con5_tit {
+    font-size: 2rem;
   }
 }
 .team-history .tit {
@@ -1284,6 +1406,36 @@ body {
     width: 100%;
     margin: 0;
     justify-content: flex-start;
+  }
+}
+@media (max-width: 768px) {
+  .contents5 {
+    height: 2716px;
+  }
+  .team-history .history-detail__item.left, .team-history .history-detail__item.right {
+    margin-left: 0;
+    padding-left: 25px;
+  }
+  .team-history .history-detail__item .year:before, .team-history .history-detail__item .year:after {
+    left: -25px;
+  }
+  .team-history .history-detail__item .img-bx {
+    display: block;
+  }
+  .team-history .history-detail__item .img-bx img {
+    padding-bottom: 10px;
+  }
+  .team-history .history-detail__item .year {
+    font-size: 1.875rem;
+  }
+}
+@media (max-width: 768px) {
+  .team-history .history-line {
+    left: 0;
+    margin-left: 0;
+  }
+  .team-history .history-line .line {
+    height: 2120px;
   }
 }
 .wrap .bg_stadium_img {
