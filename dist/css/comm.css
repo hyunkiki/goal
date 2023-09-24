@@ -758,6 +758,9 @@ body {
   }
 }
 @media screen and (max-width: 428px) {
+  .contents2 {
+    height: 902px;
+  }
   .contents2 .cont2_tit {
     font-size: 1.75rem;
   }
@@ -765,20 +768,27 @@ body {
   .contents2 .team-box2,
   .contents2 .team-box3,
   .contents2 .team-box4 {
-    width: calc(100vw - 70px);
-    margin: -29px;
+    width: calc(100vw - 50px);
+    margin: -38px;
   }
   .contents2 .team-box1 .box-squrd,
   .contents2 .team-box2 .box-squrd,
   .contents2 .team-box3 .box-squrd,
   .contents2 .team-box4 .box-squrd {
-    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 35px;
   }
   .contents2 .team-box1 a,
   .contents2 .team-box2 a,
   .contents2 .team-box3 a,
   .contents2 .team-box4 a {
-    transform: translate(65%, -3%);
+    width: 40%;
+  }
+  .contents2 .team-box1 a .btn-text,
+  .contents2 .team-box2 a .btn-text,
+  .contents2 .team-box3 a .btn-text,
+  .contents2 .team-box4 a .btn-text {
+    font-size: 0.875rem;
   }
 }
 .contents3 {
@@ -989,7 +999,7 @@ body {
     width: calc(100% - 40px);
   }
   .contents3 {
-    height: 2213px;
+    height: 2200px;
   }
   .contents3 .cont3_tit {
     font-size: 1.75rem;
@@ -1023,6 +1033,12 @@ body {
   }
   .contents3 .Poznan .Poznan_exp {
     font-size: 0.875rem;
+  }
+  .contents3 .banana_balloon .banana_balloon_tit1 {
+    font-size: 1.375rem;
+  }
+  .contents3 .banana_balloon .banana_balloon_tit2 {
+    font-size: 1.375rem;
   }
   .contents3 .banana_balloon .banana_balloon_exp {
     font-size: 0.875rem;
@@ -1167,8 +1183,34 @@ body {
   }
 }
 @media screen and (max-width: 428px) {
+  .contents4 {
+    height: 2582px;
+  }
   .contents4 .con4_tit {
     font-size: 1.75rem;
+  }
+  .contents4 .con4_exp {
+    font-size: 0.875rem;
+  }
+  .contents4 .best_player_tit {
+    font-size: 1.25rem;
+  }
+  .contents4 .best_player_btn .best_player_name {
+    font-size: 1.25rem;
+  }
+  .contents4 .best_player_btn .best_player_career {
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  .contents4 .legend_player_tit {
+    font-size: 1.25rem;
+  }
+  .contents4 .legend_player_btn .legend_player_name {
+    font-size: 1.25rem;
+  }
+  .contents4 .legend_player_btn .legend_player_career {
+    text-align: center;
+    font-size: 0.875rem;
   }
 }
 .contents5 {
@@ -1436,6 +1478,34 @@ body {
   }
   .team-history .history-line .line {
     height: 2120px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .contents5 {
+    height: 2576px;
+  }
+  .contents5 .con5_tit {
+    font-size: 1.75rem;
+  }
+  .contents5 .team-history .history-detail__item .year {
+    font-size: 1.25rem;
+  }
+  .contents5 .team-history .history-detail__item .year:before,
+  .contents5 .team-history .history-detail__item .year:after {
+    left: -25px;
+    top: 10px;
+  }
+  .contents5 .team-history .history-detail__item .cont .text {
+    flex: 1 0 100%;
+    width: auto;
+    max-width: 100%;
+    font-size: 0.875rem;
+  }
+  .contents5 .team-history .history-line .line {
+    height: 2010px;
   }
 }
 .wrap .bg_stadium_img {
@@ -2887,35 +2957,32 @@ body {
   height: 110vh;
   background-color: rgb(255, 221, 159);
 }
-
-.main-tit6 {
+.content6 .main-tit6 {
   padding-top: 220px;
   font-size: 5.625em;
   font-weight: lighter;
 }
-
-.mini-exp6 {
+.content6 .mini-exp6 {
   font-size: 1.125em;
   padding-top: 16px;
   color: #5e5e5e;
 }
-
-.table_wrap {
+.content6 .table_wrap {
   display: flex;
   padding-top: 8rem;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 4rem;
 }
-.table_wrap .table-tit {
+.content6 .table_wrap .table-tit {
   font-size: 60px;
   font-weight: 600;
 }
-.table_wrap a {
+.content6 .table_wrap a {
   display: flex;
   font-size: 24px;
 }
-.table_wrap a .box-btn {
+.content6 .table_wrap a .box-btn {
   border: 0.3125rem solid #000;
   display: inline-flex;
   width: auto;
@@ -2924,57 +2991,56 @@ body {
   align-items: center;
   padding-left: 10rem;
 }
-.table_wrap a .box-btn::after {
+.content6 .table_wrap a .box-btn::after {
   margin-left: 9.0625rem;
   content: "\f105";
   font-family: "Line Awesome Free";
   font-weight: 900;
   margin-right: 0.9375rem;
 }
-.table_wrap a .box-btn:hover {
+.content6 .table_wrap a .box-btn:hover {
   color: orange;
   border-color: orange;
 }
-
-.list-wrap {
+.content6 .list-wrap {
   display: flex;
   width: 100%;
   border-top: 0.0625rem solid #121212;
   border-bottom: 0.0625rem solid #121212;
 }
-.list-wrap li {
+.content6 .list-wrap li {
   padding: 1.5625rem;
 }
-.list-wrap li:first-child {
+.content6 .list-wrap li:first-child {
   border-bottom: 0.0313rem dashed #121212;
 }
-.list-wrap li a {
+.content6 .list-wrap li a {
   display: flex;
   justify-content: space-between;
 }
-.list-wrap li a .txt {
+.content6 .list-wrap li a .txt {
   align-self: center;
 }
-.list-wrap li a::after {
+.content6 .list-wrap li a::after {
   display: list-item;
   content: "\f061";
   font-family: "Line Awesome Free";
   font-weight: 900;
   font-size: 1.5625rem;
 }
-.list-wrap li a:hover {
+.content6 .list-wrap li a:hover {
   color: orange;
 }
-.list-wrap .m-border {
+.content6 .list-wrap .m-border {
   width: 25%;
 }
-.list-wrap ul {
+.content6 .list-wrap ul {
   width: 25%;
 }
-.list-wrap ul .no-lst {
+.content6 .list-wrap ul .no-lst {
   height: 5.5625rem;
   background: none;
 }
-.list-wrap ul .no-lst a {
+.content6 .list-wrap ul .no-lst a {
   visibility: hidden;
 }/*# sourceMappingURL=comm.css.map */

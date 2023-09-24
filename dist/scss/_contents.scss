@@ -659,6 +659,7 @@
 
 @media screen and (max-width: 428px) {
   .contents2 {
+    height: 902px;
     .cont2_tit {
       font-size: 1.75rem;
     }
@@ -667,22 +668,29 @@
     .team-box2,
     .team-box3,
     .team-box4 {
-      width: calc(100vw - 70px);
-      margin: -29px;
+      width: calc(100vw - 50px);
+      margin: -38px;
     }
 
     .team-box1 .box-squrd,
     .team-box2 .box-squrd,
     .team-box3 .box-squrd,
     .team-box4 .box-squrd {
-      font-size: 14px;
+      font-size: 0.875rem;
+      line-height: 35px;
     }
 
     .team-box1 a,
     .team-box2 a,
     .team-box3 a,
     .team-box4 a {
-      transform: translate(65%, -3%);
+      width: 40%;
+    }
+    .team-box1 a .btn-text,
+    .team-box2 a .btn-text,
+    .team-box3 a .btn-text,
+    .team-box4 a .btn-text {
+      font-size: 0.875rem;
     }
   }
 }
@@ -938,7 +946,7 @@
   }
 
   .contents3 {
-    height: 2213px;
+    height: 2200px;
   }
 
   .contents3 .cont3_tit {
@@ -983,6 +991,12 @@
 
   .contents3 .Poznan .Poznan_exp {
     font-size: 0.875rem;
+  }
+  .contents3 .banana_balloon .banana_balloon_tit1 {
+    font-size: 1.375rem;
+  }
+  .contents3 .banana_balloon .banana_balloon_tit2 {
+    font-size: 1.375rem;
   }
 
   .contents3 .banana_balloon .banana_balloon_exp {
@@ -1148,8 +1162,34 @@
 }
 
 @media screen and (max-width: 428px) {
-  .contents4 .con4_tit {
-    font-size: 1.75rem;
+  .contents4 {
+    height: 2582px;
+    .con4_tit {
+      font-size: 1.75rem;
+    }
+    .con4_exp {
+      font-size: 0.875rem;
+    }
+    .best_player_tit {
+      font-size: 1.25rem;
+    }
+    .best_player_btn .best_player_name {
+      font-size: 1.25rem;
+    }
+    .best_player_btn .best_player_career {
+      text-align: center;
+      font-size: 0.875rem;
+    }
+    .legend_player_tit {
+      font-size: 1.25rem;
+    }
+    .legend_player_btn .legend_player_name {
+      font-size: 1.25rem;
+    }
+    .legend_player_btn .legend_player_career {
+      text-align: center;
+      font-size: 0.875rem;
+    }
   }
 }
 
@@ -1230,9 +1270,6 @@
       font-size: 2rem;
     }
   }
-}
-
-@media screen and (max-width: 428px) {
 }
 
 // history
@@ -1481,5 +1518,34 @@
   }
   .team-history .history-line .line {
     height: 2120px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .contents5 {
+    height: 2576px;
+    .con5_tit {
+      font-size: 1.75rem;
+    }
+    .team-history .history-detail__item .year {
+      font-size: 1.25rem;
+    }
+    .team-history .history-detail__item .year:before,
+    .team-history .history-detail__item .year:after {
+      left: -25px;
+      top: 10px;
+    }
+    .team-history .history-detail__item .cont .text {
+      flex: 1 0 100%;
+      width: auto;
+      max-width: 100%;
+      font-size: 0.875rem;
+    }
+    .team-history .history-line .line {
+      height: 2010px;
+    }
   }
 }
