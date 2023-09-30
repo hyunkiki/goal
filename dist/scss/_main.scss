@@ -532,6 +532,7 @@
       display: flex;
       justify-content: space-between;
       transform: translate(1%, -120%);
+      padding: 0 10px;
     }
 
     .swiper-pagination-bullet {
@@ -558,6 +559,10 @@
       // font-weight: 900;
       // font-size: 50px;
       display: none;
+    }
+    .box-card-wrap {
+      width: 40%;
+      // padding-top: 180px;
     }
   }
 }
@@ -630,6 +635,24 @@
 }
 
 @media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .content3 {
+    .main-title3 {
+      font-size: 2.125rem;
+    }
+    .lst-menu {
+      // display: flex;
+      // justify-content: space-between;
+      flex-direction: row;
+      -moz-column-gap: 12px;
+      column-gap: 12px;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      padding: 20px 0 20px;
+    }
+  }
 }
 
 @media screen and (max-width: 428px) {
@@ -898,6 +921,57 @@
 }
 
 @media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .content4 {
+    .box-tit-wrap2 .main-title4 {
+      font-size: 3.125rem;
+      // padding: 0 20px;
+    }
+    .box-tit-wrap2 .mini-exp4 {
+      font-size: 1rem;
+      // margin-top: 16px;
+      // padding: 0 20px;
+    }
+    .swiper-pagination {
+      display: flex;
+      justify-content: space-between;
+      transform: translate(1%, -115%);
+      padding: 0 10px;
+      // right: 2%;
+    }
+    .swiper-pagination-bullet-active::before {
+      // position: absolute;
+      // top: 2px;
+      // right: 120px;
+      // content: "\f061";
+      // font-family: "Line Awesome Free";
+      // font-weight: 900;
+      // font-size: 50px;
+      display: none;
+    }
+    .num2 {
+      font-size: 1.5rem;
+    }
+    .mini-tit4 {
+      font-size: 1.375rem;
+    }
+    .add-exp4 {
+      // padding-top: 16px;
+      font-size: 1rem;
+      // color: #5e5e5e;
+    }
+    .box-card-g {
+      // display: flex;
+      // justify-content: space-between;
+      // transform: translateY(460px);
+      max-width: 100%;
+    }
+    .box-card-g .thumb {
+      width: 55%;
+    }
+  }
 }
 
 @media screen and (max-width: 428px) {
@@ -942,7 +1016,7 @@
     position: absolute;
     top: 68% !important;
     right: 0;
-    /* transform: translate(760%); */
+    transform: translateY(130%);
     width: auto !important;
     margin: 0;
 
