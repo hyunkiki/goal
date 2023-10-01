@@ -1031,55 +1031,6 @@
     }
   }
 }
-
-@media screen and (max-width: 1024px) {
-  .inner {
-    width: calc(100% - 40px);
-  }
-
-  .content5 {
-    height: 150vh;
-    .box_tit_wrap3 .main-title5 {
-      font-size: 4.375rem;
-      padding: 0 20px;
-    }
-
-    .box_tit_wrap3 .mini-exp5 {
-      padding: 0 20px;
-    }
-    .full-more {
-      padding: 17px 20px;
-    }
-    .link_thumb .thumb_world_cup_img .img-firstworldcup {
-      width: 100%;
-      height: 60%;
-      transition: transform 0.3s ease-out;
-    }
-    .swiper .swiper-slide .slide-tit {
-      font-size: 26px;
-      font-weight: 500;
-    }
-    .swiper .swiper-slide .uruguay_world_cup_txt {
-      padding: 20px 30px 20px 30px;
-    }
-    .swiper .swiper-slide .txt5 {
-      padding: 20px 40px 20px 15px;
-    }
-    .link_thumb .thumb_player {
-      width: 85%;
-      height: 50%;
-      overflow: hidden;
-      transform: translateX(15px);
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 428px) {
-}
-
 .swiper_buttion {
   position: absolute;
   top: -73px;
@@ -1127,22 +1078,150 @@
     }
   }
 }
+
 @media screen and (max-width: 1024px) {
-  .swiper_buttion {
-    // position: absolute;
-    // top: -73px;
-    // left: 50%;
-    transform: translate(-78%, -48%);
-    // z-index: 10;
-    // width: 100%;
-    // max-width: 1280px;
+  .inner {
+    width: calc(100% - 40px);
+  }
+
+  .content5 {
+    height: 150vh;
+    .box_tit_wrap3 .main-title5 {
+      font-size: 4.375rem;
+      padding: 0 20px;
+    }
+
+    .box_tit_wrap3 .mini-exp5 {
+      padding: 0 20px;
+      margin-top: 18px;
+    }
+    .full-more {
+      padding: 17px 20px;
+      transform: translateY(10%);
+    }
+    .link_thumb .thumb_world_cup_img .img-firstworldcup {
+      width: 100%;
+      height: 60%;
+      transition: transform 0.3s ease-out;
+    }
+    .swiper .swiper-slide .slide-tit {
+      font-size: 26px;
+      font-weight: 500;
+    }
+    .swiper .swiper-slide .uruguay_world_cup_txt {
+      padding: 20px 30px 20px 30px;
+    }
+    .swiper .swiper-slide .txt5 {
+      padding: 20px 40px 20px 15px;
+    }
+    .link_thumb .thumb_player {
+      width: 80%;
+      height: 50%;
+      overflow: hidden;
+      /* transform: translateX(15px); */
+    }
+    .swiper_buttion {
+      // position: absolute;
+      // top: -73px;
+      // left: 50%;
+      transform: translate(-78%, -48%);
+      // z-index: 10;
+      // width: 100%;
+      // max-width: 1280px;
+    }
   }
 }
+
 @media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .content5 {
+    .box_tit_wrap3 .main-title5 {
+      font-size: 3.125rem;
+      // padding: 0 20px;
+    }
+    .box_tit_wrap3 .mini-exp5 {
+      font-size: 1rem;
+      // padding-top: 18px;
+    }
+    .full-more {
+      // padding: 17px 20px;
+      transform: translateY(-5%);
+    }
+    .swiper .swiper-slide .slide-tit {
+      font-size: 1.375rem;
+      font-weight: 500;
+    }
+    .swiper .swiper-slide {
+      // position: relative;
+      // height: 500px;
+      // font-size: 30px;
+      // background: #fff;
+      // border-right: 1px solid #333;
+      border: none;
+    }
+    .swiper .swiper-slide .uruguay_world_cup_txt .txt5_1 {
+      font-size: 0.875rem;
+      // line-height: 30px;
+      padding: 20px 20px 20px 0;
+    }
+    .swiper .swiper-slide .slide-exp5 {
+      font-size: 0.875rem;
+      // padding-top: 20px;
+      // line-height: 30px;
+    }
+    .swiper .swiper-slide .img-tit5 {
+      font-size: 0.875rem;
+      // padding-top: 20px;
+    }
+    .swiper .swiper-slide .txt5 {
+      padding: 20px 20px 20px 15px;
+    }
+    .link_thumb .thumb_player {
+      width: 90%;
+      // height: 50%;
+      // overflow: hidden;
+      /* transform: translateX(15px); */
+    }
+    .swiper_buttion {
+      transform: translate(-85%, -48%);
+    }
+  }
 }
 
 @media screen and (max-width: 428px) {
 }
+
+// @media screen and (max-width: 1024px) {
+//   .inner {
+//     width: calc(100% - 40px);
+//   }
+//   // .swiper_buttion {
+//   //   // position: absolute;
+//   //   // top: -73px;
+//   //   // left: 50%;
+//   //   transform: translate(-78%, -48%);
+//   //   // z-index: 10;
+//   //   // width: 100%;
+//   //   // max-width: 1280px;
+//   // }
+// }
+// @media screen and (max-width: 768px) {
+//   .inner {
+//     width: calc(100% - 40px);
+//   }
+//   .content6 {
+//     .main-tit6 {
+//       padding-top: 220px;
+//       font-size: 4.375rem;
+//       font-weight: lighter;
+//     }
+//   }
+// }
+
+// @media screen and (max-width: 428px) {
+// }
 
 .content6 {
   width: 100%;
@@ -1209,7 +1288,7 @@
     border-bottom: 1px solid #121212;
 
     li {
-      padding: 1.5625rem;
+      padding: 25px;
 
       &:first-child {
         border-bottom: 0.0313rem dashed #121212;
@@ -1278,6 +1357,71 @@
 }
 
 @media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .content6 {
+    height: 159vh;
+    .main-tit6 {
+      // padding-top: 220px;
+      font-size: 3.125rem;
+      // font-weight: lighter;
+    }
+    .mini-exp6 {
+      font-size: 1rem;
+      // padding-top: 16px;
+      // color: #5e5e5e;
+    }
+    .table_wrap {
+      // display: flex;
+      // padding-top: 128px;
+      // justify-content: space-between;
+      // align-items: center;
+      // padding-bottom: 64px;
+      flex-direction: column;
+    }
+    .table_wrap .table-tit {
+      font-size: 1.875rem;
+      width: 100%;
+      // font-weight: 600;
+    }
+    .table_wrap a {
+      font-size: 1rem;
+      width: 100%;
+    }
+    .table_wrap a .box-btn {
+      // border: 0.3125rem solid #000;
+      // display: inline-flex;
+      width: 100%;
+      // height: 6.25rem;
+      // justify-content: center;
+      // align-items: center;
+      // padding-left: 10rem;
+    }
+    .list-wrap {
+      // display: flex;
+      // width: 100%;
+      // border-top: 1px solid #121212;
+      // border-bottom: 1px solid #121212;
+      flex-direction: column;
+    }
+    .list-wrap .m-border {
+      width: 100%;
+    }
+    .list-wrap ul .no-lst {
+      // height: 89px;
+      // background: none;
+      display: none;
+    }
+    .list-wrap li {
+      // padding: 25px;
+      border-bottom: 1px dashed #000;
+    }
+    // .list-wrap li:last-child {
+    //   // padding: 25px;
+    //   border-bottom: none;
+    // }
+  }
 }
 
 @media screen and (max-width: 428px) {

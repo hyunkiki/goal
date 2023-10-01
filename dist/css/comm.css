@@ -3090,45 +3090,6 @@ body {
   color: orange;
 }
 
-@media screen and (max-width: 1024px) {
-  .inner {
-    width: calc(100% - 40px);
-  }
-  .content5 {
-    height: 150vh;
-  }
-  .content5 .box_tit_wrap3 .main-title5 {
-    font-size: 4.375rem;
-    padding: 0 20px;
-  }
-  .content5 .box_tit_wrap3 .mini-exp5 {
-    padding: 0 20px;
-  }
-  .content5 .full-more {
-    padding: 17px 20px;
-  }
-  .content5 .link_thumb .thumb_world_cup_img .img-firstworldcup {
-    width: 100%;
-    height: 60%;
-    transition: transform 0.3s ease-out;
-  }
-  .content5 .swiper .swiper-slide .slide-tit {
-    font-size: 26px;
-    font-weight: 500;
-  }
-  .content5 .swiper .swiper-slide .uruguay_world_cup_txt {
-    padding: 20px 30px 20px 30px;
-  }
-  .content5 .swiper .swiper-slide .txt5 {
-    padding: 20px 40px 20px 15px;
-  }
-  .content5 .link_thumb .thumb_player {
-    width: 85%;
-    height: 50%;
-    overflow: hidden;
-    transform: translateX(15px);
-  }
-}
 .swiper_buttion {
   position: absolute;
   top: -73px;
@@ -3168,8 +3129,88 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-  .swiper_buttion {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .content5 {
+    height: 150vh;
+  }
+  .content5 .box_tit_wrap3 .main-title5 {
+    font-size: 4.375rem;
+    padding: 0 20px;
+  }
+  .content5 .box_tit_wrap3 .mini-exp5 {
+    padding: 0 20px;
+    margin-top: 18px;
+  }
+  .content5 .full-more {
+    padding: 17px 20px;
+    transform: translateY(10%);
+  }
+  .content5 .link_thumb .thumb_world_cup_img .img-firstworldcup {
+    width: 100%;
+    height: 60%;
+    transition: transform 0.3s ease-out;
+  }
+  .content5 .swiper .swiper-slide .slide-tit {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .content5 .swiper .swiper-slide .uruguay_world_cup_txt {
+    padding: 20px 30px 20px 30px;
+  }
+  .content5 .swiper .swiper-slide .txt5 {
+    padding: 20px 40px 20px 15px;
+  }
+  .content5 .link_thumb .thumb_player {
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+    /* transform: translateX(15px); */
+  }
+  .content5 .swiper_buttion {
     transform: translate(-78%, -48%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .content5 .box_tit_wrap3 .main-title5 {
+    font-size: 3.125rem;
+  }
+  .content5 .box_tit_wrap3 .mini-exp5 {
+    font-size: 1rem;
+  }
+  .content5 .full-more {
+    transform: translateY(-5%);
+  }
+  .content5 .swiper .swiper-slide .slide-tit {
+    font-size: 1.375rem;
+    font-weight: 500;
+  }
+  .content5 .swiper .swiper-slide {
+    border: none;
+  }
+  .content5 .swiper .swiper-slide .uruguay_world_cup_txt .txt5_1 {
+    font-size: 0.875rem;
+    padding: 20px 20px 20px 0;
+  }
+  .content5 .swiper .swiper-slide .slide-exp5 {
+    font-size: 0.875rem;
+  }
+  .content5 .swiper .swiper-slide .img-tit5 {
+    font-size: 0.875rem;
+  }
+  .content5 .swiper .swiper-slide .txt5 {
+    padding: 20px 20px 20px 15px;
+  }
+  .content5 .link_thumb .thumb_player {
+    width: 90%;
+    /* transform: translateX(15px); */
+  }
+  .content5 .swiper_buttion {
+    transform: translate(-85%, -48%);
   }
 }
 .content6 {
@@ -3229,7 +3270,7 @@ body {
   border-bottom: 1px solid #121212;
 }
 .content6 .list-wrap li {
-  padding: 1.5625rem;
+  padding: 25px;
 }
 .content6 .list-wrap li:first-child {
   border-bottom: 0.0313rem dashed #121212;
@@ -3283,5 +3324,45 @@ body {
   }
   .content6 .table_wrap a {
     font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .content6 {
+    height: 159vh;
+  }
+  .content6 .main-tit6 {
+    font-size: 3.125rem;
+  }
+  .content6 .mini-exp6 {
+    font-size: 1rem;
+  }
+  .content6 .table_wrap {
+    flex-direction: column;
+  }
+  .content6 .table_wrap .table-tit {
+    font-size: 1.875rem;
+    width: 100%;
+  }
+  .content6 .table_wrap a {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .content6 .table_wrap a .box-btn {
+    width: 100%;
+  }
+  .content6 .list-wrap {
+    flex-direction: column;
+  }
+  .content6 .list-wrap .m-border {
+    width: 100%;
+  }
+  .content6 .list-wrap ul .no-lst {
+    display: none;
+  }
+  .content6 .list-wrap li {
+    border-bottom: 1px dashed #000;
   }
 }/*# sourceMappingURL=comm.css.map */
