@@ -2421,6 +2421,11 @@ body {
     transform: translateX(-23%);
   }
 }
+@media screen and (max-width: 428px) {
+  .wrap .soccer video {
+    transform: translateX(-33%);
+  }
+}
 .scroll_container_intro {
   position: relative;
   display: flex;
@@ -2462,7 +2467,15 @@ body {
     width: calc(100% - 40px);
   }
   .content1 h2 {
-    font-size: 90px;
+    font-size: 5.625rem;
+  }
+}
+@media screen and (max-width: 428px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .content1 h2 {
+    font-size: 3.75rem;
   }
 }
 .content2 {
@@ -2716,6 +2729,20 @@ body {
   }
   .content2 .box-card-wrap {
     width: 40%;
+  }
+}
+@media screen and (max-width: 428px) {
+  .inner {
+    width: calc(100% - 40px);
+  }
+  .content2 .box-title-wrap .main-title2 {
+    font-size: 1.875rem;
+  }
+  .content2 .box-title-wrap .mini-exp2 {
+    font-size: 0.875rem;
+  }
+  .content2 .swiper-pagination-bullet {
+    font-size: 0.875rem;
   }
 }
 .content3 {
