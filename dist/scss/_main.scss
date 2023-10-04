@@ -509,37 +509,44 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content2 {
     .box-title-wrap .main-title2 {
       font-size: 50px;
       // padding: 0 1.25rem;
     }
+
     .box-title-wrap .mini-exp2 {
       font-size: 16px;
       // margin-top: 1rem;
       // padding: 0 1.25rem;
     }
+
     .num1 {
       font-size: 1.625rem;
     }
+
     .mini-tit1 {
       // display: block;
       // padding-top: 1rem;
       font-size: 22px;
       font-weight: bold;
     }
+
     .mini-exp1 {
       // padding-top: 1rem;
       font-size: 16px;
       color: #333;
       font-weight: 500;
     }
+
     .swiper-pagination-bullet-active {
       // position: relative;
       // font-weight: 700;
       // opacity: 1;
       font-size: 16px;
     }
+
     .swiper-pagination {
       // right: 2%;
       display: flex;
@@ -563,6 +570,7 @@
       // background: none;
       font-size: 16px;
     }
+
     .swiper-pagination-bullet-active::before {
       // position: absolute;
       // top: .125rem;
@@ -573,6 +581,7 @@
       // font-size: 3.125rem;
       display: none;
     }
+
     .box-card-wrap {
       width: 55%;
       transform: translateY(17%);
@@ -585,17 +594,21 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content2 {
     .box-title-wrap .main-title2 {
       font-size: 1.875rem;
     }
+
     .box-title-wrap .mini-exp2 {
       font-size: 0.875rem;
     }
+
     .swiper-pagination-bullet {
       font-size: 0.875rem;
       margin-right: 25px !important;
     }
+
     .swiper-pagination {
       height: 5%;
       display: flex;
@@ -604,19 +617,23 @@
       overflow-x: auto;
       white-space: nowrap;
     }
+
     .box-card-wrap {
       width: 100%;
       transform: translateY(10%);
       // padding-top: 0;
     }
+
     .num1 {
       font-size: 1.5rem;
     }
+
     .mini-exp1 {
       font-size: 0.875rem;
       // color: #333;
       // font-weight: 500;
     }
+
     .btn-more1-let5 {
       // position: relative;
       // display: block;
@@ -624,6 +641,7 @@
       // font-weight: 500;
       font-size: 0.875rem;
     }
+
     .btn-more1-let5::after {
       // position: absolute;
       // top: 0;
@@ -632,6 +650,7 @@
       // font-family: "Line Awesome Free";
       // font-weight: 900;
     }
+
     .btn-more1-let6 {
       // position: relative;
       // display: block;
@@ -639,6 +658,7 @@
       // font-weight: 500;
       font-size: 0.875rem;
     }
+
     .btn-more1-let6::after {
       // position: absolute;
       // top: 0;
@@ -647,6 +667,7 @@
       // font-family: "Line Awesome Free";
       // font-weight: 900;
     }
+
     .btn-more1-let9 {
       // position: relative;
       // display: block;
@@ -654,6 +675,7 @@
       // font-weight: 500;
       font-size: 0.875rem;
     }
+
     .btn-more1-let9::after {
       // position: absolute;
       // top: 0;
@@ -733,10 +755,12 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content3 {
     .main-title3 {
       font-size: 2rem;
     }
+
     .lst-menu {
       // display: flex;
       // justify-content: space-between;
@@ -754,6 +778,7 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content3 {
     .main-title3 {
       font-size: 1.75rem;
@@ -995,6 +1020,7 @@
 
   .content4 {
     height: 125vh;
+
     .box-tit-wrap2 .main-title4 {
       font-size: 70px;
       padding: 0 20px;
@@ -1017,6 +1043,7 @@
     .swiper-pagination {
       right: 2%;
     }
+
     .box-card-g .txt {
       width: 50%;
     }
@@ -1027,16 +1054,19 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content4 {
     .box-tit-wrap2 .main-title4 {
       font-size: 50px;
       // padding: 0 1.25rem;
     }
+
     .box-tit-wrap2 .mini-exp4 {
       font-size: 16px;
       // margin-top: 1rem;
       // padding: 0 1.25rem;
     }
+
     .swiper-pagination {
       display: flex;
       justify-content: space-between;
@@ -1044,6 +1074,7 @@
       padding: 0 0.625rem;
       // right: 2%;
     }
+
     .swiper-pagination-bullet-active::before {
       // position: absolute;
       // top: .125rem;
@@ -1054,23 +1085,28 @@
       // font-size: 3.125rem;
       display: none;
     }
+
     .num2 {
       font-size: 1.5rem;
     }
+
     .mini-tit4 {
       font-size: 1.375rem;
     }
+
     .add-exp4 {
       // padding-top: 1rem;
       font-size: 1rem;
       // color: #5e5e5e;
     }
+
     .box-card-g {
       // display: flex;
       // justify-content: space-between;
       // transform: translateY(28.75rem);
       max-width: 100%;
     }
+
     .box-card-g .thumb {
       width: 55%;
     }
@@ -1081,14 +1117,18 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content4 {
     height: 155vh;
+
     .box-tit-wrap2 .main-title4 {
       font-size: 1.875rem;
     }
+
     .box-tit-wrap2 .mini-exp4 {
       font-size: 0.875rem;
     }
+
     .swiper-pagination {
       height: 5%;
       display: flex;
@@ -1097,23 +1137,28 @@
       overflow-x: auto;
       white-space: nowrap;
     }
+
     .swiper-pagination-bullet {
       font-size: 0.875rem;
       margin-right: 25px !important;
     }
+
     .box-card-g {
       display: flex;
       transform: translateY(460px);
       // max-width: 78%;
       flex-direction: column;
     }
+
     .box-card-g .txt {
       width: 100%;
     }
+
     .box-card-g .thumb {
       width: 100%;
       padding-top: 32px;
     }
+
     .add-exp4 {
       font-size: 0.875rem;
     }
@@ -1174,6 +1219,7 @@
     }
   }
 }
+
 .swiper_buttion {
   position: absolute;
   top: -73px;
@@ -1229,6 +1275,7 @@
 
   .content5 {
     height: 150vh;
+
     .box_tit_wrap3 .main-title5 {
       font-size: 70px;
       padding: 0 20px;
@@ -1238,31 +1285,38 @@
       padding: 0 20px;
       margin-top: 18px;
     }
+
     .full-more {
       padding: 17px 20px;
       transform: translateY(10%);
     }
+
     .link_thumb .thumb_world_cup_img .img-firstworldcup {
       width: 100%;
       height: 60%;
       transition: transform 0.3s ease-out;
     }
+
     .swiper .swiper-slide .slide-tit {
       font-size: 1.625rem;
       font-weight: 500;
     }
+
     .swiper .swiper-slide .uruguay_world_cup_txt {
       padding: 20px 30px 20px 30px;
     }
+
     .swiper .swiper-slide .txt5 {
       padding: 20px 40px 20px 15px;
     }
+
     .link_thumb .thumb_player {
       width: 80%;
       height: 50%;
       overflow: hidden;
       /* transform: translateX(.9375rem); */
     }
+
     .swiper_buttion {
       // position: absolute;
       // top: -4.5625rem;
@@ -1279,23 +1333,28 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content5 {
     .box_tit_wrap3 .main-title5 {
       font-size: 3.125rem;
       // padding: 0 1.25rem;
     }
+
     .box_tit_wrap3 .mini-exp5 {
       font-size: 1rem;
       // padding-top: 1.125rem;
     }
+
     .full-more {
       // padding: 1.0625rem 1.25rem;
       transform: translateY(-5%);
     }
+
     .swiper .swiper-slide .slide-tit {
       font-size: 1.375rem;
       font-weight: 500;
     }
+
     .swiper .swiper-slide {
       // position: relative;
       // height: 31.25rem;
@@ -1304,29 +1363,35 @@
       // border-right: .0625rem solid #333;
       border: none;
     }
+
     .swiper .swiper-slide .uruguay_world_cup_txt .txt5_1 {
       font-size: 0.875rem;
       // line-height: 1.875rem;
       padding: 20px 20px 20px 0;
     }
+
     .swiper .swiper-slide .slide-exp5 {
       font-size: 0.875rem;
       // padding-top: 1.25rem;
       // line-height: 1.875rem;
     }
+
     .swiper .swiper-slide .img-tit5 {
       font-size: 0.875rem;
       // padding-top: 1.25rem;
     }
+
     .swiper .swiper-slide .txt5 {
       padding: 20px 20px 20px 15px;
     }
+
     .link_thumb .thumb_player {
       width: 90%;
       // height: 50%;
       // overflow: hidden;
       /* transform: translateX(.9375rem); */
     }
+
     .swiper_buttion {
       transform: translate(-85%, -48%);
     }
@@ -1337,13 +1402,16 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content5 {
     .box_tit_wrap3 .main-title5 {
       font-size: 1.875rem;
     }
+
     .box_tit_wrap3 .mini-exp5 {
       font-size: 0.875rem;
     }
+
     .full-more {
       transform: translateY(-18%);
       font-size: 0.875rem;
@@ -1497,17 +1565,21 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content6 {
     height: 117vh;
+
     .main-tit6 {
       padding-top: 220px;
       font-size: 4.375rem;
       font-weight: lighter;
     }
+
     .table_wrap .table-tit {
       font-size: 2.5rem;
       font-weight: 600;
     }
+
     .table_wrap a {
       font-size: 1.25rem;
     }
@@ -1518,18 +1590,22 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content6 {
     height: 159vh;
+
     .main-tit6 {
       // padding-top: 13.75rem;
       font-size: 3.125rem;
       // font-weight: lighter;
     }
+
     .mini-exp6 {
       font-size: 1rem;
       // padding-top: 1rem;
       // color: #5e5e5e;
     }
+
     .table_wrap {
       // display: flex;
       // padding-top: 8rem;
@@ -1538,15 +1614,18 @@
       // padding-bottom: 4rem;
       flex-direction: column;
     }
+
     .table_wrap .table-tit {
       font-size: 1.875rem;
       width: 100%;
       // font-weight: 600;
     }
+
     .table_wrap a {
       font-size: 1rem;
       width: 100%;
     }
+
     .table_wrap a .box-btn {
       // border: 5px solid #000;
       // display: inline-flex;
@@ -1556,6 +1635,7 @@
       // align-items: center;
       // padding-left: 160px;
     }
+
     .list-wrap {
       // display: flex;
       // width: 100%;
@@ -1563,18 +1643,22 @@
       // border-bottom: .0625rem solid #121212;
       flex-direction: column;
     }
+
     .list-wrap .m-border {
       width: 100%;
     }
+
     .list-wrap ul .no-lst {
       // height: 5.5625rem;
       // background: none;
       display: none;
     }
+
     .list-wrap li {
       // padding: 1.5625rem;
       border-bottom: 1px dashed #000;
     }
+
     // .list-wrap li:last-child {
     //   // padding: 1.5625rem;
     //   border-bottom: none;
@@ -1586,25 +1670,32 @@
   .inner {
     width: calc(100% - 40px);
   }
+
   .content6 {
     height: 155vh;
+
     .main-tit6 {
       font-size: 1.875rem;
     }
+
     .mini-exp6 {
       font-size: 0.875rem;
     }
+
     .table_wrap .table-tit {
       font-size: 1.25rem;
       // width: 100%;
     }
+
     .table_wrap a {
       font-size: 0.875rem;
       // width: 100%;
     }
+
     .table_wrap a .box-btn {
       padding-left: 150px;
     }
+
     .list-wrap li a .txt {
       font-size: 0.875rem;
       // align-self: center;
