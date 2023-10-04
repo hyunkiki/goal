@@ -97,8 +97,8 @@
   .thumb_world_cup_img {
     overflow: hidden;
     width: 80%;
-    height: 100%;
-    transform: translate(13%, -7%);
+    height: 70%;
+    transform: translate(10%, -7%);
 
     .img-firstworldcup {
       width: 100%;
@@ -1042,6 +1042,7 @@
 
     .swiper-pagination {
       right: 2%;
+      top: 61% !important;
     }
 
     .box-card-g .txt {
@@ -1291,9 +1292,16 @@
       transform: translateY(10%);
     }
 
+    .link_thumb .thumb_world_cup_img {
+      // overflow: hidden;
+      // width: 80%;
+      // height: 70%;
+      transform: translate(8%, -7%);
+    }
+
     .link_thumb .thumb_world_cup_img .img-firstworldcup {
       width: 100%;
-      height: 60%;
+      height: 100%;
       transition: transform 0.3s ease-out;
     }
 
@@ -1312,7 +1320,7 @@
 
     .link_thumb .thumb_player {
       width: 80%;
-      height: 50%;
+      height: 70%;
       overflow: hidden;
       /* transform: translateX(.9375rem); */
     }
@@ -1387,6 +1395,7 @@
 
     .link_thumb .thumb_player {
       width: 90%;
+      height: 80%;
       // height: 50%;
       // overflow: hidden;
       /* transform: translateX(.9375rem); */
@@ -1416,6 +1425,19 @@
       transform: translateY(-18%);
       font-size: 0.875rem;
     }
+
+    .swiper_buttion {
+      transform: translate(-118%, -48%);
+    }
+
+    .link_thumb .thumb_player {
+      width: 90%;
+      height: 80%;
+      // height: 50%;
+      // overflow: hidden;
+      /* transform: translateX(.9375rem); */
+    }
+
   }
 }
 

@@ -6,6 +6,20 @@ var swiper = new Swiper(".mySwiper5", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    428: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    }
+  }
 });
 var menu = [
   "축구의 역사",
@@ -109,4 +123,4 @@ gsap.to(".content1", {
 //   scrollPosition = scrollTop;
 // });
 
-AOS.init();
+// AOS.init();
