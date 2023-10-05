@@ -16,9 +16,10 @@ var swiper = new Swiper(".mySwiper5", {
       spaceBetween: 40
     },
     1024: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 50
     }
+
   }
 });
 var menu = [
