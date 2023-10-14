@@ -6,6 +6,23 @@ var swiper = new Swiper(".mySwiper5", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    // 화면의 넓이가 1024px 이상일 때
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    // 화면의 넓이가 768px 이상일 때
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    // 화면의 넓이가 428px 이상일 때
+    428: {
+      slidesPerView: 1,
+      spaceBetween: 40,
+    },
+  },
 });
 var menu = [
   "축구의 역사",
@@ -59,7 +76,6 @@ gsap.to(".content1", {
   top: "-100%",
   // duration: 1
 });
-
 
 // const scrollBox = document.getElementById('.scroll_box');
 // const content = document.getElementById('.content1');
