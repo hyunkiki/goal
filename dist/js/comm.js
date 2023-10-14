@@ -125,4 +125,4 @@ gsap.to(".content1", {
 //   scrollPosition = scrollTop;
 // });
 
-AOS.init();
+// AOS.init();
