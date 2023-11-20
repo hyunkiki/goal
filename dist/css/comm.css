@@ -2377,7 +2377,7 @@ body {
 }
 .link_thumb .thumb_world_cup_img .img-firstworldcup {
   width: 100%;
-  height: 70%;
+  height: 100%;
   transition: transform 0.3s ease-out;
 }
 .link_thumb .thumb_player {
@@ -3097,7 +3097,7 @@ body {
   .content4 .swiper-pagination {
     display: flex;
     justify-content: space-between;
-    transform: translate(1%, -115%);
+    transform: translate(1%, -80%);
     padding: 0 0.625rem;
   }
   .content4 .swiper-pagination-bullet-active::before {

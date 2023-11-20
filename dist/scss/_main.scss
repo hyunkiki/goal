@@ -102,7 +102,7 @@
 
     .img-firstworldcup {
       width: 100%;
-      height: 70%;
+      height: 100%;
       transition: transform 0.3s ease-out;
     }
   }
@@ -1071,7 +1071,7 @@
     .swiper-pagination {
       display: flex;
       justify-content: space-between;
-      transform: translate(1%, -115%);
+      transform: translate(1%, -80%);
       padding: 0 0.625rem;
       // right: 2%;
     }
